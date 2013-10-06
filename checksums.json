@@ -1,1 +1,17 @@
-{}
+{
+  "https://dl.google.com/android/android-sdk_r21.0.1-linux.tgz": [
+    {
+      "sha256": "e797ff3abbdc0fe2e7299e82e92ade830fa922ddd045d9a5a2d187c5c1a2661c"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r9-linux-x86.tar.bz2": [
+    {
+      "sha256": "30f3da01e4d8d3415777b5d88a0b70fac5a4620807fd28110f9bc4c8093f6b6e"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r9-linux-x86_64.tar.bz2": [
+    {
+      "sha256": "8a6013bfd8a8709592c53086c4f841933f5f2b175dd030326406d24ff4daa267"
+    }
+  ]
+}

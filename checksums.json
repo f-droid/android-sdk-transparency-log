@@ -4,9 +4,24 @@
       "sha256": "e797ff3abbdc0fe2e7299e82e92ade830fa922ddd045d9a5a2d187c5c1a2661c"
     }
   ],
+  "https://dl.google.com/android/android-sdk_r22.2.1-linux.tgz": [
+    {
+      "sha256": "17ea4610008985eb1454b3b25ad00c59300cee3141f7ea3deec98f45d862faa5"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
+    {
+      "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86.tar.bz2": [
     {
       "sha256": "30f3da01e4d8d3415777b5d88a0b70fac5a4620807fd28110f9bc4c8093f6b6e"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r9-linux-x86_64-legacy-toolchains.tar.bz2": [
+    {
+      "sha256": "087fbca38a1a2c1a309de272d22e84bbc1c3e2254211761180572fde75faab27"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86_64.tar.bz2": [

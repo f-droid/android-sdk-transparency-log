@@ -19,6 +19,11 @@
       "sha256": "da4c25536ba7f85cdd37be8636fcc563480410788df30c3fc5b5c876e6220e5f"
     }
   ],
+  "https://dl.google.com/android/android-sdk_r23-linux.tgz": [
+    {
+      "sha256": "2eaab06852ac21b6c79df73c07a667c5da5be57f7ffcbd4f17aef7efeea22ac1"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"

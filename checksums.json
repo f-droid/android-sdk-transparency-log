@@ -49,6 +49,11 @@
       "sha256": "886412375d8fe6e49a1583e57a8a36a47943666da681701ba9ad1ab7236e83ea"
     }
   ],
+  "https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz": [
+    {
+      "sha256": "e16917ad685c1563ccbc5dd782930ee1a700a1b6a6fd3e44b83ac694650435e9"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r10d-linux-x86.bin": [
     {
       "sha256": "c0d07e5ce2fff13b5eb456c10e99527184c9139e798cb7fd1adfadafa65cb696"

@@ -323,5 +323,10 @@
     {
       "sha256": "82754f551a6e36eaf516fbdd00c95ff0ccd19f81d1e134125b6ac4916f7ed9b6"
     }
+  ],
+  "https://dl.google.com/android/repository/build-tools_r23.0.3-linux.zip": [
+    {
+      "sha256": "d961663d4a9e128841751c0156548a347c882c081c83942e53788d8949bf34e1"
+    }
   ]
 }

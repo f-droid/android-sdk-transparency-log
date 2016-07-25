@@ -384,6 +384,11 @@
       "sha256": "b4871f357224c5f660fd2bbee04d8c7d1c187eeddfd9702cc84503529e3b3724"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r24.0.1-linux.zip": [
+    {
+      "sha256": "5b58478f8ce0a87512b7894f8fc2588249304a041bb3a2a70259f2a3d17c8c0a"
+    }
+  ],
   "https://dl.google.com/android/repository/platform-23_r03.zip": [
     {
       "sha256": "4b4bcddead3319708275c54c76294707bfaa953d767e34f1a5b599f3edd0076c"
@@ -392,6 +397,9 @@
   "https://dl.google.com/android/repository/platform-24_r01.zip": [
     {
       "sha256": "292e556e9ec84b4134e4126c835e4ac467f6950924fec3684792af0fcf426091"
+    },
+    {
+      "sha256": "5c9cef4fb7cf55dee7c4b435d2341f9bf26d5b7e3ae40d0b9e6e3d0391a54553"
     }
   ],
   "https://dl.google.com/android/repository/platform-tools_r24-linux.zip": [

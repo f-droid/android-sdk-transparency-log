@@ -425,6 +425,11 @@
       "sha256": "5c9cef4fb7cf55dee7c4b435d2341f9bf26d5b7e3ae40d0b9e6e3d0391a54553"
     }
   ],
+  "https://dl.google.com/android/repository/platform-24_r02.zip": [
+    {
+      "sha256": "f268f5945c6ece7ea95c1c252067280854d2a20da924e22ae4720287df8bdbc9"
+    }
+  ],
   "https://dl.google.com/android/repository/platform-tools_r24-linux.zip": [
     {
       "sha256": "076368b337d042d163364594dda63b7e778835f636fafb2c8af4d4a604175c32"

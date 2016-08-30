@@ -402,6 +402,14 @@
   "https://dl.google.com/android/repository/build-tools_r24.0.1-linux.zip": [
     {
       "sha256": "5b58478f8ce0a87512b7894f8fc2588249304a041bb3a2a70259f2a3d17c8c0a"
+    },
+    {
+      "sha256": "a38ac637db357a31e33e38248399cb0edcc15040dca041370da38b6daf50c84d"
+    }
+  ],
+  "https://dl.google.com/android/repository/build-tools_r24.0.2-linux.zip": [
+    {
+      "sha256": "924e29b8a189afbd119d44eae450fc0c9f197ed6f835df223931e45007987d95"
     }
   ],
   "https://dl.google.com/android/repository/platform-23_r03.zip": [

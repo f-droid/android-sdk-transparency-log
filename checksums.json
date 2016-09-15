@@ -444,5 +444,10 @@
     {
       "sha256": "03499e02bfc0eb22e1f80318f7f0d74af37e18ed3055af547eb2689decbb963a"
     }
+  ],
+  "https://dl.google.com/android/repository/tools_r25.2.2-linux.zip": [
+    {
+      "sha256": "10d5185af8fee80a7ee093585bf84962d0a877b92a8fef489e2030e910f6a360"
+    }
   ]
 }

@@ -229,6 +229,11 @@
       "sha256": "3524d7f8fca6dc0d8e7073a7ab7f76888780a22841a6641927123146c3ffd29c"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r14-linux-x86_64.zip": [
+    {
+      "sha256": "3e622c2c9943964ea44cd56317d0769ed4c811bb4b40dc45b1f6965e4db9aa44"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"

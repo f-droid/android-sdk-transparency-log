@@ -527,6 +527,11 @@
       "sha256": "a752849fac85c4a7f9ea165ec8f367b0ebe8bbf6a1f33fc8605342be004231ce"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r26.0.3-linux.zip": [
+    {
+      "sha256": "5c250c602b1657c4c70a6078925e9e01e5714526b707309bc1c708be6137a4db"
+    }
+  ],
   "https://dl.google.com/android/repository/build-tools_r27-linux.zip": [
     {
       "sha256": "53d3322774a0bf229b372c0288108b4bfa27d74725fce8f0a3393e8df6b9ef22"

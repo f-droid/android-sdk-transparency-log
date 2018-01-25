@@ -598,6 +598,9 @@
   "https://dl.google.com/android/repository/platform-27_r01.zip": [
     {
       "sha256": "cbba6f8fcf025e1b533326746763aa1d6e2cf4001b1b441602bb44d253bc49ac"
+    },
+    {
+      "sha256": "96ddff1a5034fcc4340f2d482635eeaccaa6707b6b0f82d26d1435476a2f52e5"
     }
   ],
   "https://dl.google.com/android/repository/platform-tools_r24-linux.zip": [

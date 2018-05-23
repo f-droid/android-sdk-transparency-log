@@ -613,6 +613,11 @@
       "sha256": "96ddff1a5034fcc4340f2d482635eeaccaa6707b6b0f82d26d1435476a2f52e5"
     }
   ],
+  "https://dl.google.com/android/repository/platform-27_r03.zip": [
+    {
+      "sha256": "020c4c090bc82ce87ebaae5d1a922e21b39a1d03c78ffa43f0c3e42fc7d28169"
+    }
+  ],
   "https://dl.google.com/android/repository/platform-tools_r24-linux.zip": [
     {
       "sha256": "076368b337d042d163364594dda63b7e778835f636fafb2c8af4d4a604175c32"

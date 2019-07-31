@@ -294,6 +294,11 @@
       "sha256": "4c62514ec9c2309315fd84da6d52465651cdb68605058f231f1e480fcf2692e1"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r20-linux-x86_64.zip": [
+    {
+      "sha256": "57435158f109162f41f2f43d5563d2164e4d5d0364783a9a6fab3ef12cb06ce0"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"

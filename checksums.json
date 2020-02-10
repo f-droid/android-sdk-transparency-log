@@ -1816,7 +1816,6 @@
       "sha256": "96ddff1a5034fcc4340f2d482635eeaccaa6707b6b0f82d26d1435476a2f52e5",
       "sha512": "38ee996a25538059563f2b7d6649276fefa30cc638cab2107d6db39a9a609701d4a88c7bec3f23ddcb662a98deb1e9a4410e22ef46bb1971620637e226d12a60",
       "source.properties": "Pkg.Desc=Android SDK Platform 8.1.0\nPkg.UserSrc=false\nPlatform.Version=8.1.0\nPlatform.CodeName=\nPkg.Revision=1\nAndroidVersion.ApiLevel=27\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
-
     }
   ],
   "https://dl.google.com/android/repository/platform-27_r03.zip": [

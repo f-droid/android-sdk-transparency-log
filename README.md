@@ -5,9 +5,18 @@ This is an automated log of the Android SDK binaries and their
 checksums, as posted in the _sdkmanager_ repositories hosted on
 https://dl.google.com/android/repository
 
-This serves as a basic
-[binary transparency](https://wiki.mozilla.org/Security/Binary_Transparency)
-append-only log for anyone to use.
+This serves as a basic [binary
+transparency](https://wiki.mozilla.org/Security/Binary_Transparency)
+append-only log for anyone to use.  One of the key properties of any
+good binary repository is that the binaries never change once they
+have been published.  [Maven has been promising
+this](https://blog.sonatype.com/2009/04/what-is-a-repository/) since
+2009 at least.  F-Droid has for most of its history.  Occasionally,
+Google forgets this, and changes packages that have already been
+published:
+
+* [Google Issue #70292819 platform-27_r01.zip was overwritten with a new update](https://issuetracker.google.com/issues/70292819) (Google login and Javascript required)
+
 
 ## API
 

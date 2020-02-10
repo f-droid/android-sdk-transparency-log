@@ -13,5 +13,5 @@ append-only log for anyone to use.
 
 This can also be used as a basic JSON API by getting the JSON files via the raw links:
 
-* [checksums.json](https://gitlab.com/fdroid/gradle-transparency-log/-/raw/master/checksums.json) - a simple dictionary of download URLs and matching checksums
-* [status_codes.json](https://gitlab.com/fdroid/gradle-transparency-log/-/raw/master/status_codes.json) - the HTTP Status Codes of the last download attempt of this process
+* [checksums.json](https://gitlab.com/fdroid/android-sdk-transparency-log/-/raw/master/checksums.json) - a simple dictionary of download URLs and matching checksums
+* [status_codes.json](https://gitlab.com/fdroid/android-sdk-transparency-log/-/raw/master/status_codes.json) - the HTTP Status Codes of the last download attempt of this process

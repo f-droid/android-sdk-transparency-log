@@ -1,0 +1,30 @@
+[
+  [
+    "https://dl.google.com/android/repository/addon-6.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/addon.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/repository-10.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/repository-11.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/repository-12.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/sys-img/android/sys-img.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml",
+    200
+  ]
+]

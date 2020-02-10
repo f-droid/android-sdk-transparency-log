@@ -1,0 +1,35 @@
+
+log:
+  image: debian:stable
+  variables:
+    SSH_KEY: /root/.ssh/id_ed25519
+    GIT_SSH_COMMAND: "/usr/bin/ssh -i $SSH_KEY"
+    DEBIAN_FRONTEND: noninteractive
+    LANG: C.UTF-8
+  before_script:
+    - echo Etc/UTC > /etc/timezone
+    - echo 'APT::Install-Recommends "0";'
+           'APT::Install-Suggests "0";'
+           'APT::Acquire::Retries "20";'
+           'APT::Get::Assume-Yes "true";'
+           'Dpkg::Use-Pty "0";'
+           'quiet "1";'
+        >> /etc/apt/apt.conf.d/99gitlab
+    - apt-get update
+    - apt-get dist-upgrade
+  script:
+    - apt-get install git openssh-client python3-chardet python3-bs4 python3-lxml python3-requests
+    - ./log.py
+    - git diff
+    - git config user.name "$CI_PIPELINE_ID/$CI_JOB_ID"
+    - git config user.email $CI_PROJECT_PATH@f-droid.org
+    - git checkout -b autocommit
+    - git add    android/repository/*.xml android/repository/sys-img/*/*.xml checksums.json status_codes.json
+    - git commit android/repository/*.xml android/repository/sys-img/*/*.xml checksums.json status_codes.json
+          -m "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID" || exit 0
+    - mkdir -pvm 0700 $(dirname $SSH_KEY)
+    - cp .known_hosts $(dirname $SSH_KEY)/known_hosts
+    - echo $DEPLOY_KEY | base64 --decode > $SSH_KEY
+    - chmod 0400 $SSH_KEY
+    - git remote set-url --push origin "git@${CI_SERVER_HOST}:${CI_PROJECT_PATH}.git"
+    - git push origin autocommit:$CI_COMMIT_REF_NAME

@@ -23,7 +23,7 @@ log:
     - git diff
     - git config user.name "$CI_PIPELINE_ID/$CI_JOB_ID"
     - git config user.email $CI_PROJECT_PATH@f-droid.org
-    - git checkout -b autocommit
+    - git checkout -B autocommit
     - git add    android/repository/*.xml android/repository/sys-img/*/*.xml checksums.json status_codes.json
     - git commit android/repository/*.xml android/repository/sys-img/*/*.xml checksums.json status_codes.json
           -m "$CI_PROJECT_URL/-/jobs/$CI_JOB_ID" || exit 0

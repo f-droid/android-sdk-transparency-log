@@ -81,6 +81,7 @@ URLS = (
     'https://dl.google.com/android/repository/repository-10.xml',
     'https://dl.google.com/android/repository/repository-11.xml',
     'https://dl.google.com/android/repository/repository-12.xml',
+    'https://dl.google.com/android/repository/repository2-1.xml',
     'https://dl.google.com/android/repository/addon.xml',
     'https://dl.google.com/android/repository/addon-6.xml',
     'https://dl.google.com/android/repository/sys-img/android/sys-img.xml',
@@ -129,6 +130,19 @@ with open('android/repository/repository-12.xml') as fp:
             check_file(
                 BASE_URL + archive.url.string,
                 archive.checksum['type'].lower().strip(),
+                archive.checksum.string.lower().strip())
+
+with open('android/repository/repository2-1.xml') as fp:
+    soup = BeautifulSoup(fp.read(), "xml")
+    for archive in soup.find_all('archive'):
+        host_os = archive.find('host-os')
+        host_bits = archive.find('host-bits')
+        print(archive)
+        if host_os and host_os.string == 'linux' \
+           and (not host_bits or host_bits.string == '64'):
+            check_file(
+                BASE_URL + archive.url.string,
+                'sha1',
                 archive.checksum.string.lower().strip())
 
 with open('checksums.json', 'w') as fp:

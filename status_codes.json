@@ -20,6 +20,10 @@
     200
   ],
   [
+    "https://dl.google.com/android/repository/repository2-1.xml",
+    200
+  ],
+  [
     "https://dl.google.com/android/repository/sys-img/android/sys-img.xml",
     200
   ],

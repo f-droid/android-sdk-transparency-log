@@ -150,7 +150,6 @@ with open('android/repository/repository2-1.xml') as fp:
     for archive in soup.find_all('archive'):
         host_os = archive.find('host-os')
         host_bits = archive.find('host-bits')
-        print(archive)
         if host_os and host_os.string == 'linux' \
            and (not host_bits or host_bits.string == '64'):
             check_file(

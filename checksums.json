@@ -755,12 +755,18 @@
   ],
   "https://dl.google.com/android/repository/android-ndk-r20-beta2-linux-x86_64.zip": [
     {
-      "sha1": "8285ae2e24a7232fd0cbfb55e955c8586ef2ee02"
+      "sha1": "8285ae2e24a7232fd0cbfb55e955c8586ef2ee02",
+      "sha256": "acf1eac359aa0e3260221ee7995705182fac1538bf29cfe1f436ad265a078b35",
+      "sha512": "908dc4b1fd0ee8cbf65dcb3633520f98fe1c5a5e206158917cc571bc21033d71c7a6609ea799b44a7e60bb4b85c561029e24cf8b625611e2cdbac5579c262252",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 20.0.5392854-beta2\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r20-beta3-linux-x86_64.zip": [
     {
-      "sha1": "674d8fb0e0df8e8be1c31fa321eb176548a19ba3"
+      "sha1": "674d8fb0e0df8e8be1c31fa321eb176548a19ba3",
+      "sha256": "351dac526af9b6abbb9424c609d57adde7bbd192a4f53471e74a1cf96143e285",
+      "sha512": "562149e972eab2113a689e36fffcc861d6abf83a15f2a90c1663a0dd43d893a933d64e2042736663684d58b5e893988c5886ac87c0a06a426b720c58b02dbad6",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 20.0.5471264-beta3\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r20-linux-x86_64.zip": [
@@ -781,7 +787,10 @@
   ],
   "https://dl.google.com/android/repository/android-ndk-r21-beta2-linux-x86_64.zip": [
     {
-      "sha1": "335f30302bee700a9a5fdfe3ae533a4963499c44"
+      "sha1": "335f30302bee700a9a5fdfe3ae533a4963499c44",
+      "sha256": "2023054bba1bffb6c64ad388de30a2d9c25e8d63cb77a89e929c4ebae302a83e",
+      "sha512": "064944b7b524970f86902a0a13d33706331e5d238809367217837ee00fb18ab513d728728952b96769f86a44c25edbe91d0ebc42084df0af297e8bdc0573a545",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 21.0.6011959-beta2\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r21-linux-x86_64.zip": [
@@ -1687,27 +1696,40 @@
   ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
-      "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561"
+      "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
+      "sha256": "763572c87f77d3ddbf7e72d080e8b45184d5c368bfdd170f2589f08a089570fd",
+      "sha512": "576e0d1d0cde06cba7c2ee795b5a671fe6c6318e29cc1d82caf4e5c42a382ec4226e38c90429f9fc919bafc1264f2f491f8eea385d7714e863603a1b2854c035"
     }
   ],
   "https://dl.google.com/android/repository/cmake-3.6.4111459-linux-x86_64.zip": [
     {
-      "sha1": "71c539b9c33f0943e9ad6251fea0b161c0b70782"
+      "sha1": "71c539b9c33f0943e9ad6251fea0b161c0b70782",
+      "sha256": "993527d8092bf6895e52b2b1ea7d66749714d907ce2ebce4fc6dd3f1df076cbb",
+      "sha512": "b91437dac78679cd5725264aa6d5047fe96f73bf31bedb931a50a214d3eb4bc4e626586121bdab7462da503564663a4fc392791debd2523e1756bc47b567d6b4"
     }
   ],
   "https://dl.google.com/android/repository/commandlinetools-linux-5842447_latest.zip": [
     {
-      "sha1": "f331fcfae47e0d0a478e3f2d30ce70b4a69439bc"
+      "sha1": "f331fcfae47e0d0a478e3f2d30ce70b4a69439bc",
+      "sha256": "869bbe7a58691e04ffdef5cdf3e77725d9b2b0edccb41a51179f16394ac262d7",
+      "sha512": "c56432a71319399d4b85cf778fe37f672ef1e76b060d7f503ca4448762b1e31056da580ef6ed77abe8f8e79c4697e13bb3aa81f5f52e6be049ef69366bd99c80",
+      "source.properties": "Pkg.Revision=1.0-alpha01\nPkg.Path=cmdline-tools;1.0-alpha01\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
   "https://dl.google.com/android/repository/emulator-linux-6110076.zip": [
     {
-      "sha1": "87c035c616cc05deb9251c990bf43731f65e84da"
+      "sha1": "87c035c616cc05deb9251c990bf43731f65e84da",
+      "sha256": "57136df94507638f3311488fcbd6fa46b168e70800207da365a24c8bbb2b906d",
+      "sha512": "2280c6df4b8c2e43f4c213da2ebfb74add72f56a3c95a1100e1af4c06cc59cbe8dd98ed4266588e3f1962bc4b4d7a0e8e262e0dddca1ee09940749fa1a754a21",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=29.3.4\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.Dependencies=tools#25.3\nPkg.BuildId=6110076"
     }
   ],
   "https://dl.google.com/android/repository/emulator-linux-6152914.zip": [
     {
-      "sha1": "c3944e8018048e3873252f41b72c01013d503df8"
+      "sha1": "c3944e8018048e3873252f41b72c01013d503df8",
+      "sha256": "6a3e61e0e1b072ef3963a5e017ed18ee3c00b6bc0b97b6aae0cc50b764188f6f",
+      "sha512": "4597a60e04da8271be63e49fa8a057bfa02cc87cfe8ec7b09a422b9b24f83146a5c237ba72c27485d729d9bf48fc5b7756bbe7cff7bd7b7d93403ff317d882b4",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=29.3.7\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.Dependencies=tools#25.3\nPkg.BuildId=6152914"
     }
   ],
   "https://dl.google.com/android/repository/lldb-2.0.2558144-linux-x86_64.zip": [
@@ -1954,7 +1976,10 @@
   ],
   "https://dl.google.com/android/repository/skiaparser-6172737-linux.zip": [
     {
-      "sha1": "d2eac6deff2c257d47853251bda5528c96a41720"
+      "sha1": "d2eac6deff2c257d47853251bda5528c96a41720",
+      "sha256": "96165fff848f054fdc474bfd2facec35cf35721a6076a0fbf1f9683988492794",
+      "sha512": "cc9dbf88e1b15e96ef0009f6bbbcd931d02606c8d8e73dd57ab29343e23d5cb0955398cc9e1e3eebb19672d28f262fdac5c9e7866220476de819fcfe1cc5fb5c",
+      "source.properties": "Pkg.Revision=1-beta02\nPkg.Path=skiaparser;1\nPkg.Desc=Skia Parser Server\n"
     }
   ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [

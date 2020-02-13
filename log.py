@@ -76,20 +76,7 @@ def write_json(l, f):
     with open(f, 'w') as fp:
         json.dump(l, fp, indent=2, sort_keys=True)
 
-BASE_URL = 'https://dl.google.com/android/repository/'
-URLS = (
-    'https://dl.google.com/android/repository/repository-10.xml',
-    'https://dl.google.com/android/repository/repository-11.xml',
-    'https://dl.google.com/android/repository/repository-12.xml',
-    'https://dl.google.com/android/repository/repository2-1.xml',
-    'https://dl.google.com/android/repository/addon.xml',
-    'https://dl.google.com/android/repository/addon-6.xml',
-    'https://dl.google.com/android/repository/sys-img/android/sys-img.xml',
-    'https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml',
-)
-
-status_codes = []
-for url in URLS:
+def write_repository_xml(url):
     while True:
         try:
             r = requests.get(url)
@@ -102,6 +89,32 @@ for url in URLS:
     if r.status_code == 200:
         with open(url.replace('https://dl.google.com/', ''), 'w') as fp:
             fp.write(r.text)
+    return r.status_code
+
+status_codes = []
+
+BASE_URL = 'https://dl.google.com/android/repository/'
+URLS = [
+    'https://dl.google.com/android/repository/addon-6.xml',
+    'https://dl.google.com/android/repository/addon.xml',
+    'https://dl.google.com/android/repository/repository-10.xml',
+    'https://dl.google.com/android/repository/sys-img/android/sys-img.xml',
+    'https://dl.google.com/android/repository/sys-img/x86/addon-x86.xml',
+]
+for url in URLS:
+    write_repository_xml(url)
+
+VERSIONED_URLS = (
+    'https://dl.google.com/android/repository/addon2-%s.xml',
+    'https://dl.google.com/android/repository/addons_list-%s.xml',
+    'https://dl.google.com/android/repository/repository-1%s.xml',
+    'https://dl.google.com/android/repository/repository2-%s.xml',
+    'https://dl.google.com/android/repository/sys-img/android/sys-img2-%s.xml',
+)
+for vu in VERSIONED_URLS:
+    for i in range(1, 10):
+        if write_repository_xml(vu % i) == 404:
+            break
 
 checksums_file = os.path.join(os.path.dirname(__file__), 'checksums.json')
 if os.path.exists(checksums_file):

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdk:sdk-addons-list
+    xmlns:sdk="http://schemas.android.com/sdk/android/addons-list/1">
+
+    <sdk:addon-site>
+        <sdk:url>https://dl-ssl.google.com/android/repository/addon.xml</sdk:url>
+        <sdk:name>Google Inc.</sdk:name>
+    </sdk:addon-site>
+
+</sdk:sdk-addons-list>

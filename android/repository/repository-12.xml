@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:sdk="http://schemas.android.com/sdk/android/repository/12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-02-18 08:58:17.198685 with ADRT.-->
+	<!--Generated on 2020-02-18 18:32:18.864667 with ADRT.-->
 	<sdk:license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -836,6 +836,31 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:lldb>
+	<sdk:platform>
+		<!--Generated from bid:6203814, branch:rvc-preview1-release-->
+		<sdk:version>R</sdk:version>
+		<sdk:codename>R</sdk:codename>
+		<sdk:api-level>29</sdk:api-level>
+		<sdk:description>Android SDK Platform R</sdk:description>
+		<sdk:revision>1</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Thu Feb 13 23:22:56 2020.-->
+				<sdk:size>56808612</sdk:size>
+				<sdk:checksum type="sha1">f6ce3ef0ec8526550fc3b517bdb29051275bcd1a</sdk:checksum>
+				<sdk:url>platform-R_r01.zip</sdk:url>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-license"/>
+		<sdk:min-tools-rev>
+			<sdk:major>22</sdk:major>
+		</sdk:min-tools-rev>
+		<sdk:desc-url>http://developer.android.com/sdk/</sdk:desc-url>
+		<sdk:layoutlib>
+			<sdk:api>15</sdk:api>
+			<sdk:revision>1</sdk:revision>
+		</sdk:layoutlib>
+	</sdk:platform>
 	<sdk:platform>
 		<!--Generated from bid:6018849, branch:qt-preview6-release-->
 		<sdk:version>10</sdk:version>
@@ -1798,6 +1823,39 @@ June 2014.</sdk:license>
 		</sdk:archives>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:source>
+	<sdk:build-tool>
+		<!--Generated from bid:6182189, branch:rvc-preview1-release-->
+		<sdk:revision>
+			<sdk:major>30</sdk:major>
+			<sdk:minor>0</sdk:minor>
+			<sdk:micro>0</sdk:micro>
+			<sdk:preview>1</sdk:preview>
+		</sdk:revision>
+		<sdk:archives>
+			<sdk:archive>
+				<!--Built on: Wed Feb  5 13:51:09 2020.-->
+				<sdk:size>72537971</sdk:size>
+				<sdk:checksum type="sha1">afcb370bb6956bbf9e90557230088a3e1417e8a8</sdk:checksum>
+				<sdk:url>build-tools_r30-rc1-linux.zip</sdk:url>
+				<sdk:host-os>linux</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Wed Feb  5 13:51:03 2020.-->
+				<sdk:size>70465390</sdk:size>
+				<sdk:checksum type="sha1">2761a0ea9466685aaaf93e85bf8bd47575bc91b8</sdk:checksum>
+				<sdk:url>build-tools_r30-rc1-macosx.zip</sdk:url>
+				<sdk:host-os>macosx</sdk:host-os>
+			</sdk:archive>
+			<sdk:archive>
+				<!--Built on: Wed Feb  5 13:50:57 2020.-->
+				<sdk:size>73677814</sdk:size>
+				<sdk:checksum type="sha1">f17b1209f2548ee7025781c2ebeed9f0c8341a40</sdk:checksum>
+				<sdk:url>build-tools_r30-rc1-windows.zip</sdk:url>
+				<sdk:host-os>windows</sdk:host-os>
+			</sdk:archive>
+		</sdk:archives>
+		<sdk:uses-license ref="android-sdk-preview-license"/>
+	</sdk:build-tool>
 	<sdk:build-tool>
 		<!--Generated from bid:6118618, branch:qt-release-->
 		<sdk:revision>
@@ -3522,32 +3580,32 @@ June 2014.</sdk:license>
 		<sdk:uses-license ref="android-sdk-license"/>
 	</sdk:build-tool>
 	<sdk:platform-tool>
-		<!--Generated from bid:5949299, branch:aosp-sdk-release-->
+		<!--Generated from bid:6198805, branch:aosp-sdk-release-->
 		<sdk:revision>
 			<sdk:major>29</sdk:major>
 			<sdk:minor>0</sdk:minor>
-			<sdk:micro>5</sdk:micro>
+			<sdk:micro>6</sdk:micro>
 		</sdk:revision>
 		<sdk:archives>
 			<sdk:archive>
-				<!--Built on: Fri Oct 18 16:41:58 2019.-->
-				<sdk:size>8061768</sdk:size>
-				<sdk:checksum type="sha1">d355fd9acf14d149c64a9f56aa57c52ea925084c</sdk:checksum>
-				<sdk:url>platform-tools_r29.0.5-darwin.zip</sdk:url>
+				<!--Built on: Wed Feb 12 13:06:23 2020.-->
+				<sdk:size>8195286</sdk:size>
+				<sdk:checksum type="sha1">3232179dce22d8a6332018729026ed39f5d5cd0b</sdk:checksum>
+				<sdk:url>platform-tools_r29.0.6-darwin.zip</sdk:url>
 				<sdk:host-os>macosx</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Oct 18 16:41:46 2019.-->
-				<sdk:size>8116675</sdk:size>
-				<sdk:checksum type="sha1">2016a7e8f3f696583c0069881f4270365e247cd7</sdk:checksum>
-				<sdk:url>platform-tools_r29.0.5-linux.zip</sdk:url>
+				<!--Built on: Wed Feb 12 13:06:13 2020.-->
+				<sdk:size>8254604</sdk:size>
+				<sdk:checksum type="sha1">e95ed28330406705d47fe96bafb589be6c1f2f23</sdk:checksum>
+				<sdk:url>platform-tools_r29.0.6-linux.zip</sdk:url>
 				<sdk:host-os>linux</sdk:host-os>
 			</sdk:archive>
 			<sdk:archive>
-				<!--Built on: Fri Oct 18 16:41:52 2019.-->
-				<sdk:size>7165904</sdk:size>
-				<sdk:checksum type="sha1">0f55ef9978de5650e2cb7737b7175f2a937f27f0</sdk:checksum>
-				<sdk:url>platform-tools_r29.0.5-windows.zip</sdk:url>
+				<!--Built on: Wed Feb 12 13:06:18 2020.-->
+				<sdk:size>7278590</sdk:size>
+				<sdk:checksum type="sha1">c970e1216ef99abf9fd480b01439998c4780728e</sdk:checksum>
+				<sdk:url>platform-tools_r29.0.6-windows.zip</sdk:url>
 				<sdk:host-os>windows</sdk:host-os>
 			</sdk:archive>
 		</sdk:archives>

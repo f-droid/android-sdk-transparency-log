@@ -801,6 +801,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 21.0.6113669\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r21b-beta1-linux-x86_64.zip": [
+    {
+      "sha1": "cf06ed408663c11c8f4824f9370c7a900ec074dd",
+      "sha256": "a9ae16654bbe47df1df3acac12761a4db912c9eea14eae35bd39846531c956ac",
+      "sha512": "2223dc8db457cc4d25487a3325f14b0f2db8837ea318ff85837173ea3cf454f8835afb3b3ab6296589a5eade67c4a4b9dca5e0cdc20f94ae66dd955d09b0b89c",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 21.1.6210238-beta1\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -1694,6 +1702,15 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=29.0.3\n#Pkg.Revision=29.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r30-rc1-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "afcb370bb6956bbf9e90557230088a3e1417e8a8",
+      "sha256": "f5985edddccd6500e963d32f47a62a93260e7a915846ac707753525a71402291",
+      "sha512": "abba42cee8d1e27ac8f9c4cab8e615fcb772e5e85a152da151aec94d8f1fe91c7bab537fa87fcd28adf13ebcf472cf724a81ce4b6019701f448e857bb6b09f57",
+      "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=29.0.3\nPkg.Revision=30.0.0 rc1\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
@@ -1972,6 +1989,14 @@
       "sha256": "f9be9fb873fbdc70d84e4346d7a9d17aa8356c2ffa8c8bd22177f5e5031d0cc2",
       "sha512": "1f7e99895356370292da789a977b8c1f18ee74e6c8f3959900cede27bdd4864b72ce5e5d6f825b9d970477c28c07e3178c115a7268fa79a77ebfc3ecbd55c5e4",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=29.0.5\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-tools_r29.0.6-linux.zip": [
+    {
+      "sha1": "e95ed28330406705d47fe96bafb589be6c1f2f23",
+      "sha256": "cc9e9d0224d1a917bad71fe12d209dfffe9ce43395e048ab2f07dcfc21101d44",
+      "sha512": "e073c0623adfa8abfafeb8baff6ae556422d5a81e6fbbbf4a93b36a8fc4c02586a3a5b5f0d40e01cff55fb26eab80f8c355e115d8ebd594653f4a68e786ffceb",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=29.0.6\n"
     }
   ],
   "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip": [

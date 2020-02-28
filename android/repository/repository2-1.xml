@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-02-25 17:37:17.942839 with ADRT.-->
+	<!--Generated on 2020-02-28 08:35:50.395577 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -299,7 +299,7 @@ June 2014.</license>
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
-	<remotePackage path="tools">
+	<remotePackage obsolete="true" path="tools">
 		<!--Generated from bid:3567187, branch:aosp-emu-2.2-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
@@ -5880,7 +5880,54 @@ June 2014.</license>
 			</archive>
 		</archives>
 	</remotePackage>
-	<remotePackage path="tools">
+	<remotePackage path="emulator">
+		<!--Generated from:ab bid:6237347 branch:aosp-emu-master-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>30</major>
+			<minor>0</minor>
+			<micro>2</micro>
+		</revision>
+		<display-name>Android Emulator</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Wed Feb 26 07:43:54 2020.-->
+				<complete>
+					<size>350205217</size>
+					<checksum>702b6a050a230b3b45f667867f6fc99b3f973d9a</checksum>
+					<url>emulator-darwin-6237347.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Wed Feb 26 07:43:35 2020.-->
+				<complete>
+					<size>305330210</size>
+					<checksum>8adefcd6b6883f977615be3d30dc53b8b2981032</checksum>
+					<url>emulator-linux-6237347.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+			<archive>
+				<!--Built on: Wed Feb 26 07:44:01 2020.-->
+				<complete>
+					<size>300636117</size>
+					<checksum>ddfc142be8fb7febf8624583cb95bc3b342011ad</checksum>
+					<url>emulator-windows-6237347.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-bits>64</host-bits>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="tools">
 		<!--Generated from:ab bid:4333796 branch:git_studio-sdk-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>

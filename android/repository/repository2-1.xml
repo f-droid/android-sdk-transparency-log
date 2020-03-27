@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/01" xmlns:generic="http://schemas.android.com/repository/android/generic/01" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/01" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2020-03-25 11:01:57.336531 with ADRT.-->
+	<!--Generated on 2020-03-26 15:50:00.631801 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -5825,16 +5825,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Tue Mar 24 15:56:08 2020.-->
+				<!--Built on: Wed Feb 12 13:06:23 2020.-->
 				<complete>
-					<size>8420241</size>
-					<checksum>dc551007505e06f85ffa0e29640cc82d43446957</checksum>
+					<size>8195286</size>
+					<checksum>3232179dce22d8a6332018729026ed39f5d5cd0b</checksum>
 					<url>platform-tools_r29.0.6-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 24 15:56:00 2020.-->
+				<!--Built on: Wed Feb 12 13:06:13 2020.-->
 				<complete>
 					<size>8254604</size>
 					<checksum>e95ed28330406705d47fe96bafb589be6c1f2f23</checksum>
@@ -5843,7 +5843,7 @@ June 2014.</license>
 				<host-os>linux</host-os>
 			</archive>
 			<archive>
-				<!--Built on: Tue Mar 24 15:56:06 2020.-->
+				<!--Built on: Wed Feb 12 13:06:18 2020.-->
 				<complete>
 					<size>7278590</size>
 					<checksum>c970e1216ef99abf9fd480b01439998c4780728e</checksum>

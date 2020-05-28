@@ -1808,6 +1808,14 @@
       "source.properties": "Pkg.Revision=2.0-rc01\nPkg.Path=cmdline-tools;2.0-rc01\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-6514223_latest.zip": [
+    {
+      "sha1": "14b2114c6eae9e10686a18138d2bb468c46f8e0c",
+      "sha256": "ef319a5afdb41822cb1c88d93bc7c23b0af4fc670abca89ff0346ee6688da797",
+      "sha512": "39aea82cd958e60ffed8f8dd9bacdce4f1fd22a2e0c97b25b348f56309dd671533109e0e39aa5ca6d0fff36dc653fb5ff270773d2ee94d6b2fab7905bd2c85a9",
+      "source.properties": "Pkg.Revision=2.0\nPkg.Path=cmdline-tools;2.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
   "https://dl.google.com/android/repository/emulator-linux-6110076.zip": [
     {
       "sha1": "87c035c616cc05deb9251c990bf43731f65e84da",

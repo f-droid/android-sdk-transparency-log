@@ -2226,6 +2226,14 @@
       "source.properties": "Pkg.Revision=1-beta02\nPkg.Path=skiaparser;1\nPkg.Desc=Skia Parser Server\n"
     }
   ],
+  "https://dl.google.com/android/repository/skiaparser-6538157-linux.zip": [
+    {
+      "sha1": "7fcef03a9e71a72b0b78a9b43b87aa617d498327",
+      "sha256": "656e837d39ea7f59c4df23275a0c74b3939622ff8522d5785ebd75d83e8acf8f",
+      "sha512": "6e2ed749d87cb5a17018e62abf80aad2b34a57334b4dff5fe4972701f3de91682eb61ac98e306716e23ee93276062f1527050dad78fb067cfe14dfe928b4a1a2",
+      "source.properties": "Pkg.Revision=1\nPkg.Path=skiaparser;1\nPkg.Desc=Skia Parser Server\n"
+    }
+  ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [
     {
       "sha1": "40b8aed9972893c73c68661d867b5f803102f0ea",

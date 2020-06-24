@@ -689,7 +689,10 @@
   ],
   "https://dl.google.com/android/repository/android-ndk-r16-linux-x86_64.zip": [
     {
-      "sha256": "a8550b81771c67cc6ab7b479a6918d29aa78de3482901762b4f9e0132cd9672e"
+      "sha1": "b7dcb08fa9fa403e3c0bc3f741a445d7f0399e93",
+      "sha256": "a8550b81771c67cc6ab7b479a6918d29aa78de3482901762b4f9e0132cd9672e",
+      "sha512": "5b9ec70eac78f6cef8572dff9a133c9b18c83155dc6d980237a6925df4ae65b7b2adb3d8ea55b3ce9f3f75868f20eefdb8c87da110683c2dd1a1a27c44dc5b91",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 16.0.4442984\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r16b-linux-x86_64.zip": [
@@ -702,7 +705,10 @@
   ],
   "https://dl.google.com/android/repository/android-ndk-r17-linux-x86_64.zip": [
     {
-      "sha256": "ba3d813b47de75bc32a2f3de087f72599c6cb36fdc9686b96f517f5492ff43ca"
+      "sha1": "1d886a64483adf3f3a3e3aaf7ac5084184006ac7",
+      "sha256": "ba3d813b47de75bc32a2f3de087f72599c6cb36fdc9686b96f517f5492ff43ca",
+      "sha512": "7064e050b2a1b82d49a3d255a8e432d354754f5d14fa91e8822397f9031f473f809ff56d4024fa81e9c2854ffe60f15d0492b8dd450262677f1173f065525eba",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 17.0.4754217\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r17b-linux-x86_64.zip": [

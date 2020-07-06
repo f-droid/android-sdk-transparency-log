@@ -1839,6 +1839,14 @@
       "source.properties": "Pkg.Revision=2.0\nPkg.Path=cmdline-tools;2.0\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-6604631_latest.zip": [
+    {
+      "sha1": "d0626de9a4749c35219b7e845fcbb86798d70e14",
+      "sha256": "6b8687f2aeaf84d2f437a29488497e156764b5849b056e4a18b9a8a131c3e2ea",
+      "sha512": "cfd76a5102da005104aa68566b1bc760bbb5cfabf6c19abd18ac7bb57f034e630c369369b1c4b8b4bc1a80a6b600689428cad299038ce40a99db2056015d082f",
+      "source.properties": "Pkg.Revision=3.0-beta01\nPkg.Path=cmdline-tools;3.0-beta01\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
   "https://dl.google.com/android/repository/commandlinetools-linux-6609375_latest.zip": [
     {
       "sha1": "9172381ff070ee2a416723c1989770cf4b0d1076",
@@ -2013,6 +2021,14 @@
       "sha256": "d3ea6f457f79f7e25647abd45d75d3a13d11d4b337e6cd7341bb99bca21aaf89",
       "sha512": "1f0fb7f5f3812b0d902c0a964c33f6bdf97b60a31058c784bd289d73aff87464c297de5240377dd335ccf16f03f77663c96675e2477fa8f13515f388b8f95560",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.0.19\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=6616344"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux-6643379.zip": [
+    {
+      "sha1": "31d0ac8781f21ec459f84ed76877ee7e69095daf",
+      "sha256": "fe24173bbbf2393e522c3f69206f8baf614e4aab1e71b03504dee4fda2562e6e",
+      "sha512": "e3cf80d4b45b9c610b00ca71c78940ba08f8b34d38d76802e81c525b79fa87eb9689bdd4df0926a7f5c10ec59b114c82da754eb962d096bebd3b83e8a536a883",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.0.20\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=6643379"
     }
   ],
   "https://dl.google.com/android/repository/lldb-2.0.2558144-linux-x86_64.zip": [
@@ -2311,6 +2327,14 @@
       "sha256": "656e837d39ea7f59c4df23275a0c74b3939622ff8522d5785ebd75d83e8acf8f",
       "sha512": "6e2ed749d87cb5a17018e62abf80aad2b34a57334b4dff5fe4972701f3de91682eb61ac98e306716e23ee93276062f1527050dad78fb067cfe14dfe928b4a1a2",
       "source.properties": "Pkg.Revision=1\nPkg.Path=skiaparser;1\nPkg.Desc=Skia Parser Server\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/skiaparser-6646980-linux.zip": [
+    {
+      "sha1": "de1d91bd7baa4abce1a3fb859a2281e40e497739",
+      "sha256": "fcd4fd0c2cf52d1bd06f976c963ed7d8edf325268ed677a6d453a1916d5c2207",
+      "sha512": "671fc9a215db78dc20c289f2d9749cf23c060d063ee9a49ccfe1e793fc192875b1a8f8e754ba03c73b9665a854c9babbd5d512fbbf9dfdfbc0d4ed5e06cf52ea",
+      "source.properties": "Pkg.Revision=2\nPkg.Path=skiaparser;1\nPkg.Desc=Layout Inspector image server for API 29-30\n"
     }
   ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [

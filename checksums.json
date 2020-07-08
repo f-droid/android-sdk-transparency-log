@@ -1793,6 +1793,15 @@
       "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=29.0.3\nPkg.Revision=30.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r30.0.1-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "dae27b63a53f3c71a23a2e9517d435f79ce7975b",
+      "sha256": "560eace2cc6ca16011fbb97c92c39aa0441d54dbfc13837dfbdb4a6bdf9c9da8",
+      "sha512": "8eace35b320771a5bfa90d57f1de5a295d690aa5249f25e4527521827138b340b40dce39935998fe880b816b935b262b869fa27e784da24c7b13f98646f03b02",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.0.1\n#Pkg.Revision=30.0.0 rc4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",

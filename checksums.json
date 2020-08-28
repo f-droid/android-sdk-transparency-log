@@ -623,6 +623,14 @@
       "sha256": "102d6723f67ff1384330d12c45854315d6452d6510286f4e5891e00a5a8f1d5a"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r11-linux-x86_64.zip": [
+    {
+      "sha1": "7b4e0d13f6bbf48dd87475be9d052273dc766fb6",
+      "sha256": "59ab44f7ee6201df4381844736fdc456134c7f7660151003944a3017a0dcce97",
+      "sha512": "b79a2b5225ff88696a8a5cb7b9c681811bd8a9d7e949e6d54887564259f09499c7e9e186ea663226b7adcd541fdba0bfbcee55db4421baa18ec1bac97455c3b2",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 11.0.2655954\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r11b-linux-x86_64.zip": [
     {
       "sha1": "cf0658956945c81d3d3fad5f9a24fa062d4c9d41",
@@ -639,12 +647,28 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 11.2.2725575\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r12-linux-x86_64.zip": [
+    {
+      "sha1": "b7e02dc733692447366a2002ad17e87714528b39",
+      "sha256": "7876e3b99f3596a3215ecf4e9f152d24b82dfdf2bbe7d3a38c423ae6a3edee79",
+      "sha512": "1c47dcdc2c4ae1c0e5dd5c1ac349e043fa186f238c9cbfed567dcc9deb0b1d597c985611303f688f7c561144c26cdc9e471fb20c5447cd799ec883ba63aa2472",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 12.0.2931149\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r12b-linux-x86_64.zip": [
     {
       "sha1": "170a119bfa0f0ce5dc932405eaa3a7cc61b27694",
       "sha256": "eafae2d614e5475a3bcfd7c5f201db5b963cc1290ee3e8ae791ff0c66757781e",
       "sha512": "2d85b476436ca50896e4b7c5d0f15547fd14a6ebec7e0081022b28f791709af78ea5ebddcdf4722b5e94daeac288d509bd5f240b0280167edef8e199da3d0501",
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 12.1.2977051\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r13-linux-x86_64.zip": [
+    {
+      "sha1": "a22bfcbe467103e21acc953b0c11158941ab49ee",
+      "sha256": "0a1dbd216386399e2979c17a48f65b962bf7ddc0c2311ef35d902b90c298c400",
+      "sha512": "c55b42dbbab15647464089c8d14fc426616fa5e0162cb68c3309a53799eb1d7ad4a26f2f3cc5bf596b5aeddb66e864c369a401113ef8ef4895ba80d2f4a4cfcf",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 13.0.3315539\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r13b-linux-x86_64.zip": [
@@ -669,6 +693,14 @@
       "sha256": "0ecc2017802924cf81fffc0f51d342e3e69de6343da892ac9fa1cd79bc106024",
       "sha512": "24435267fc5acae559aa5159f7c895ce5ea0cbb8ef966bb8ff0dadffcadccbe46bc3880d285bf4e411ef78632cf2f862408e7b2b41ebca51078b41eac66a301a",
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 14.1.3816874\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r15-linux-x86_64.zip": [
+    {
+      "sha1": "32b3115357ed798a8a48d7d589ffcb901693c745",
+      "sha256": "078eb7d28c3fcf45841f5baf6e6582e7fd5b73d8e8c4e0101df490f51abd37b6",
+      "sha512": "fe5a260a7984b7b8ae8d2f32a1adb2afe1f92b7ee1cfc57e0a927f24fb102daab5060abd9f93dc124b23ca18a4cffe0175794277e4c080ded3d010323143ff66",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 15.0.4075724\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r15b-linux-x86_64.zip": [

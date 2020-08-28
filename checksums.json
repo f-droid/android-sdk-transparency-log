@@ -623,6 +623,11 @@
       "sha256": "102d6723f67ff1384330d12c45854315d6452d6510286f4e5891e00a5a8f1d5a"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r10e-linux-x86_64.zip": [
+    {
+      "sha256": "ee5f405f3b57c4f5c3b3b8b5d495ae12b660e03d2112e4ed5c728d349f1e520c"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r11-linux-x86_64.zip": [
     {
       "sha1": "7b4e0d13f6bbf48dd87475be9d052273dc766fb6",

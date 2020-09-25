@@ -1925,6 +1925,20 @@
       "source.properties": "Pkg.Revision=4.0-alpha02\nPkg.Path=cmdline-tools;4.0-alpha02\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
+  "https://dl.google.com/android/repository/desktop-head-unit-linux_r01.1.zip": [
+    {
+      "sha1": "18632007ecb843b4fc69babd521a9b061868534b",
+      "sha256": "e43e52282361efa71402efa6b5c98635f29014921254ccd53c8091dd448243e3",
+      "sha512": "263a926cd6009a2c27be719edba52f21285eea413daa0d903f3b6c67e0ec3f63cf5eb79b8c9269cecd26b50a9e2108951fd704e5d9bc4aeec195045814692d50"
+    }
+  ],
+  "https://dl.google.com/android/repository/desktop-head-unit-linux_r02.0.rc1.zip": [
+    {
+      "sha1": "b480489e604371301da10731a793b234b01b8f42",
+      "sha256": "d46ab596d7cca65e42b51e318172609b91fcf3944d5835b3035747b042d02b0c",
+      "sha512": "ecb91fe2405b1f368c683695f5cca600014cbb6c1ee428fb8d633fe89dea7a84f6b76f13c1cdfbdc99a31befa19a18368f6eb259391d058623a6e716004927d7"
+    }
+  ],
   "https://dl.google.com/android/repository/emulator-linux-6110076.zip": [
     {
       "sha1": "87c035c616cc05deb9251c990bf43731f65e84da",
@@ -2509,6 +2523,14 @@
       "sha256": "c827d36182a7766437e834353798f7e6183379e53be37484618527bdb987922e",
       "sha512": "93f49ae96a63a5357b5a5ee5f379b89d99cca41faeb394fac1d1e75d1583bfde1b289d539b1cd646f677a5dc808a275a767ad606ef45ef796c32f083782747d2",
       "source.properties": "Pkg.Revision=3\nPkg.Path=skiaparser;1\nPkg.Desc=Layout Inspector image server for API 29-30\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/skiaparser-6861534-linux.zip": [
+    {
+      "sha1": "351bc7368128c392ed50e78003ac264c22ae6d7a",
+      "sha256": "a7f0923cf9a8e9f4aa96a000b617bb21a89dd97585ea9c71f416d4d9e3ec2105",
+      "sha512": "3702ae5bc03a05e01f0d433351df05edd7702b0ebd7bf8a1ae89709e6bb1f2f125a89b0724b8bee213a0d935db08e01b990c64377c12072aa710b00f2dd5474c",
+      "source.properties": "Pkg.Revision=4\nPkg.Path=skiaparser;1\nPkg.Desc=Layout Inspector image server for API 29-30\n"
     }
   ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [

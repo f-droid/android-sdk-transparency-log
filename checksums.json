@@ -1925,6 +1925,14 @@
       "source.properties": "Pkg.Revision=4.0-alpha02\nPkg.Path=cmdline-tools;4.0-alpha02\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip": [
+    {
+      "sha1": "4f4417d53923c34891f1c05f302be2ed197d6844",
+      "sha256": "87f6dcf41d4e642e37ba03cb2e387a542aa0bd73cb689a9e7152aad40a6e7a08",
+      "sha512": "b59bdd5785879b9c61ad07044da85bf78e4622e57b006f0b09a49b627637db4b3853acdcb90af78f869205c480852551819012ffc44e52851ef2d41c0d979dd2",
+      "source.properties": "Pkg.Revision=3.0\nPkg.Path=cmdline-tools;3.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
   "https://dl.google.com/android/repository/desktop-head-unit-linux_r01.1.zip": [
     {
       "sha1": "18632007ecb843b4fc69babd521a9b061868534b",

@@ -892,6 +892,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 21.3.6528147\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r22-beta1-linux-x86_64.zip": [
+    {
+      "sha1": "687f696f43b23e2623e7f7073bbd575d254f66f6",
+      "sha256": "bc652f98718b110626999ccdac49d1f4eaa6750f1a5d3a12d681682b4fb5b378",
+      "sha512": "ad837819a66738097e6d6da88c219b1df5d5e471e8866096d28cfd5bfb714147d6a55a779d09411e234d7f1912f0a1f9f018d5979c6f456c440972ad74a808de",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 22.0.6917172-beta1\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -2595,6 +2603,14 @@
       "sha256": "a7f0923cf9a8e9f4aa96a000b617bb21a89dd97585ea9c71f416d4d9e3ec2105",
       "sha512": "3702ae5bc03a05e01f0d433351df05edd7702b0ebd7bf8a1ae89709e6bb1f2f125a89b0724b8bee213a0d935db08e01b990c64377c12072aa710b00f2dd5474c",
       "source.properties": "Pkg.Revision=4\nPkg.Path=skiaparser;1\nPkg.Desc=Layout Inspector image server for API 29-30\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/skiaparser-6923996-linux.zip": [
+    {
+      "sha1": "b4ac0f553c2b582fd4e1896f46e2021b9da9d19b",
+      "sha256": "68fb72413ebb759aaf70f4b39e85759ce4e6d2383814edf6331c836dba488b23",
+      "sha512": "5321e30f7b109331a99c3992ad09b7115fbe805fb831db20c687c52bdd10ed481ce4f49922f9a3249764aecd0c05afc2f0de0b002f0d0ff42934a3236dca3d0c",
+      "source.properties": "Pkg.Revision=5\nPkg.Path=skiaparser;1\nPkg.Desc=Layout Inspector image server for API 29-30\n"
     }
   ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [

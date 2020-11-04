@@ -1868,6 +1868,11 @@
       "sha1": "d892f2829f70e387351830b46c5e72140130f6a2",
       "sha256": "546ebf9e1bda6ca2a12b3e2fc0cebf8f075097944961f1c01808e54457981828",
       "sha512": "dfae278c08e3d09a9c71be84ba1a0c5cba8ed8f4225c5c692b2792b6daf809bae4635115ba6ea35edf5c9593734de5a7faa3fb92cc731bf1f771edafd36572c3"
+    },
+    {
+      "sha1": "9435bbe2120763871c75c37a365451b48c007fed",
+      "sha256": "1f42f35cdcab51a7152fc644772eb988a0c197526cbec1c37c1a8146e240012a",
+      "sha512": "2c7278fae8b69032c66881457db9c0cc71f8d4b103ab5830810228a59ab209494982031cf7abed16162456a856e81c77bd67d077c3e665946884cb528350fe7b"
     }
   ],
   "https://dl.google.com/android/repository/cmake-3.6.4111459-linux-x86_64.zip": [
@@ -2555,6 +2560,14 @@
       "sha256": "5be24ed897c7e061ba800bfa7b9ebb4b0f8958cc062f4b2202701e02f2725891",
       "sha512": "a80d0076ebe34398d167dcd493f3dfb21339ef0dd514c8bd61ddf35426c2b8ee53e631ef3fd36e5490ed4b9547f9e491db09a469d596a45352a436cace1184cb",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.0.4\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-tools_r30.0.5-linux.zip": [
+    {
+      "sha1": "ba07433b8e34c2a51c250033abcd1442a28d0863",
+      "sha256": "d6d72d006c03bd55d49b6cef9f00295db02f0a31da10e121427e1f4cb43e7cb9",
+      "sha512": "911600e22806931f795771987fb31c03c183f5681759158be8811ba2f6fa65f6ce1e0b76c870eb330af43c8ebfd58afaf4c4cc02637923804f46d64f03ec1ed6",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.0.5\n"
     }
   ],
   "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip": [

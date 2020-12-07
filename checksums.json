@@ -1856,6 +1856,15 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.0.2\n#Pkg.Revision=30.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r30.0.3-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "2076ea81b5a2fc298ef7bf85d666f496b928c7f1",
+      "sha256": "24593500aa95d2f99fb4f10658aae7e65cb519be6cd33fa164f15f27f3c4a2d6",
+      "sha512": "7e5d1f672b249d074ba3b1a175bff987983d8e47c573856d5088ebde0be2db0de83c9ee8b8d4a99a358040d50e67a5a135a593feca8997921d818e2d74cdc090",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.0.3\n#Pkg.Revision=30.0.0 rc4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
@@ -1944,6 +1953,22 @@
       "sha256": "87f6dcf41d4e642e37ba03cb2e387a542aa0bd73cb689a9e7152aad40a6e7a08",
       "sha512": "b59bdd5785879b9c61ad07044da85bf78e4622e57b006f0b09a49b627637db4b3853acdcb90af78f869205c480852551819012ffc44e52851ef2d41c0d979dd2",
       "source.properties": "Pkg.Revision=3.0\nPkg.Path=cmdline-tools;3.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-6987402_latest.zip": [
+    {
+      "sha1": "98d3f2715f6bfbacef063d1376d7765fe5b93309",
+      "sha256": "2494d206346218720699002bda9ca292805cf4126ccac2530bd7a4b832396a6d",
+      "sha512": "1a57f363fb7114dcd30d43e38fd8da754d8047a373bd5983a4f701c0681fe4d982127133f18dc8585afa9c0adf1b5f273320e8d918e55753a1f715e3cd7fe84b",
+      "source.properties": "Pkg.Revision=4.0-beta01\nPkg.Path=cmdline-tools;4.0-beta01\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-7006259_latest.zip": [
+    {
+      "sha1": "f06b1642396ef1e431b990dbe386d5f1e3deabcc",
+      "sha256": "dbd5f0e367239a36757a2597441ffc2bf2088b9e295b74f10ada5ebba1b74ba0",
+      "sha512": "ede7aea8b98fdf885f685858adfcd97bc02cbaf0140b58552a7728fc11a1e97db45991926789067625851eccf9253ea923ed4a77367ed85ecc87a635b8de14b8",
+      "source.properties": "Pkg.Revision=5.0-alpha01\nPkg.Path=cmdline-tools;5.0-alpha01\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
   "https://dl.google.com/android/repository/desktop-head-unit-linux_r01.1.zip": [

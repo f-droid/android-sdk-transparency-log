@@ -900,6 +900,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 22.0.6917172-beta1\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r22-linux-x86_64.zip": [
+    {
+      "sha1": "82274313aba10da6177fd41868f56a0f9651dd81",
+      "sha256": "d37fc69cd81e5660234a686e20adef39bc0244086e4d66525a40af771c020718",
+      "sha512": "0bef6fdd80f7ceb8a9e1390ff8cfbbe0342d821a692cf26c1928e44ba3164284d8dbfc6669f16b2044a6a44b5bbd335d974db17d7893feecdd5a93770c78550f",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 22.0.7026061\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"

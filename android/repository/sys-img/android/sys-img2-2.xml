@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
-<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-02-17 10:57:29.208106 with ADRT.-->
+<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!--Generated on 2021-02-17 10:57:35.044409 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -721,7 +721,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Feb 21 12:04:09 2019.-->
 				<complete>
 					<size>67927049</size>
-					<checksum>8537616a7add47cce24c60f18bc2429e3dc90ae3</checksum>
+					<checksum type="sha1">8537616a7add47cce24c60f18bc2429e3dc90ae3</checksum>
 					<url>armeabi-v7a-10_r05.zip</url>
 				</complete>
 				<patches>
@@ -730,7 +730,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>242085</size>
-						<checksum>db38ab3439aa7774c22e6143980378ade70ef8b4</checksum>
+						<checksum type="sha1">db38ab3439aa7774c22e6143980378ade70ef8b4</checksum>
 						<url>sys-img-3093079-sdk-3644351-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -758,7 +758,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Jul 26 20:46:32 2018.-->
 				<complete>
 					<size>99621822</size>
-					<checksum>d8991b0c06b18d7d6ed4169d67460ee1add6661b</checksum>
+					<checksum type="sha1">d8991b0c06b18d7d6ed4169d67460ee1add6661b</checksum>
 					<url>sysimg_armv7a-14_r02.zip</url>
 				</complete>
 			</archive>
@@ -788,7 +788,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Feb 21 12:04:44 2019.-->
 				<complete>
 					<size>102452069</size>
-					<checksum>03d7ed95a9d3b107e3f2e5b166d017ea12529e70</checksum>
+					<checksum type="sha1">03d7ed95a9d3b107e3f2e5b166d017ea12529e70</checksum>
 					<url>armeabi-v7a-15_r05.zip</url>
 				</complete>
 				<patches>
@@ -797,7 +797,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>6087663</size>
-						<checksum>aa3abebb66fe8216084f2eb47959cb6a92d2019d</checksum>
+						<checksum type="sha1">aa3abebb66fe8216084f2eb47959cb6a92d2019d</checksum>
 						<url>sys-img-3462039-sdk-3876239-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -828,7 +828,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Feb 21 12:05:27 2019.-->
 				<complete>
 					<size>118646340</size>
-					<checksum>69b944b0d5a18c8563fa80d7d229af64890f724e</checksum>
+					<checksum type="sha1">69b944b0d5a18c8563fa80d7d229af64890f724e</checksum>
 					<url>armeabi-v7a-16_r06.zip</url>
 				</complete>
 				<patches>
@@ -837,7 +837,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>10674598</size>
-						<checksum>b3b4dc483b2af73f86b5c5adb2c7365dd4728a9e</checksum>
+						<checksum type="sha1">b3b4dc483b2af73f86b5c5adb2c7365dd4728a9e</checksum>
 						<url>sys-img-1741836-sdk_phone_armv7-4875369-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -868,7 +868,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Feb 21 12:05:56 2019.-->
 				<complete>
 					<size>124437041</size>
-					<checksum>a18a3fd0958ec4ef52507f58e414fc5c7dfd59d6</checksum>
+					<checksum type="sha1">a18a3fd0958ec4ef52507f58e414fc5c7dfd59d6</checksum>
 					<url>armeabi-v7a-17_r06.zip</url>
 				</complete>
 				<patches>
@@ -877,7 +877,7 @@ January 16, 2019</license>
 							<major>5</major>
 						</based-on>
 						<size>7230085</size>
-						<checksum>75b83c85a45a8ea3eca3b6258733e8d3222facf0</checksum>
+						<checksum type="sha1">75b83c85a45a8ea3eca3b6258733e8d3222facf0</checksum>
 						<url>sys-img-3453820-sdk-4875371-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -908,7 +908,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Feb 21 12:06:37 2019.-->
 				<complete>
 					<size>130590545</size>
-					<checksum>580b583720f7de671040d5917c8c9db0c7aa03fd</checksum>
+					<checksum type="sha1">580b583720f7de671040d5917c8c9db0c7aa03fd</checksum>
 					<url>armeabi-v7a-18_r05.zip</url>
 				</complete>
 				<patches>
@@ -917,7 +917,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>6849609</size>
-						<checksum>761b2fcf650e5aa4ed2d6d47e086680aac152998</checksum>
+						<checksum type="sha1">761b2fcf650e5aa4ed2d6d47e086680aac152998</checksum>
 						<url>sys-img-3462034-sdk-3876170-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -948,7 +948,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Jul 27 08:53:25 2018.-->
 				<complete>
 					<size>159871567</size>
-					<checksum>d1a5fd4f2e1c013c3d3d9bfe7e9db908c3ed56fa</checksum>
+					<checksum type="sha1">d1a5fd4f2e1c013c3d3d9bfe7e9db908c3ed56fa</checksum>
 					<url>armeabi-v7a-19_r05.zip</url>
 				</complete>
 				<patches>
@@ -957,7 +957,7 @@ January 16, 2019</license>
 							<major>3</major>
 						</based-on>
 						<size>48143544</size>
-						<checksum>15b4eb349021d8797e5632753af85e4dd4584f78</checksum>
+						<checksum type="sha1">15b4eb349021d8797e5632753af85e4dd4584f78</checksum>
 						<url>sys-img-1743154-sdk_phone_armv7-3462041-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -988,7 +988,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Jul 27 08:50:26 2018.-->
 				<complete>
 					<size>187163871</size>
-					<checksum>8c606f81306564b65e41303d2603e4c42ded0d10</checksum>
+					<checksum type="sha1">8c606f81306564b65e41303d2603e4c42ded0d10</checksum>
 					<url>armeabi-v7a-21_r04.zip</url>
 				</complete>
 				<patches>
@@ -997,7 +997,7 @@ January 16, 2019</license>
 							<major>3</major>
 						</based-on>
 						<size>23246517</size>
-						<checksum>d71dc99ba31fd8f36ce4842796eefedb108957e9</checksum>
+						<checksum type="sha1">d71dc99ba31fd8f36ce4842796eefedb108957e9</checksum>
 						<url>sys-img-1772600-sdk_phone_armv7-3079185-sdk_phone_armv7-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1028,7 +1028,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Jul 27 08:50:08 2018.-->
 				<complete>
 					<size>194596267</size>
-					<checksum>2114ec015dbf3a16cbcb4f63e8a84a1b206a07a1</checksum>
+					<checksum type="sha1">2114ec015dbf3a16cbcb4f63e8a84a1b206a07a1</checksum>
 					<url>armeabi-v7a-22_r02.zip</url>
 				</complete>
 			</archive>
@@ -1058,7 +1058,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Jul 27 08:50:36 2018.-->
 				<complete>
 					<size>238333358</size>
-					<checksum>7cf2ad756e54a3acfd81064b63cb0cb9dff2798d</checksum>
+					<checksum type="sha1">7cf2ad756e54a3acfd81064b63cb0cb9dff2798d</checksum>
 					<url>armeabi-v7a-23_r06.zip</url>
 				</complete>
 				<patches>
@@ -1067,7 +1067,7 @@ January 16, 2019</license>
 							<major>3</major>
 						</based-on>
 						<size>3769388</size>
-						<checksum>0fc5d7fe62e2f2f32ddd756181a2768d02975be2</checksum>
+						<checksum type="sha1">0fc5d7fe62e2f2f32ddd756181a2768d02975be2</checksum>
 						<url>sys-img-2166767-sdk_phone_armv7-3079352-sdk_phone_armv7-win_sdk-windows-patch.jar</url>
 					</patch>
 				</patches>
@@ -1098,7 +1098,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Jul 27 08:51:39 2018.-->
 				<complete>
 					<size>283677512</size>
-					<checksum>3454546b4eed2d6c3dd06d47757d6da9f4176033</checksum>
+					<checksum type="sha1">3454546b4eed2d6c3dd06d47757d6da9f4176033</checksum>
 					<url>armeabi-v7a-24_r07.zip</url>
 				</complete>
 			</archive>
@@ -1125,7 +1125,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Jul 27 08:51:37 2018.-->
 				<complete>
 					<size>384556503</size>
-					<checksum>e8ab2e49e4efe4b064232b33b5eeaded61437d7f</checksum>
+					<checksum type="sha1">e8ab2e49e4efe4b064232b33b5eeaded61437d7f</checksum>
 					<url>arm64-v8a-24_r07.zip</url>
 				</complete>
 			</archive>
@@ -1152,7 +1152,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Jul 26 16:01:28 2018.-->
 				<complete>
 					<size>122482530</size>
-					<checksum>67943c54fb3943943ffeb05fdd39c0b753681f6e</checksum>
+					<checksum type="sha1">67943c54fb3943943ffeb05fdd39c0b753681f6e</checksum>
 					<url>sysimg_mips-16_r04.zip</url>
 				</complete>
 			</archive>
@@ -1179,7 +1179,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Jul 26 16:01:38 2018.-->
 				<complete>
 					<size>131781761</size>
-					<checksum>f0c6e153bd584c29e51b5c9723cfbf30f996a05d</checksum>
+					<checksum type="sha1">f0c6e153bd584c29e51b5c9723cfbf30f996a05d</checksum>
 					<url>sysimg_mips-17_r01.zip</url>
 				</complete>
 			</archive>
@@ -1209,7 +1209,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Feb 21 12:07:12 2019.-->
 				<complete>
 					<size>75386095</size>
-					<checksum>a166d5ccbb165e1dd5464fbfeec30a61f77790d8</checksum>
+					<checksum type="sha1">a166d5ccbb165e1dd5464fbfeec30a61f77790d8</checksum>
 					<url>x86-10_r05.zip</url>
 				</complete>
 				<patches>
@@ -1218,7 +1218,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>350782</size>
-						<checksum>3e04d4a46671c17f00263bd08da9f6f069bc35c2</checksum>
+						<checksum type="sha1">3e04d4a46671c17f00263bd08da9f6f069bc35c2</checksum>
 						<url>sys-img-3093079-sdk_x86-sdk-3644351-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1249,7 +1249,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Nov 12 18:13:24 2020.-->
 				<complete>
 					<size>116030933</size>
-					<checksum>61381aef3fd0cdc8255cb3298072a920c80186ca</checksum>
+					<checksum type="sha1">61381aef3fd0cdc8255cb3298072a920c80186ca</checksum>
 					<url>x86-15_r07.zip</url>
 				</complete>
 				<patches>
@@ -1258,7 +1258,7 @@ January 16, 2019</license>
 							<major>5</major>
 						</based-on>
 						<size>7200</size>
-						<checksum>c1cb3fbbc8f1e2ebb2cbbf53c96a0a4dde1b603f</checksum>
+						<checksum type="sha1">c1cb3fbbc8f1e2ebb2cbbf53c96a0a4dde1b603f</checksum>
 						<url>sys-img-3876239-sdk_x86-sdk-4000000-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1289,7 +1289,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Nov 13 14:59:19 2020.-->
 				<complete>
 					<size>135305313</size>
-					<checksum>ee6718e7556c8f8bd8d3f470b34f2c5dbf9bcff4</checksum>
+					<checksum type="sha1">ee6718e7556c8f8bd8d3f470b34f2c5dbf9bcff4</checksum>
 					<url>x86-16_r07.zip</url>
 				</complete>
 				<patches>
@@ -1298,7 +1298,7 @@ January 16, 2019</license>
 							<major>5</major>
 						</based-on>
 						<size>13115619</size>
-						<checksum>9fee3b833d9468f2d286903015d534356970a0f7</checksum>
+						<checksum type="sha1">9fee3b833d9468f2d286903015d534356970a0f7</checksum>
 						<url>sys-img-3462064-sdk_x86-sdk-5000000-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1333,7 +1333,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Nov 13 15:55:30 2020.-->
 				<complete>
 					<size>194811128</size>
-					<checksum>1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
+					<checksum type="sha1">1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
 					<url>x86-17_r07.zip</url>
 				</complete>
 				<patches>
@@ -1342,7 +1342,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>54685883</size>
-						<checksum>fa3b7aa19ea3c6b6803befc1d5a40fab8cfb7665</checksum>
+						<checksum type="sha1">fa3b7aa19ea3c6b6803befc1d5a40fab8cfb7665</checksum>
 						<url>sys-img-4875371-sdk_x86-sdk-5000002-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1373,7 +1373,7 @@ January 16, 2019</license>
 				<!--Built on: Thu Feb 21 12:08:54 2019.-->
 				<complete>
 					<size>150097655</size>
-					<checksum>7a4ced4d9b0ab48047825491b4072dc2eb9b610e</checksum>
+					<checksum type="sha1">7a4ced4d9b0ab48047825491b4072dc2eb9b610e</checksum>
 					<url>x86-18_r04.zip</url>
 				</complete>
 				<patches>
@@ -1382,7 +1382,7 @@ January 16, 2019</license>
 							<major>3</major>
 						</based-on>
 						<size>12761851</size>
-						<checksum>94b263e4a34fff298ca45506b06927ab25a4f8ec</checksum>
+						<checksum type="sha1">94b263e4a34fff298ca45506b06927ab25a4f8ec</checksum>
 						<url>sys-img-3462034-sdk_x86-sdk-3876170-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1413,7 +1413,7 @@ January 16, 2019</license>
 				<!--Built on: Wed Jun 13 18:42:22 2018.-->
 				<complete>
 					<size>185886274</size>
-					<checksum>2ac82153aae97f7eae4c5a0761224fe04321d03d</checksum>
+					<checksum type="sha1">2ac82153aae97f7eae4c5a0761224fe04321d03d</checksum>
 					<url>x86-19_r06.zip</url>
 				</complete>
 				<patches>
@@ -1422,7 +1422,7 @@ January 16, 2019</license>
 							<major>5</major>
 						</based-on>
 						<size>19129436</size>
-						<checksum>06512df7a125f8879dbc0774d2c3770c7d1f5084</checksum>
+						<checksum type="sha1">06512df7a125f8879dbc0774d2c3770c7d1f5084</checksum>
 						<url>sys-img-3462041-sdk_x86-sdk-4174703-sdk_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1453,7 +1453,7 @@ January 16, 2019</license>
 				<!--Built on: Tue May 22 03:41:51 2018.-->
 				<complete>
 					<size>208212529</size>
-					<checksum>00f0eb0a1003efe3316347f762e20a85d8749cff</checksum>
+					<checksum type="sha1">00f0eb0a1003efe3316347f762e20a85d8749cff</checksum>
 					<url>x86-21_r05.zip</url>
 				</complete>
 				<patches>
@@ -1462,7 +1462,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>29240934</size>
-						<checksum>a6021e4d699438268f60c79c76504b9a1639b7c9</checksum>
+						<checksum type="sha1">a6021e4d699438268f60c79c76504b9a1639b7c9</checksum>
 						<url>sys-img-3079185-sdk_phone_x86-sdk-4174711-sdk_phone_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1493,7 +1493,7 @@ January 16, 2019</license>
 				<!--Built on: Sun May 20 00:45:19 2018.-->
 				<complete>
 					<size>214268954</size>
-					<checksum>e33e2a6cc3f1cc56b2019dbef3917d2eeb26f54e</checksum>
+					<checksum type="sha1">e33e2a6cc3f1cc56b2019dbef3917d2eeb26f54e</checksum>
 					<url>x86-22_r06.zip</url>
 				</complete>
 				<patches>
@@ -1502,7 +1502,7 @@ January 16, 2019</license>
 							<major>5</major>
 						</based-on>
 						<size>23754040</size>
-						<checksum>a5daff4fc2105b1ed386a6ff3a7ebf54e90ccec5</checksum>
+						<checksum type="sha1">a5daff4fc2105b1ed386a6ff3a7ebf54e90ccec5</checksum>
 						<url>sys-img-3079158-sdk_phone_x86-sdk-4174727-sdk_phone_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1533,7 +1533,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Jun  5 22:05:27 2018.-->
 				<complete>
 					<size>260804863</size>
-					<checksum>f6c3e3dd7bd951454795aa75c3a145fd05ac25bb</checksum>
+					<checksum type="sha1">f6c3e3dd7bd951454795aa75c3a145fd05ac25bb</checksum>
 					<url>x86-23_r10.zip</url>
 				</complete>
 				<patches>
@@ -1542,7 +1542,7 @@ January 16, 2019</license>
 							<major>9</major>
 						</based-on>
 						<size>23794025</size>
-						<checksum>08e3d95d578fee71002aee432d784b97250f8aae</checksum>
+						<checksum type="sha1">08e3d95d578fee71002aee432d784b97250f8aae</checksum>
 						<url>sys-img-3079352-sdk_phone_x86-sdk-4174734-sdk_phone_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1573,7 +1573,7 @@ January 16, 2019</license>
 				<!--Built on: Tue May 22 10:30:01 2018.-->
 				<complete>
 					<size>313489224</size>
-					<checksum>c1cae7634b0216c0b5990f2c144eb8ca948e3511</checksum>
+					<checksum type="sha1">c1cae7634b0216c0b5990f2c144eb8ca948e3511</checksum>
 					<url>x86-24_r08.zip</url>
 				</complete>
 				<patches>
@@ -1582,7 +1582,7 @@ January 16, 2019</license>
 							<major>7</major>
 						</based-on>
 						<size>81135808</size>
-						<checksum>733ddd7440e023a386a51d61cfbd7c099d885ee0</checksum>
+						<checksum type="sha1">733ddd7440e023a386a51d61cfbd7c099d885ee0</checksum>
 						<url>sys-img-3245079-sdk_phone_x86-sdk-4174735-sdk_phone_x86-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1613,7 +1613,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Aug  7 14:04:45 2018.-->
 				<complete>
 					<size>316695942</size>
-					<checksum>78ce7eb1387d598685633b9f7cbb300c3d3aeb5f</checksum>
+					<checksum type="sha1">78ce7eb1387d598685633b9f7cbb300c3d3aeb5f</checksum>
 					<url>x86-25_r01.zip</url>
 				</complete>
 			</archive>
@@ -1643,7 +1643,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Aug  7 14:05:14 2018.-->
 				<complete>
 					<size>350195807</size>
-					<checksum>e613d6e0da668e30daf547f3c6627a6352846f90</checksum>
+					<checksum type="sha1">e613d6e0da668e30daf547f3c6627a6352846f90</checksum>
 					<url>x86-26_r01.zip</url>
 				</complete>
 			</archive>
@@ -1673,7 +1673,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Aug  7 14:05:43 2018.-->
 				<complete>
 					<size>360984187</size>
-					<checksum>4ec990fac7b62958decd12e18a4cd389dfe7c582</checksum>
+					<checksum type="sha1">4ec990fac7b62958decd12e18a4cd389dfe7c582</checksum>
 					<url>x86-27_r01.zip</url>
 				</complete>
 			</archive>
@@ -1700,7 +1700,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Jul 31 17:43:13 2018.-->
 				<complete>
 					<size>437320152</size>
-					<checksum>ce03c42d80c0fc6dc47f6455dbee7aa275d02780</checksum>
+					<checksum type="sha1">ce03c42d80c0fc6dc47f6455dbee7aa275d02780</checksum>
 					<url>x86-28_r04.zip</url>
 				</complete>
 			</archive>
@@ -1737,7 +1737,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Aug  2 00:36:30 2019.-->
 				<complete>
 					<size>510066023</size>
-					<checksum>e0e6504734f601c28350528d39a4b17b3e0f82dc</checksum>
+					<checksum type="sha1">e0e6504734f601c28350528d39a4b17b3e0f82dc</checksum>
 					<url>x86-29_r07-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
@@ -1775,7 +1775,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Aug  2 00:37:10 2019.-->
 				<complete>
 					<size>510066023</size>
-					<checksum>e0e6504734f601c28350528d39a4b17b3e0f82dc</checksum>
+					<checksum type="sha1">e0e6504734f601c28350528d39a4b17b3e0f82dc</checksum>
 					<url>x86-29_r07-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
@@ -1784,7 +1784,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Aug  2 00:36:49 2019.-->
 				<complete>
 					<size>510066023</size>
-					<checksum>e0e6504734f601c28350528d39a4b17b3e0f82dc</checksum>
+					<checksum type="sha1">e0e6504734f601c28350528d39a4b17b3e0f82dc</checksum>
 					<url>x86-29_r07-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
@@ -1815,7 +1815,7 @@ January 16, 2019</license>
 				<!--Built on: Wed Jun  6 04:05:38 2018.-->
 				<complete>
 					<size>292623982</size>
-					<checksum>9078a095825a69e5e215713f0866c83cef65a342</checksum>
+					<checksum type="sha1">9078a095825a69e5e215713f0866c83cef65a342</checksum>
 					<url>x86_64-21_r05.zip</url>
 				</complete>
 				<patches>
@@ -1824,7 +1824,7 @@ January 16, 2019</license>
 							<major>4</major>
 						</based-on>
 						<size>42158621</size>
-						<checksum>aba948dc01a89d633ca0f7009576da6fe28a8737</checksum>
+						<checksum type="sha1">aba948dc01a89d633ca0f7009576da6fe28a8737</checksum>
 						<url>sys-img-3079185-sdk_phone_x86_64-sdk-4174711-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1855,7 +1855,7 @@ January 16, 2019</license>
 				<!--Built on: Sun May 27 01:45:29 2018.-->
 				<complete>
 					<size>299976630</size>
-					<checksum>5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4</checksum>
+					<checksum type="sha1">5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4</checksum>
 					<url>x86_64-22_r06.zip</url>
 				</complete>
 				<patches>
@@ -1864,7 +1864,7 @@ January 16, 2019</license>
 							<major>5</major>
 						</based-on>
 						<size>32646111</size>
-						<checksum>0227dfd16634690161e72d279a4f5b9fa00bb543</checksum>
+						<checksum type="sha1">0227dfd16634690161e72d279a4f5b9fa00bb543</checksum>
 						<url>sys-img-3079158-sdk_phone_x86_64-sdk-4174727-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1895,7 +1895,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Jun 12 05:59:42 2018.-->
 				<complete>
 					<size>365009313</size>
-					<checksum>7cbc291483ca07dc67b71268c5f08a5755f50f51</checksum>
+					<checksum type="sha1">7cbc291483ca07dc67b71268c5f08a5755f50f51</checksum>
 					<url>x86_64-23_r10.zip</url>
 				</complete>
 				<patches>
@@ -1904,7 +1904,7 @@ January 16, 2019</license>
 							<major>9</major>
 						</based-on>
 						<size>32254646</size>
-						<checksum>4f3fb594280a6862388cb79c9bf723f6b159ec4c</checksum>
+						<checksum type="sha1">4f3fb594280a6862388cb79c9bf723f6b159ec4c</checksum>
 						<url>sys-img-3079352-sdk_phone_x86_64-sdk-4174734-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1935,7 +1935,7 @@ January 16, 2019</license>
 				<!--Built on: Sat Jun 16 05:29:19 2018.-->
 				<complete>
 					<size>419261998</size>
-					<checksum>f6559e1949a5879f31a9662f4f0e50ad60181684</checksum>
+					<checksum type="sha1">f6559e1949a5879f31a9662f4f0e50ad60181684</checksum>
 					<url>x86_64-24_r08.zip</url>
 				</complete>
 				<patches>
@@ -1944,7 +1944,7 @@ January 16, 2019</license>
 							<major>7</major>
 						</based-on>
 						<size>123686146</size>
-						<checksum>53317172a649205dfb6c0233f835fd012450d1e2</checksum>
+						<checksum type="sha1">53317172a649205dfb6c0233f835fd012450d1e2</checksum>
 						<url>sys-img-3245079-sdk_phone_x86_64-sdk-4174735-sdk_phone_x86_64-sdk-patch.jar</url>
 					</patch>
 				</patches>
@@ -1975,7 +1975,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Aug  7 14:06:13 2018.-->
 				<complete>
 					<size>422702097</size>
-					<checksum>7093d7b39216020226ff430a3b7b81c94d31ad37</checksum>
+					<checksum type="sha1">7093d7b39216020226ff430a3b7b81c94d31ad37</checksum>
 					<url>x86_64-25_r01.zip</url>
 				</complete>
 			</archive>
@@ -2005,7 +2005,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Aug  7 14:06:52 2018.-->
 				<complete>
 					<size>474178332</size>
-					<checksum>432f149c048bffce7f9de526ec65b336daf7a0a3</checksum>
+					<checksum type="sha1">432f149c048bffce7f9de526ec65b336daf7a0a3</checksum>
 					<url>x86_64-26_r01.zip</url>
 				</complete>
 			</archive>
@@ -2035,7 +2035,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Aug  7 14:07:35 2018.-->
 				<complete>
 					<size>491675204</size>
-					<checksum>2878261011a59ca3de29dc5b457a495fdb268d60</checksum>
+					<checksum type="sha1">2878261011a59ca3de29dc5b457a495fdb268d60</checksum>
 					<url>x86_64-27_r01.zip</url>
 				</complete>
 			</archive>
@@ -2062,7 +2062,7 @@ January 16, 2019</license>
 				<!--Built on: Tue Jul 31 17:43:48 2018.-->
 				<complete>
 					<size>564792723</size>
-					<checksum>d47a85c8f4e9fd57df97814ad8884eeb0f3a0ef0</checksum>
+					<checksum type="sha1">d47a85c8f4e9fd57df97814ad8884eeb0f3a0ef0</checksum>
 					<url>x86_64-28_r04.zip</url>
 				</complete>
 			</archive>
@@ -2099,7 +2099,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Aug  2 01:03:15 2019.-->
 				<complete>
 					<size>683092608</size>
-					<checksum>c8e307b885a68f71b4889a70bffea729fc4ecbfa</checksum>
+					<checksum type="sha1">c8e307b885a68f71b4889a70bffea729fc4ecbfa</checksum>
 					<url>x86_64-29_r07-windows.zip</url>
 				</complete>
 				<host-os>windows</host-os>
@@ -2137,7 +2137,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Aug  2 01:04:08 2019.-->
 				<complete>
 					<size>683092608</size>
-					<checksum>c8e307b885a68f71b4889a70bffea729fc4ecbfa</checksum>
+					<checksum type="sha1">c8e307b885a68f71b4889a70bffea729fc4ecbfa</checksum>
 					<url>x86_64-29_r07-darwin.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
@@ -2146,7 +2146,7 @@ January 16, 2019</license>
 				<!--Built on: Fri Aug  2 01:03:42 2019.-->
 				<complete>
 					<size>683092608</size>
-					<checksum>c8e307b885a68f71b4889a70bffea729fc4ecbfa</checksum>
+					<checksum type="sha1">c8e307b885a68f71b4889a70bffea729fc4ecbfa</checksum>
 					<url>x86_64-29_r07-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>

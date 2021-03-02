@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/02" xmlns:generic="http://schemas.android.com/repository/android/generic/02" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/02" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-02-26 16:39:11.636775 with ADRT.-->
+	<!--Generated on 2021-03-01 16:50:00.137181 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -4399,7 +4399,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -4790,6 +4790,30 @@ June 2014.</license>
 					<url>sdk-tools-windows-4333796.zip</url>
 				</complete>
 				<host-os>windows</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="emulator">
+		<!--Generated from:ab bid:7145572 branch:aosp-emu-master-dev-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>30</major>
+			<minor>5</minor>
+			<micro>0</micro>
+		</revision>
+		<display-name>Android Emulator</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Feb 23 10:26:19 2021.-->
+				<complete>
+					<size>96971366</size>
+					<checksum type="sha1">29a8dc14396edac963449241461511a311e6e585</checksum>
+					<url>emulator-darwin_aarch64-7145572.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
 			</archive>
 		</archives>
 	</remotePackage>

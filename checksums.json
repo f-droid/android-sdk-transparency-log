@@ -2482,6 +2482,14 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.5.2\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=7175973"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-7196367.zip": [
+    {
+      "sha1": "2fba78886b22834cb8d76f0704653f7a3784b9b1",
+      "sha256": "bbd0a6584d13be440a92dfb50d51e2772e4a9183aa55dffc289ced4108508c86",
+      "sha512": "6b5fcf0dccee5d014a1e741cee20ec7c93edf7f88ac4347c391b9bfeae4eb7167e006bff2c650aa1152f58327bc8add3f4a788930bab1139adec491b9ee30f72",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.5.3\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=7196367"
+    }
+  ],
   "https://dl.google.com/android/repository/lldb-2.0.2558144-linux-x86_64.zip": [
     {
       "sha1": "e7060d9b2ba58b28fd7b1a0ea85a151c8371a326",
@@ -2842,6 +2850,14 @@
       "sha256": "1e5fce6c10f2eec56e09feac3a75d51fa3e8f3a8a53ce5239d166eaab20a6b86",
       "sha512": "16e278d3e85bc3185ea669e6b20d4f0a3cb100bbf790cc606d53f35c90634c1690e253b667d6e4c8f2b677894493219fab6f3f7dc81ce130d4210d974dd84edc",
       "source.properties": "Pkg.Revision=6\nPkg.Path=skiaparser;1\nPkg.Desc=Layout Inspector image server for API 29-30\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/skiaparser-7181128-linux.zip": [
+    {
+      "sha1": "ead1efe7d873ddab869e1c6159ab742308bc11e2",
+      "sha256": "baff98b021d8f777dfda2b6f2e5c1a521030826dd3a8620ecdf233348f422c22",
+      "sha512": "13f5f4d3f249f9ea280641082c75e5c06e8eec251b8a986167f7a514d951fcfc36aeda5c1a2893998ef711189bd922b80c97a480cc85d659982e4bae0c4f7b1f",
+      "source.properties": "Pkg.Revision=1\nPkg.Path=skiaparser;2\nPkg.Desc=Layout Inspector image server for API S\n"
     }
   ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [

@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/02" xmlns:generic="http://schemas.android.com/repository/android/generic/02" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/02" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-04-20 15:20:12.249273 with ADRT.-->
+	<!--Generated on 2021-04-23 15:36:16.938107 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1502,6 +1502,2462 @@ June 2014.</license>
 					<checksum type="sha1">eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555</checksum>
 					<url>sources-14_r01.zip</url>
 				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;23.0.7272597">
+		<!--Generated from bid:7272597, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7272597</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK (Side by side) 23.0.7272597</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Apr  9 17:58:08 2021.-->
+				<complete>
+					<size>695243724</size>
+					<checksum type="sha1">3b977f0f8e0fa2d6777fae6b1d37aebfc075ab56</checksum>
+					<url>android-ndk-r23-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  9 17:58:33 2021.-->
+				<complete>
+					<size>724828157</size>
+					<checksum type="sha1">2298465ef13dab0c527b9cf6ef892b1ec6461fb4</checksum>
+					<url>android-ndk-r23-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  9 17:57:44 2021.-->
+				<complete>
+					<size>785932724</size>
+					<checksum type="sha1">8c10a51f50f4f12ccc839dcb4bd8107133024c2f</checksum>
+					<url>android-ndk-r23-beta3-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;23.0.7196353">
+		<!--Generated from bid:7196353, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7196353</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK (Side by side) 23.0.7196353</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar  9 20:59:09 2021.-->
+				<complete>
+					<size>674507658</size>
+					<checksum type="sha1">454fd0c1e8385896ad465d7cfd653e28fbf3523f</checksum>
+					<url>android-ndk-r23-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  9 20:59:40 2021.-->
+				<complete>
+					<size>705747711</size>
+					<checksum type="sha1">290e8c39bb9732ac8784855e1f22342eb488228e</checksum>
+					<url>android-ndk-r23-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  9 20:58:41 2021.-->
+				<complete>
+					<size>747953762</size>
+					<checksum type="sha1">00194ae44ce90f2052ab8e42f1a11a0db8d50c2a</checksum>
+					<url>android-ndk-r23-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;23.0.7123448">
+		<!--Generated from bid:7123448, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7123448</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK (Side by side) 23.0.7123448</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Feb  4 12:31:31 2021.-->
+				<complete>
+					<size>721278316</size>
+					<checksum type="sha1">708ebbceb719c43a3165503ea82fb107d823ad54</checksum>
+					<url>android-ndk-r23-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb  4 12:31:58 2021.-->
+				<complete>
+					<size>804392699</size>
+					<checksum type="sha1">1340ed20f27fcb184ea814ae63e0f3cd75890342</checksum>
+					<url>android-ndk-r23-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb  4 12:30:43 2021.-->
+				<complete>
+					<size>749304589</size>
+					<checksum type="sha1">c056900896129d3dd4eb953a53a8961d9853aa20</checksum>
+					<url>android-ndk-r23-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;22.1.7171670">
+		<!--Generated from bid:7171670, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>1</minor>
+			<micro>7171670</micro>
+		</revision>
+		<display-name>NDK (Side by side) 22.1.7171670</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:12 2021.-->
+				<complete>
+					<size>1049337733</size>
+					<checksum type="sha1">dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
+					<url>android-ndk-r22b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:46 2021.-->
+				<complete>
+					<size>1148198368</size>
+					<checksum type="sha1">9ece64c7f19763dd67320d512794969930fce9dc</checksum>
+					<url>android-ndk-r22b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:21:42 2021.-->
+				<complete>
+					<size>1082301775</size>
+					<checksum type="sha1">96ba1a049303cf6bf3ee84cfd64d6bcd43486a50</checksum>
+					<url>android-ndk-r22b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;22.0.7026061">
+		<!--Generated from bid:7026061, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>0</minor>
+			<micro>7026061</micro>
+		</revision>
+		<display-name>NDK (Side by side) 22.0.7026061</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Dec 10 22:59:07 2020.-->
+				<complete>
+					<size>1047577432</size>
+					<checksum type="sha1">9cf3816ed3e4308ff03bd5f69100b373bad12f13</checksum>
+					<url>android-ndk-r22-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Dec 10 22:59:59 2020.-->
+				<complete>
+					<size>1146450986</size>
+					<checksum type="sha1">82274313aba10da6177fd41868f56a0f9651dd81</checksum>
+					<url>android-ndk-r22-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Dec 10 22:58:22 2020.-->
+				<complete>
+					<size>1080471370</size>
+					<checksum type="sha1">c03f761caf1c6f5efbeb5ccfa573ea922cb955b3</checksum>
+					<url>android-ndk-r22-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;22.0.6917172">
+		<!--Generated from bid:6917172, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>0</minor>
+			<micro>6917172</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK (Side by side) 22.0.6917172</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Oct 20 18:08:37 2020.-->
+				<complete>
+					<size>1047697781</size>
+					<checksum type="sha1">0ff242f820663fe45773bca7a2df036004fc7c69</checksum>
+					<url>android-ndk-r22-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Oct 20 18:09:31 2020.-->
+				<complete>
+					<size>1146575022</size>
+					<checksum type="sha1">687f696f43b23e2623e7f7073bbd575d254f66f6</checksum>
+					<url>android-ndk-r22-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Oct 20 18:07:44 2020.-->
+				<complete>
+					<size>1080588810</size>
+					<checksum type="sha1">ef38999c0e3c96124acffab6971ad2054a433b91</checksum>
+					<url>android-ndk-r22-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.4.7075529">
+		<!--Generated from bid:7075529, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>4</minor>
+			<micro>7075529</micro>
+		</revision>
+		<display-name>NDK (Side by side) 21.4.7075529</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:03 2021.-->
+				<complete>
+					<size>1042617180</size>
+					<checksum type="sha1">3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
+					<url>android-ndk-r21e-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:47 2021.-->
+				<complete>
+					<size>1190670072</size>
+					<checksum type="sha1">c3ebc83c96a4d7f539bd72c241b2be9dcd29bda9</checksum>
+					<url>android-ndk-r21e-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:52:22 2021.-->
+				<complete>
+					<size>1109665123</size>
+					<checksum type="sha1">fc44fea8bb3f5a6789821f40f41dce2d2cd5dc30</checksum>
+					<url>android-ndk-r21e-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.3.6528147">
+		<!--Generated from bid:6528147, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>3</minor>
+			<micro>6528147</micro>
+		</revision>
+		<display-name>NDK (Side by side) 21.3.6528147</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue May 26 14:30:44 2020.-->
+				<complete>
+					<size>1042615469</size>
+					<checksum type="sha1">ef06c9f9d7efd6f243eb3c05ac440562ae29ae12</checksum>
+					<url>android-ndk-r21d-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue May 26 14:31:29 2020.-->
+				<complete>
+					<size>1190667841</size>
+					<checksum type="sha1">bcf4023eb8cb6976a4c7cff0a8a8f145f162bf4d</checksum>
+					<url>android-ndk-r21d-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue May 26 14:30:04 2020.-->
+				<complete>
+					<size>1109536102</size>
+					<checksum type="sha1">99175ce1210258f2280568cd340e0666c69955c7</checksum>
+					<url>android-ndk-r21d-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.2.6472646">
+		<!--Generated from bid:6472646, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>2</minor>
+			<micro>6472646</micro>
+		</revision>
+		<display-name>NDK (Side by side) 21.2.6472646</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May  7 14:07:45 2020.-->
+				<complete>
+					<size>1014322452</size>
+					<checksum type="sha1">c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
+					<url>android-ndk-r21c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:08:25 2020.-->
+				<complete>
+					<size>1162375023</size>
+					<checksum type="sha1">c81a5bcb4672a18d3647bf6898cd4dbcb978d0e8</checksum>
+					<url>android-ndk-r21c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:07:07 2020.-->
+				<complete>
+					<size>1079490351</size>
+					<checksum type="sha1">93563a1297a60b5da49a48f62340dbf0c878a5f3</checksum>
+					<url>android-ndk-r21c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.1.6352462">
+		<!--Generated from bid:6352462, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6352462</micro>
+		</revision>
+		<display-name>NDK (Side by side) 21.1.6352462</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Apr  3 13:34:16 2020.-->
+				<complete>
+					<size>1014473187</size>
+					<checksum type="sha1">e1de2f749c5c32ae991c3ccaabfcdf7688ee221f</checksum>
+					<url>android-ndk-r21b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  3 13:34:55 2020.-->
+				<complete>
+					<size>1162377080</size>
+					<checksum type="sha1">50250fcba479de477b45801e2699cca47f7e1267</checksum>
+					<url>android-ndk-r21b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  3 13:33:43 2020.-->
+				<complete>
+					<size>1079474640</size>
+					<checksum type="sha1">6809fac4a6e829f4bac64628fa9835d57bbd61a8</checksum>
+					<url>android-ndk-r21b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.1.6363665">
+		<!--Generated from bid:6363665, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6363665</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK (Side by side) 21.1.6363665</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:53 2020.-->
+				<complete>
+					<size>1042902819</size>
+					<checksum type="sha1">767f722c14dd27a22b17903e09b768407131129e</checksum>
+					<url>android-ndk-r21b-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:08:32 2020.-->
+				<complete>
+					<size>1190809917</size>
+					<checksum type="sha1">29139085aa402d6b27d4394c30e797f814876d1e</checksum>
+					<url>android-ndk-r21b-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:18 2020.-->
+				<complete>
+					<size>1109667800</size>
+					<checksum type="sha1">8ecb03c728b8dc814db30c8152c4436cb1536c8d</checksum>
+					<url>android-ndk-r21b-beta3-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.1.6273396">
+		<!--Generated from bid:6273396, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6273396</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK (Side by side) 21.1.6273396</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Sat Mar  7 18:34:32 2020.-->
+				<complete>
+					<size>987112894</size>
+					<checksum type="sha1">41110daad93e6a9a3662d7dd2fb233b21be3d27e</checksum>
+					<url>android-ndk-r21b-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Sat Mar  7 18:35:11 2020.-->
+				<complete>
+					<size>1071784976</size>
+					<checksum type="sha1">b9a6463ab72ad183c89e5316f0c5493f64b54966</checksum>
+					<url>android-ndk-r21b-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Sat Mar  7 18:33:57 2020.-->
+				<complete>
+					<size>1087508597</size>
+					<checksum type="sha1">dc6dc614cbd94b345b66f85d3f867638593fb199</checksum>
+					<url>android-ndk-r21b-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.1.6210238">
+		<!--Generated from bid:6210238, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6210238</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK (Side by side) 21.1.6210238</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar 17 10:12:17 2020.-->
+				<complete>
+					<size>987084422</size>
+					<checksum type="sha1">971609f9a579ebbcb8d121a5d5aa0cba716b2d1f</checksum>
+					<url>android-ndk-r21b-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:13:07 2020.-->
+				<complete>
+					<size>1071756532</size>
+					<checksum type="sha1">cf06ed408663c11c8f4824f9370c7a900ec074dd</checksum>
+					<url>android-ndk-r21b-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:11:33 2020.-->
+				<complete>
+					<size>1087478202</size>
+					<checksum type="sha1">a920ca1ab75733b510180cef23f3797ded40dbb7</checksum>
+					<url>android-ndk-r21b-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.0.6113669">
+		<!--Generated from bid:6113669, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>0</minor>
+			<micro>6113669</micro>
+		</revision>
+		<display-name>NDK (Side by side) 21.0.6113669</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar 17 10:23:14 2020.-->
+				<complete>
+					<size>958656601</size>
+					<checksum type="sha1">0d50636cc0e34ed3ba540d6d5818ea0cf10f16aa</checksum>
+					<url>android-ndk-r21-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:24:05 2020.-->
+				<complete>
+					<size>1043332542</size>
+					<checksum type="sha1">afc9c0b9faad222898ac8168c78ad4ccac8a1b5c</checksum>
+					<url>android-ndk-r21-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:22:28 2020.-->
+				<complete>
+					<size>1057294207</size>
+					<checksum type="sha1">c61631eacbd40c30273b716a4e589c6877b85419</checksum>
+					<url>android-ndk-r21-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;21.0.6011959">
+		<!--Generated from bid:6011959, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>0</minor>
+			<micro>6011959</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK (Side by side) 21.0.6011959</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar 17 10:34:27 2020.-->
+				<complete>
+					<size>958791657</size>
+					<checksum type="sha1">34a46c3867c9d87a80895c0b8a098256052536d2</checksum>
+					<url>android-ndk-r21-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:35:12 2020.-->
+				<complete>
+					<size>1043467643</size>
+					<checksum type="sha1">335f30302bee700a9a5fdfe3ae533a4963499c44</checksum>
+					<url>android-ndk-r21-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:33:45 2020.-->
+				<complete>
+					<size>1057424857</size>
+					<checksum type="sha1">e5902e4f6c5b6f0354a2572a85f42f19c1a7b9d8</checksum>
+					<url>android-ndk-r21-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;20.1.5948944">
+		<!--Generated from bid:5948944, branch:ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>1</minor>
+			<micro>5948944</micro>
+		</revision>
+		<display-name>NDK (Side by side) 20.1.5948944</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 16:01:28 2020.-->
+				<complete>
+					<size>843201217</size>
+					<checksum type="sha1">b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
+					<url>android-ndk-r20b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 16:02:33 2020.-->
+				<complete>
+					<size>859780564</size>
+					<checksum type="sha1">d903fdf077039ad9331fb6c3bee78aa46d45527b</checksum>
+					<url>android-ndk-r20b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:43:11 2020.-->
+				<complete>
+					<size>814464692</size>
+					<checksum type="sha1">71a1ba20475da1d83b0f1a1826813008f628d59b</checksum>
+					<url>android-ndk-r20b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:43:51 2020.-->
+				<complete>
+					<size>832473103</size>
+					<checksum type="sha1">ead0846608040b8344ad2bc9bc721b88cf13fb8d</checksum>
+					<url>android-ndk-r20b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;20.0.5594570">
+		<!--Generated from bid:5594570, branch:aosp-ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5594570</micro>
+		</revision>
+		<display-name>NDK (Side by side) 20.0.5594570</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:58:47 2020.-->
+				<complete>
+					<size>843152912</size>
+					<checksum type="sha1">96d5f1c50452596912d1982439c514194b5751e6</checksum>
+					<url>android-ndk-r20-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:59:53 2020.-->
+				<complete>
+					<size>859737910</size>
+					<checksum type="sha1">8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff</checksum>
+					<url>android-ndk-r20-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:53:54 2020.-->
+				<complete>
+					<size>814417431</size>
+					<checksum type="sha1">b605f7e2e7585af2fc9d59fe9ddad86b64b2bf03</checksum>
+					<url>android-ndk-r20-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:54:34 2020.-->
+				<complete>
+					<size>832429986</size>
+					<checksum type="sha1">36e1dc77fad08ad2498fb94b13ad8caf26bbd9df</checksum>
+					<url>android-ndk-r20-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="ndk;20.0.5471264">
+		<!--Generated from bid:5471264, branch:ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5471264</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK (Side by side) 20.0.5471264</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:56:02 2020.-->
+				<complete>
+					<size>843617071</size>
+					<checksum type="sha1">665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
+					<url>android-ndk-r20-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:57:05 2020.-->
+				<complete>
+					<size>860198768</size>
+					<checksum type="sha1">674d8fb0e0df8e8be1c31fa321eb176548a19ba3</checksum>
+					<url>android-ndk-r20-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:04:21 2020.-->
+				<complete>
+					<size>814872365</size>
+					<checksum type="sha1">f9d1c5366ee5bf4927ac1c18f06143550b492e92</checksum>
+					<url>android-ndk-r20-beta3-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:05:00 2020.-->
+				<complete>
+					<size>832889871</size>
+					<checksum type="sha1">9375dc82cf576f4a255bf908dfc628d8ddee0d89</checksum>
+					<url>android-ndk-r20-beta3-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="ndk;20.0.5392854">
+		<!--Generated from bid:5392854, branch:ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5392854</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK (Side by side) 20.0.5392854</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:53:17 2020.-->
+				<complete>
+					<size>840834121</size>
+					<checksum type="sha1">cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
+					<url>android-ndk-r20-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:54:22 2020.-->
+				<complete>
+					<size>857406412</size>
+					<checksum type="sha1">8285ae2e24a7232fd0cbfb55e955c8586ef2ee02</checksum>
+					<url>android-ndk-r20-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:14:48 2020.-->
+				<complete>
+					<size>812086484</size>
+					<checksum type="sha1">15a8085b8ce5ecf0705ded2335513055693bddaa</checksum>
+					<url>android-ndk-r20-beta2-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:15:29 2020.-->
+				<complete>
+					<size>830099430</size>
+					<checksum type="sha1">c89022bd9a2c32b42a1b94e98bbd88ab4c4e350e</checksum>
+					<url>android-ndk-r20-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;19.2.5345600">
+		<!--Generated from bid:5345600, branch:aosp-ndk-release-r19-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>19</major>
+			<minor>2</minor>
+			<micro>5345600</micro>
+		</revision>
+		<display-name>NDK (Side by side) 19.2.5345600</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:50:39 2020.-->
+				<complete>
+					<size>807630656</size>
+					<checksum type="sha1">f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
+					<url>android-ndk-r19c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:51:42 2020.-->
+				<complete>
+					<size>823376982</size>
+					<checksum type="sha1">fd94d0be6017c6acbd193eb95e09cf4b6f61b834</checksum>
+					<url>android-ndk-r19c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:25:29 2020.-->
+				<complete>
+					<size>778598286</size>
+					<checksum type="sha1">132cc0c9e31b9e58ad6505b0816ff9e524422ed2</checksum>
+					<url>android-ndk-r19c-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:26:07 2020.-->
+				<complete>
+					<size>796051997</size>
+					<checksum type="sha1">c4cd8c0b6e7618ca0a871a5f24102e40c239f6a3</checksum>
+					<url>android-ndk-r19c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="ndk;19.0.5232133">
+		<!--Generated from bid:5232133, branch:aosp-ndk-release-r19-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>19</major>
+			<minor>0</minor>
+			<micro>5232133</micro>
+		</revision>
+		<display-name>NDK (Side by side) 19.0.5232133</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:44:52 2020.-->
+				<complete>
+					<size>807592927</size>
+					<checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
+					<url>android-ndk-r19-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:45:56 2020.-->
+				<complete>
+					<size>823337344</size>
+					<checksum type="sha1">f02ad84cb5b6e1ff3eea9e6168037c823408c8ac</checksum>
+					<url>android-ndk-r19-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:35:36 2020.-->
+				<complete>
+					<size>778544468</size>
+					<checksum type="sha1">281175a42b312d630f864a02a31c5806ada5663b</checksum>
+					<url>android-ndk-r19-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:36:14 2020.-->
+				<complete>
+					<size>795986424</size>
+					<checksum type="sha1">37906e8e79a9dddf6805325f706a072055e4136c</checksum>
+					<url>android-ndk-r19-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;18.1.5063045">
+		<!--Generated from bid:5063045, branch:aosp-ndk-release-r18-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>18</major>
+			<minor>1</minor>
+			<micro>5063045</micro>
+		</revision>
+		<display-name>NDK (Side by side) 18.1.5063045</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:35:38 2020.-->
+				<complete>
+					<size>542911996</size>
+					<checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
+					<url>android-ndk-r18b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:36:18 2020.-->
+				<complete>
+					<size>557038702</size>
+					<checksum type="sha1">500679655da3a86aecf67007e8ab230ea9b4dd7b</checksum>
+					<url>android-ndk-r18b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:43:35 2020.-->
+				<complete>
+					<size>504605336</size>
+					<checksum type="sha1">4b8b6a4edc0fa967b429c1d6d25adf69acc28803</checksum>
+					<url>android-ndk-r18b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:44:01 2020.-->
+				<complete>
+					<size>522489470</size>
+					<checksum type="sha1">6b6d4138aaaad7166679fdfa4780e177f95cee6f</checksum>
+					<url>android-ndk-r18b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;17.2.4988734">
+		<!--Generated from bid:4988734, branch:aosp-ndk-release-r17-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>17</major>
+			<minor>2</minor>
+			<micro>4988734</micro>
+		</revision>
+		<display-name>NDK (Side by side) 17.2.4988734</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:33:56 2020.-->
+				<complete>
+					<size>675091485</size>
+					<checksum type="sha1">f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
+					<url>android-ndk-r17c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:34:46 2020.-->
+				<complete>
+					<size>709387703</size>
+					<checksum type="sha1">12cacc70c3fd2f40574015631c00f41fb8a39048</checksum>
+					<url>android-ndk-r17c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:51:58 2020.-->
+				<complete>
+					<size>608358310</size>
+					<checksum type="sha1">5bb25bf13fa494ee6c3433474c7aa90009f9f6a9</checksum>
+					<url>android-ndk-r17c-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:52:29 2020.-->
+				<complete>
+					<size>650626501</size>
+					<checksum type="sha1">3e3b8d1650f9d297d130be2b342db956003f5992</checksum>
+					<url>android-ndk-r17c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk;16.1.4479499">
+		<!--Generated from bid:4479499, branch:aosp-ndk-release-r16-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>16</major>
+			<minor>1</minor>
+			<micro>4479499</micro>
+		</revision>
+		<display-name>NDK (Side by side) 16.1.4479499</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:30:39 2020.-->
+				<complete>
+					<size>839630771</size>
+					<checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</checksum>
+					<url>android-ndk-r16b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:31:38 2020.-->
+				<complete>
+					<size>852525873</size>
+					<checksum type="sha1">42aa43aae89a50d1c66c3f9fdecd676936da6128</checksum>
+					<url>android-ndk-r16b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 12:02:10 2020.-->
+				<complete>
+					<size>656720029</size>
+					<checksum type="sha1">becaf3d445a4877ca1a9300a62f0934a4838c7fa</checksum>
+					<url>android-ndk-r16b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 12:02:44 2020.-->
+				<complete>
+					<size>723301086</size>
+					<checksum type="sha1">f3f1909ed1052e98dda2c79d11c22f3da28daf25</checksum>
+					<url>android-ndk-r16b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7272597, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7272597</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Apr  9 17:58:08 2021.-->
+				<complete>
+					<size>695243724</size>
+					<checksum type="sha1">3b977f0f8e0fa2d6777fae6b1d37aebfc075ab56</checksum>
+					<url>android-ndk-r23-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  9 17:58:33 2021.-->
+				<complete>
+					<size>724828157</size>
+					<checksum type="sha1">2298465ef13dab0c527b9cf6ef892b1ec6461fb4</checksum>
+					<url>android-ndk-r23-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  9 17:57:44 2021.-->
+				<complete>
+					<size>785932724</size>
+					<checksum type="sha1">8c10a51f50f4f12ccc839dcb4bd8107133024c2f</checksum>
+					<url>android-ndk-r23-beta3-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7196353, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7196353</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar  9 20:59:09 2021.-->
+				<complete>
+					<size>674507658</size>
+					<checksum type="sha1">454fd0c1e8385896ad465d7cfd653e28fbf3523f</checksum>
+					<url>android-ndk-r23-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  9 20:59:40 2021.-->
+				<complete>
+					<size>705747711</size>
+					<checksum type="sha1">290e8c39bb9732ac8784855e1f22342eb488228e</checksum>
+					<url>android-ndk-r23-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  9 20:58:41 2021.-->
+				<complete>
+					<size>747953762</size>
+					<checksum type="sha1">00194ae44ce90f2052ab8e42f1a11a0db8d50c2a</checksum>
+					<url>android-ndk-r23-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7123448, branch:ndk-r23-release-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>23</major>
+			<minor>0</minor>
+			<micro>7123448</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Feb  4 12:31:31 2021.-->
+				<complete>
+					<size>721278316</size>
+					<checksum type="sha1">708ebbceb719c43a3165503ea82fb107d823ad54</checksum>
+					<url>android-ndk-r23-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb  4 12:31:58 2021.-->
+				<complete>
+					<size>804392699</size>
+					<checksum type="sha1">1340ed20f27fcb184ea814ae63e0f3cd75890342</checksum>
+					<url>android-ndk-r23-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Feb  4 12:30:43 2021.-->
+				<complete>
+					<size>749304589</size>
+					<checksum type="sha1">c056900896129d3dd4eb953a53a8961d9853aa20</checksum>
+					<url>android-ndk-r23-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7171670, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>1</minor>
+			<micro>7171670</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:12 2021.-->
+				<complete>
+					<size>1049337733</size>
+					<checksum type="sha1">dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
+					<url>android-ndk-r22b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:22:46 2021.-->
+				<complete>
+					<size>1148198368</size>
+					<checksum type="sha1">9ece64c7f19763dd67320d512794969930fce9dc</checksum>
+					<url>android-ndk-r22b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar  2 11:21:42 2021.-->
+				<complete>
+					<size>1082301775</size>
+					<checksum type="sha1">96ba1a049303cf6bf3ee84cfd64d6bcd43486a50</checksum>
+					<url>android-ndk-r22b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7026061, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>0</minor>
+			<micro>7026061</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Dec 10 22:59:07 2020.-->
+				<complete>
+					<size>1047577432</size>
+					<checksum type="sha1">9cf3816ed3e4308ff03bd5f69100b373bad12f13</checksum>
+					<url>android-ndk-r22-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Dec 10 22:59:59 2020.-->
+				<complete>
+					<size>1146450986</size>
+					<checksum type="sha1">82274313aba10da6177fd41868f56a0f9651dd81</checksum>
+					<url>android-ndk-r22-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Dec 10 22:58:22 2020.-->
+				<complete>
+					<size>1080471370</size>
+					<checksum type="sha1">c03f761caf1c6f5efbeb5ccfa573ea922cb955b3</checksum>
+					<url>android-ndk-r22-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6917172, branch:aosp-ndk-release-r22-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>22</major>
+			<minor>0</minor>
+			<micro>6917172</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Oct 20 18:08:37 2020.-->
+				<complete>
+					<size>1047697781</size>
+					<checksum type="sha1">0ff242f820663fe45773bca7a2df036004fc7c69</checksum>
+					<url>android-ndk-r22-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Oct 20 18:09:31 2020.-->
+				<complete>
+					<size>1146575022</size>
+					<checksum type="sha1">687f696f43b23e2623e7f7073bbd575d254f66f6</checksum>
+					<url>android-ndk-r22-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Oct 20 18:07:44 2020.-->
+				<complete>
+					<size>1080588810</size>
+					<checksum type="sha1">ef38999c0e3c96124acffab6971ad2054a433b91</checksum>
+					<url>android-ndk-r22-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:7075529, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>4</minor>
+			<micro>7075529</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:03 2021.-->
+				<complete>
+					<size>1042617180</size>
+					<checksum type="sha1">3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
+					<url>android-ndk-r21e-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:53:47 2021.-->
+				<complete>
+					<size>1190670072</size>
+					<checksum type="sha1">c3ebc83c96a4d7f539bd72c241b2be9dcd29bda9</checksum>
+					<url>android-ndk-r21e-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Jan 11 16:52:22 2021.-->
+				<complete>
+					<size>1109665123</size>
+					<checksum type="sha1">fc44fea8bb3f5a6789821f40f41dce2d2cd5dc30</checksum>
+					<url>android-ndk-r21e-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6528147, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>3</minor>
+			<micro>6528147</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue May 26 14:30:44 2020.-->
+				<complete>
+					<size>1042615469</size>
+					<checksum type="sha1">ef06c9f9d7efd6f243eb3c05ac440562ae29ae12</checksum>
+					<url>android-ndk-r21d-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue May 26 14:31:29 2020.-->
+				<complete>
+					<size>1190667841</size>
+					<checksum type="sha1">bcf4023eb8cb6976a4c7cff0a8a8f145f162bf4d</checksum>
+					<url>android-ndk-r21d-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue May 26 14:30:04 2020.-->
+				<complete>
+					<size>1109536102</size>
+					<checksum type="sha1">99175ce1210258f2280568cd340e0666c69955c7</checksum>
+					<url>android-ndk-r21d-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6472646, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>2</minor>
+			<micro>6472646</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu May  7 14:07:45 2020.-->
+				<complete>
+					<size>1014322452</size>
+					<checksum type="sha1">c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
+					<url>android-ndk-r21c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:08:25 2020.-->
+				<complete>
+					<size>1162375023</size>
+					<checksum type="sha1">c81a5bcb4672a18d3647bf6898cd4dbcb978d0e8</checksum>
+					<url>android-ndk-r21c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu May  7 14:07:07 2020.-->
+				<complete>
+					<size>1079490351</size>
+					<checksum type="sha1">93563a1297a60b5da49a48f62340dbf0c878a5f3</checksum>
+					<url>android-ndk-r21c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6352462, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6352462</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Apr  3 13:34:16 2020.-->
+				<complete>
+					<size>1014473187</size>
+					<checksum type="sha1">e1de2f749c5c32ae991c3ccaabfcdf7688ee221f</checksum>
+					<url>android-ndk-r21b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  3 13:34:55 2020.-->
+				<complete>
+					<size>1162377080</size>
+					<checksum type="sha1">50250fcba479de477b45801e2699cca47f7e1267</checksum>
+					<url>android-ndk-r21b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Fri Apr  3 13:33:43 2020.-->
+				<complete>
+					<size>1079474640</size>
+					<checksum type="sha1">6809fac4a6e829f4bac64628fa9835d57bbd61a8</checksum>
+					<url>android-ndk-r21b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6363665, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6363665</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:53 2020.-->
+				<complete>
+					<size>1042902819</size>
+					<checksum type="sha1">767f722c14dd27a22b17903e09b768407131129e</checksum>
+					<url>android-ndk-r21b-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:08:32 2020.-->
+				<complete>
+					<size>1190809917</size>
+					<checksum type="sha1">29139085aa402d6b27d4394c30e797f814876d1e</checksum>
+					<url>android-ndk-r21b-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr  6 13:07:18 2020.-->
+				<complete>
+					<size>1109667800</size>
+					<checksum type="sha1">8ecb03c728b8dc814db30c8152c4436cb1536c8d</checksum>
+					<url>android-ndk-r21b-beta3-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6273396, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6273396</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Sat Mar  7 18:34:32 2020.-->
+				<complete>
+					<size>987112894</size>
+					<checksum type="sha1">41110daad93e6a9a3662d7dd2fb233b21be3d27e</checksum>
+					<url>android-ndk-r21b-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Sat Mar  7 18:35:11 2020.-->
+				<complete>
+					<size>1071784976</size>
+					<checksum type="sha1">b9a6463ab72ad183c89e5316f0c5493f64b54966</checksum>
+					<url>android-ndk-r21b-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Sat Mar  7 18:33:57 2020.-->
+				<complete>
+					<size>1087508597</size>
+					<checksum type="sha1">dc6dc614cbd94b345b66f85d3f867638593fb199</checksum>
+					<url>android-ndk-r21b-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6210238, branch:ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>1</minor>
+			<micro>6210238</micro>
+			<preview>1</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-3"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar 17 10:12:17 2020.-->
+				<complete>
+					<size>987084422</size>
+					<checksum type="sha1">971609f9a579ebbcb8d121a5d5aa0cba716b2d1f</checksum>
+					<url>android-ndk-r21b-beta1-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:13:07 2020.-->
+				<complete>
+					<size>1071756532</size>
+					<checksum type="sha1">cf06ed408663c11c8f4824f9370c7a900ec074dd</checksum>
+					<url>android-ndk-r21b-beta1-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:11:33 2020.-->
+				<complete>
+					<size>1087478202</size>
+					<checksum type="sha1">a920ca1ab75733b510180cef23f3797ded40dbb7</checksum>
+					<url>android-ndk-r21b-beta1-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6113669, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>0</minor>
+			<micro>6113669</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar 17 10:23:14 2020.-->
+				<complete>
+					<size>958656601</size>
+					<checksum type="sha1">0d50636cc0e34ed3ba540d6d5818ea0cf10f16aa</checksum>
+					<url>android-ndk-r21-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:24:05 2020.-->
+				<complete>
+					<size>1043332542</size>
+					<checksum type="sha1">afc9c0b9faad222898ac8168c78ad4ccac8a1b5c</checksum>
+					<url>android-ndk-r21-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:22:28 2020.-->
+				<complete>
+					<size>1057294207</size>
+					<checksum type="sha1">c61631eacbd40c30273b716a4e589c6877b85419</checksum>
+					<url>android-ndk-r21-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:6011959, branch:aosp-ndk-release-r21-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>21</major>
+			<minor>0</minor>
+			<micro>6011959</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Mar 17 10:34:27 2020.-->
+				<complete>
+					<size>958791657</size>
+					<checksum type="sha1">34a46c3867c9d87a80895c0b8a098256052536d2</checksum>
+					<url>android-ndk-r21-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:35:12 2020.-->
+				<complete>
+					<size>1043467643</size>
+					<checksum type="sha1">335f30302bee700a9a5fdfe3ae533a4963499c44</checksum>
+					<url>android-ndk-r21-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:33:45 2020.-->
+				<complete>
+					<size>1057424857</size>
+					<checksum type="sha1">e5902e4f6c5b6f0354a2572a85f42f19c1a7b9d8</checksum>
+					<url>android-ndk-r21-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5948944, branch:ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>1</minor>
+			<micro>5948944</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 16:01:28 2020.-->
+				<complete>
+					<size>843201217</size>
+					<checksum type="sha1">b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
+					<url>android-ndk-r20b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 16:02:33 2020.-->
+				<complete>
+					<size>859780564</size>
+					<checksum type="sha1">d903fdf077039ad9331fb6c3bee78aa46d45527b</checksum>
+					<url>android-ndk-r20b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:43:11 2020.-->
+				<complete>
+					<size>814464692</size>
+					<checksum type="sha1">71a1ba20475da1d83b0f1a1826813008f628d59b</checksum>
+					<url>android-ndk-r20b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:43:51 2020.-->
+				<complete>
+					<size>832473103</size>
+					<checksum type="sha1">ead0846608040b8344ad2bc9bc721b88cf13fb8d</checksum>
+					<url>android-ndk-r20b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5594570, branch:aosp-ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5594570</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:58:47 2020.-->
+				<complete>
+					<size>843152912</size>
+					<checksum type="sha1">96d5f1c50452596912d1982439c514194b5751e6</checksum>
+					<url>android-ndk-r20-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:59:53 2020.-->
+				<complete>
+					<size>859737910</size>
+					<checksum type="sha1">8665fc84a1b1f0d6ab3b5fdd1e30200cc7b9adff</checksum>
+					<url>android-ndk-r20-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:53:54 2020.-->
+				<complete>
+					<size>814417431</size>
+					<checksum type="sha1">b605f7e2e7585af2fc9d59fe9ddad86b64b2bf03</checksum>
+					<url>android-ndk-r20-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 10:54:34 2020.-->
+				<complete>
+					<size>832429986</size>
+					<checksum type="sha1">36e1dc77fad08ad2498fb94b13ad8caf26bbd9df</checksum>
+					<url>android-ndk-r20-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="ndk-bundle">
+		<!--Generated from bid:5471264, branch:ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5471264</micro>
+			<preview>3</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:56:02 2020.-->
+				<complete>
+					<size>843617071</size>
+					<checksum type="sha1">665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
+					<url>android-ndk-r20-beta3-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:57:05 2020.-->
+				<complete>
+					<size>860198768</size>
+					<checksum type="sha1">674d8fb0e0df8e8be1c31fa321eb176548a19ba3</checksum>
+					<url>android-ndk-r20-beta3-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:04:21 2020.-->
+				<complete>
+					<size>814872365</size>
+					<checksum type="sha1">f9d1c5366ee5bf4927ac1c18f06143550b492e92</checksum>
+					<url>android-ndk-r20-beta3-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:05:00 2020.-->
+				<complete>
+					<size>832889871</size>
+					<checksum type="sha1">9375dc82cf576f4a255bf908dfc628d8ddee0d89</checksum>
+					<url>android-ndk-r20-beta3-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="ndk-bundle">
+		<!--Generated from bid:5392854, branch:ndk-release-r20-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>20</major>
+			<minor>0</minor>
+			<micro>5392854</micro>
+			<preview>2</preview>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-preview-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-1"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:53:17 2020.-->
+				<complete>
+					<size>840834121</size>
+					<checksum type="sha1">cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
+					<url>android-ndk-r20-beta2-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:54:22 2020.-->
+				<complete>
+					<size>857406412</size>
+					<checksum type="sha1">8285ae2e24a7232fd0cbfb55e955c8586ef2ee02</checksum>
+					<url>android-ndk-r20-beta2-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:14:48 2020.-->
+				<complete>
+					<size>812086484</size>
+					<checksum type="sha1">15a8085b8ce5ecf0705ded2335513055693bddaa</checksum>
+					<url>android-ndk-r20-beta2-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:15:29 2020.-->
+				<complete>
+					<size>830099430</size>
+					<checksum type="sha1">c89022bd9a2c32b42a1b94e98bbd88ab4c4e350e</checksum>
+					<url>android-ndk-r20-beta2-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5345600, branch:aosp-ndk-release-r19-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>19</major>
+			<minor>2</minor>
+			<micro>5345600</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:50:39 2020.-->
+				<complete>
+					<size>807630656</size>
+					<checksum type="sha1">f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
+					<url>android-ndk-r19c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:51:42 2020.-->
+				<complete>
+					<size>823376982</size>
+					<checksum type="sha1">fd94d0be6017c6acbd193eb95e09cf4b6f61b834</checksum>
+					<url>android-ndk-r19c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:25:29 2020.-->
+				<complete>
+					<size>778598286</size>
+					<checksum type="sha1">132cc0c9e31b9e58ad6505b0816ff9e524422ed2</checksum>
+					<url>android-ndk-r19c-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:26:07 2020.-->
+				<complete>
+					<size>796051997</size>
+					<checksum type="sha1">c4cd8c0b6e7618ca0a871a5f24102e40c239f6a3</checksum>
+					<url>android-ndk-r19c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage obsolete="true" path="ndk-bundle">
+		<!--Generated from bid:5232133, branch:aosp-ndk-release-r19-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>19</major>
+			<minor>0</minor>
+			<micro>5232133</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:44:52 2020.-->
+				<complete>
+					<size>807592927</size>
+					<checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
+					<url>android-ndk-r19-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:45:56 2020.-->
+				<complete>
+					<size>823337344</size>
+					<checksum type="sha1">f02ad84cb5b6e1ff3eea9e6168037c823408c8ac</checksum>
+					<url>android-ndk-r19-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:35:36 2020.-->
+				<complete>
+					<size>778544468</size>
+					<checksum type="sha1">281175a42b312d630f864a02a31c5806ada5663b</checksum>
+					<url>android-ndk-r19-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:36:14 2020.-->
+				<complete>
+					<size>795986424</size>
+					<checksum type="sha1">37906e8e79a9dddf6805325f706a072055e4136c</checksum>
+					<url>android-ndk-r19-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:5063045, branch:aosp-ndk-release-r18-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>18</major>
+			<minor>1</minor>
+			<micro>5063045</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:35:38 2020.-->
+				<complete>
+					<size>542911996</size>
+					<checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
+					<url>android-ndk-r18b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:36:18 2020.-->
+				<complete>
+					<size>557038702</size>
+					<checksum type="sha1">500679655da3a86aecf67007e8ab230ea9b4dd7b</checksum>
+					<url>android-ndk-r18b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:43:35 2020.-->
+				<complete>
+					<size>504605336</size>
+					<checksum type="sha1">4b8b6a4edc0fa967b429c1d6d25adf69acc28803</checksum>
+					<url>android-ndk-r18b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:44:01 2020.-->
+				<complete>
+					<size>522489470</size>
+					<checksum type="sha1">6b6d4138aaaad7166679fdfa4780e177f95cee6f</checksum>
+					<url>android-ndk-r18b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:4988734, branch:aosp-ndk-release-r17-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>17</major>
+			<minor>2</minor>
+			<micro>4988734</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:33:56 2020.-->
+				<complete>
+					<size>675091485</size>
+					<checksum type="sha1">f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
+					<url>android-ndk-r17c-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:34:46 2020.-->
+				<complete>
+					<size>709387703</size>
+					<checksum type="sha1">12cacc70c3fd2f40574015631c00f41fb8a39048</checksum>
+					<url>android-ndk-r17c-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:51:58 2020.-->
+				<complete>
+					<size>608358310</size>
+					<checksum type="sha1">5bb25bf13fa494ee6c3433474c7aa90009f9f6a9</checksum>
+					<url>android-ndk-r17c-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 11:52:29 2020.-->
+				<complete>
+					<size>650626501</size>
+					<checksum type="sha1">3e3b8d1650f9d297d130be2b342db956003f5992</checksum>
+					<url>android-ndk-r17c-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="ndk-bundle">
+		<!--Generated from bid:4479499, branch:aosp-ndk-release-r16-->
+		<type-details xsi:type="generic:genericDetailsType"/>
+		<revision>
+			<major>16</major>
+			<minor>1</minor>
+			<micro>4479499</micro>
+		</revision>
+		<display-name>NDK</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="patcher;v4"/>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Mar 19 15:30:39 2020.-->
+				<complete>
+					<size>839630771</size>
+					<checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</checksum>
+					<url>android-ndk-r16b-darwin-x86_64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Thu Mar 19 15:31:38 2020.-->
+				<complete>
+					<size>852525873</size>
+					<checksum type="sha1">42aa43aae89a50d1c66c3f9fdecd676936da6128</checksum>
+					<url>android-ndk-r16b-linux-x86_64.zip</url>
+				</complete>
+				<host-os>linux</host-os>
+				<host-arch>x64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 12:02:10 2020.-->
+				<complete>
+					<size>656720029</size>
+					<checksum type="sha1">becaf3d445a4877ca1a9300a62f0934a4838c7fa</checksum>
+					<url>android-ndk-r16b-windows-x86.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x86</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Tue Mar 17 12:02:44 2020.-->
+				<complete>
+					<size>723301086</size>
+					<checksum type="sha1">f3f1909ed1052e98dda2c79d11c22f3da28daf25</checksum>
+					<url>android-ndk-r16b-windows-x86_64.zip</url>
+				</complete>
+				<host-os>windows</host-os>
+				<host-arch>x64</host-arch>
 			</archive>
 		</archives>
 	</remotePackage>
@@ -4736,12 +7192,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:7243153 branch:aosp-emu-master-dev-->
+		<!--Generated from:ab bid:7285888 branch:aosp-emu-30-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>30</major>
 			<minor>5</minor>
-			<micro>4</micro>
+			<micro>5</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-license"/>
@@ -4751,31 +7207,31 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Mar 29 17:38:48 2021.-->
+				<!--Built on: Thu Apr 15 09:37:38 2021.-->
 				<complete>
-					<size>300475767</size>
-					<checksum type="sha1">80e42a8a1437dda8013baa419693413a56399396</checksum>
-					<url>emulator-darwin_x64-7243153.zip</url>
+					<size>300476485</size>
+					<checksum type="sha1">90f8a9942253db75ab4d13f791377e9739a88617</checksum>
+					<url>emulator-darwin_x64-7285888.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Mon Mar 29 17:38:37 2021.-->
+				<!--Built on: Thu Apr 15 09:37:26 2021.-->
 				<complete>
-					<size>272498935</size>
-					<checksum type="sha1">a780d330f37f3c37d91b475c86313a995b902765</checksum>
-					<url>emulator-linux_x64-7243153.zip</url>
+					<size>272500365</size>
+					<checksum type="sha1">ccdee1aa99e4ec39f5a762d6912682ac248b92f0</checksum>
+					<url>emulator-linux_x64-7285888.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Mon Mar 29 17:39:01 2021.-->
+				<!--Built on: Thu Apr 15 09:37:51 2021.-->
 				<complete>
-					<size>324367491</size>
-					<checksum type="sha1">166cb2e90d2d0e705a97bbb88179bfe1032b3705</checksum>
-					<url>emulator-windows_x64-7243153.zip</url>
+					<size>324371999</size>
+					<checksum type="sha1">84c3105ba1a3a94963e1f99b3f706d0231948fc9</checksum>
+					<url>emulator-windows_x64-7285888.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-arch>x64</host-arch>

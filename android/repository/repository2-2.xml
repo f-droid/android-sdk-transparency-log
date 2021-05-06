@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/02" xmlns:generic="http://schemas.android.com/repository/android/generic/02" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/02" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-04-28 15:27:17.667311 with ADRT.-->
+	<!--Generated on 2021-05-05 15:42:54.247360 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1522,6 +1522,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:06:56 2021.-->
+				<complete>
+					<size>695243724</size>
+					<checksum type="sha1">3b977f0f8e0fa2d6777fae6b1d37aebfc075ab56</checksum>
+					<url>android-ndk-r23-beta3-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Fri Apr  9 17:58:08 2021.-->
 				<complete>
 					<size>695243724</size>
@@ -1569,6 +1579,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-1"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:06:30 2021.-->
+				<complete>
+					<size>674507658</size>
+					<checksum type="sha1">454fd0c1e8385896ad465d7cfd653e28fbf3523f</checksum>
+					<url>android-ndk-r23-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Tue Mar  9 20:59:09 2021.-->
 				<complete>
@@ -1618,6 +1638,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:05:29 2021.-->
+				<complete>
+					<size>721278316</size>
+					<checksum type="sha1">708ebbceb719c43a3165503ea82fb107d823ad54</checksum>
+					<url>android-ndk-r23-beta1-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Feb  4 12:31:31 2021.-->
 				<complete>
 					<size>721278316</size>
@@ -1665,6 +1695,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:06:06 2021.-->
+				<complete>
+					<size>1049337733</size>
+					<checksum type="sha1">dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
+					<url>android-ndk-r22b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Mar  2 11:22:12 2021.-->
 				<complete>
 					<size>1049337733</size>
@@ -1711,6 +1751,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:04:24 2021.-->
+				<complete>
+					<size>1047577432</size>
+					<checksum type="sha1">9cf3816ed3e4308ff03bd5f69100b373bad12f13</checksum>
+					<url>android-ndk-r22-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Dec 10 22:59:07 2020.-->
 				<complete>
@@ -1760,6 +1810,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:03:45 2021.-->
+				<complete>
+					<size>1047697781</size>
+					<checksum type="sha1">0ff242f820663fe45773bca7a2df036004fc7c69</checksum>
+					<url>android-ndk-r22-beta1-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Oct 20 18:08:37 2020.-->
 				<complete>
 					<size>1047697781</size>
@@ -1806,6 +1866,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:05:02 2021.-->
+				<complete>
+					<size>1042617180</size>
+					<checksum type="sha1">3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
+					<url>android-ndk-r21e-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Mon Jan 11 16:53:03 2021.-->
 				<complete>
@@ -1854,6 +1924,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:03:06 2021.-->
+				<complete>
+					<size>1042615469</size>
+					<checksum type="sha1">ef06c9f9d7efd6f243eb3c05ac440562ae29ae12</checksum>
+					<url>android-ndk-r21d-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue May 26 14:30:44 2020.-->
 				<complete>
 					<size>1042615469</size>
@@ -1901,6 +1981,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:02:28 2021.-->
+				<complete>
+					<size>1014322452</size>
+					<checksum type="sha1">c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
+					<url>android-ndk-r21c-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu May  7 14:07:45 2020.-->
 				<complete>
 					<size>1014322452</size>
@@ -1947,6 +2037,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:01:15 2021.-->
+				<complete>
+					<size>1014473187</size>
+					<checksum type="sha1">e1de2f749c5c32ae991c3ccaabfcdf7688ee221f</checksum>
+					<url>android-ndk-r21b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Fri Apr  3 13:34:16 2020.-->
 				<complete>
@@ -1996,6 +2096,16 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:01:51 2021.-->
+				<complete>
+					<size>1042902819</size>
+					<checksum type="sha1">767f722c14dd27a22b17903e09b768407131129e</checksum>
+					<url>android-ndk-r21b-beta3-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Mon Apr  6 13:07:53 2020.-->
 				<complete>
 					<size>1042902819</size>
@@ -2043,6 +2153,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-3"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:00:39 2021.-->
+				<complete>
+					<size>987112894</size>
+					<checksum type="sha1">41110daad93e6a9a3662d7dd2fb233b21be3d27e</checksum>
+					<url>android-ndk-r21b-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Sat Mar  7 18:34:32 2020.-->
 				<complete>
@@ -2092,6 +2212,16 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:00:04 2021.-->
+				<complete>
+					<size>987084422</size>
+					<checksum type="sha1">971609f9a579ebbcb8d121a5d5aa0cba716b2d1f</checksum>
+					<url>android-ndk-r21b-beta1-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Mar 17 10:12:17 2020.-->
 				<complete>
 					<size>987084422</size>
@@ -2138,6 +2268,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:59:30 2021.-->
+				<complete>
+					<size>958656601</size>
+					<checksum type="sha1">0d50636cc0e34ed3ba540d6d5818ea0cf10f16aa</checksum>
+					<url>android-ndk-r21-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Tue Mar 17 10:23:14 2020.-->
 				<complete>
@@ -2187,6 +2327,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:58:56 2021.-->
+				<complete>
+					<size>958791657</size>
+					<checksum type="sha1">34a46c3867c9d87a80895c0b8a098256052536d2</checksum>
+					<url>android-ndk-r21-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Mar 17 10:34:27 2020.-->
 				<complete>
 					<size>958791657</size>
@@ -2233,6 +2383,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:58:23 2021.-->
+				<complete>
+					<size>843201217</size>
+					<checksum type="sha1">b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
+					<url>android-ndk-r20b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 16:01:28 2020.-->
 				<complete>
@@ -2290,6 +2450,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:57:53 2021.-->
+				<complete>
+					<size>843152912</size>
+					<checksum type="sha1">96d5f1c50452596912d1982439c514194b5751e6</checksum>
+					<url>android-ndk-r20-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:58:47 2020.-->
 				<complete>
@@ -2349,6 +2519,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:57:23 2021.-->
+				<complete>
+					<size>843617071</size>
+					<checksum type="sha1">665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
+					<url>android-ndk-r20-beta3-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:56:02 2020.-->
 				<complete>
 					<size>843617071</size>
@@ -2407,6 +2587,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:56:54 2021.-->
+				<complete>
+					<size>840834121</size>
+					<checksum type="sha1">cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
+					<url>android-ndk-r20-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:53:17 2020.-->
 				<complete>
 					<size>840834121</size>
@@ -2463,6 +2653,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:56:24 2021.-->
+				<complete>
+					<size>807630656</size>
+					<checksum type="sha1">f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
+					<url>android-ndk-r19c-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:50:39 2020.-->
 				<complete>
@@ -2521,6 +2721,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:55:56 2021.-->
+				<complete>
+					<size>807592927</size>
+					<checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
+					<url>android-ndk-r19-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:44:52 2020.-->
 				<complete>
 					<size>807592927</size>
@@ -2577,6 +2787,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:55:27 2021.-->
+				<complete>
+					<size>542911996</size>
+					<checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
+					<url>android-ndk-r18b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:35:38 2020.-->
 				<complete>
@@ -2635,6 +2855,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:55:08 2021.-->
+				<complete>
+					<size>675091485</size>
+					<checksum type="sha1">f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
+					<url>android-ndk-r17c-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:33:56 2020.-->
 				<complete>
 					<size>675091485</size>
@@ -2691,6 +2921,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:54:45 2021.-->
+				<complete>
+					<size>839630771</size>
+					<checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</checksum>
+					<url>android-ndk-r16b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:30:39 2020.-->
 				<complete>
@@ -2750,6 +2990,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:06:56 2021.-->
+				<complete>
+					<size>695243724</size>
+					<checksum type="sha1">3b977f0f8e0fa2d6777fae6b1d37aebfc075ab56</checksum>
+					<url>android-ndk-r23-beta3-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Fri Apr  9 17:58:08 2021.-->
 				<complete>
 					<size>695243724</size>
@@ -2797,6 +3047,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-1"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:06:30 2021.-->
+				<complete>
+					<size>674507658</size>
+					<checksum type="sha1">454fd0c1e8385896ad465d7cfd653e28fbf3523f</checksum>
+					<url>android-ndk-r23-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Tue Mar  9 20:59:09 2021.-->
 				<complete>
@@ -2846,6 +3106,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:05:29 2021.-->
+				<complete>
+					<size>721278316</size>
+					<checksum type="sha1">708ebbceb719c43a3165503ea82fb107d823ad54</checksum>
+					<url>android-ndk-r23-beta1-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Feb  4 12:31:31 2021.-->
 				<complete>
 					<size>721278316</size>
@@ -2893,6 +3163,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:06:06 2021.-->
+				<complete>
+					<size>1049337733</size>
+					<checksum type="sha1">dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
+					<url>android-ndk-r22b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Mar  2 11:22:12 2021.-->
 				<complete>
 					<size>1049337733</size>
@@ -2939,6 +3219,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:04:24 2021.-->
+				<complete>
+					<size>1047577432</size>
+					<checksum type="sha1">9cf3816ed3e4308ff03bd5f69100b373bad12f13</checksum>
+					<url>android-ndk-r22-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Dec 10 22:59:07 2020.-->
 				<complete>
@@ -2988,6 +3278,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:03:45 2021.-->
+				<complete>
+					<size>1047697781</size>
+					<checksum type="sha1">0ff242f820663fe45773bca7a2df036004fc7c69</checksum>
+					<url>android-ndk-r22-beta1-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Oct 20 18:08:37 2020.-->
 				<complete>
 					<size>1047697781</size>
@@ -3034,6 +3334,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:05:02 2021.-->
+				<complete>
+					<size>1042617180</size>
+					<checksum type="sha1">3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
+					<url>android-ndk-r21e-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Mon Jan 11 16:53:03 2021.-->
 				<complete>
@@ -3082,6 +3392,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:03:06 2021.-->
+				<complete>
+					<size>1042615469</size>
+					<checksum type="sha1">ef06c9f9d7efd6f243eb3c05ac440562ae29ae12</checksum>
+					<url>android-ndk-r21d-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue May 26 14:30:44 2020.-->
 				<complete>
 					<size>1042615469</size>
@@ -3129,6 +3449,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:02:28 2021.-->
+				<complete>
+					<size>1014322452</size>
+					<checksum type="sha1">c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
+					<url>android-ndk-r21c-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu May  7 14:07:45 2020.-->
 				<complete>
 					<size>1014322452</size>
@@ -3175,6 +3505,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:01:15 2021.-->
+				<complete>
+					<size>1014473187</size>
+					<checksum type="sha1">e1de2f749c5c32ae991c3ccaabfcdf7688ee221f</checksum>
+					<url>android-ndk-r21b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Fri Apr  3 13:34:16 2020.-->
 				<complete>
@@ -3224,6 +3564,16 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:01:51 2021.-->
+				<complete>
+					<size>1042902819</size>
+					<checksum type="sha1">767f722c14dd27a22b17903e09b768407131129e</checksum>
+					<url>android-ndk-r21b-beta3-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Mon Apr  6 13:07:53 2020.-->
 				<complete>
 					<size>1042902819</size>
@@ -3271,6 +3621,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-3"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 19:00:39 2021.-->
+				<complete>
+					<size>987112894</size>
+					<checksum type="sha1">41110daad93e6a9a3662d7dd2fb233b21be3d27e</checksum>
+					<url>android-ndk-r21b-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Sat Mar  7 18:34:32 2020.-->
 				<complete>
@@ -3320,6 +3680,16 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 19:00:04 2021.-->
+				<complete>
+					<size>987084422</size>
+					<checksum type="sha1">971609f9a579ebbcb8d121a5d5aa0cba716b2d1f</checksum>
+					<url>android-ndk-r21b-beta1-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Mar 17 10:12:17 2020.-->
 				<complete>
 					<size>987084422</size>
@@ -3366,6 +3736,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:59:30 2021.-->
+				<complete>
+					<size>958656601</size>
+					<checksum type="sha1">0d50636cc0e34ed3ba540d6d5818ea0cf10f16aa</checksum>
+					<url>android-ndk-r21-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Tue Mar 17 10:23:14 2020.-->
 				<complete>
@@ -3415,6 +3795,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:58:56 2021.-->
+				<complete>
+					<size>958791657</size>
+					<checksum type="sha1">34a46c3867c9d87a80895c0b8a098256052536d2</checksum>
+					<url>android-ndk-r21-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Tue Mar 17 10:34:27 2020.-->
 				<complete>
 					<size>958791657</size>
@@ -3461,6 +3851,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:58:23 2021.-->
+				<complete>
+					<size>843201217</size>
+					<checksum type="sha1">b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
+					<url>android-ndk-r20b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 16:01:28 2020.-->
 				<complete>
@@ -3518,6 +3918,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:57:53 2021.-->
+				<complete>
+					<size>843152912</size>
+					<checksum type="sha1">96d5f1c50452596912d1982439c514194b5751e6</checksum>
+					<url>android-ndk-r20-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:58:47 2020.-->
 				<complete>
@@ -3577,6 +3987,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:57:23 2021.-->
+				<complete>
+					<size>843617071</size>
+					<checksum type="sha1">665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
+					<url>android-ndk-r20-beta3-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:56:02 2020.-->
 				<complete>
 					<size>843617071</size>
@@ -3635,6 +4055,16 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:56:54 2021.-->
+				<complete>
+					<size>840834121</size>
+					<checksum type="sha1">cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
+					<url>android-ndk-r20-beta2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:53:17 2020.-->
 				<complete>
 					<size>840834121</size>
@@ -3691,6 +4121,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:56:24 2021.-->
+				<complete>
+					<size>807630656</size>
+					<checksum type="sha1">f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
+					<url>android-ndk-r19c-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:50:39 2020.-->
 				<complete>
@@ -3749,6 +4189,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:55:56 2021.-->
+				<complete>
+					<size>807592927</size>
+					<checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
+					<url>android-ndk-r19-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:44:52 2020.-->
 				<complete>
 					<size>807592927</size>
@@ -3805,6 +4255,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:55:27 2021.-->
+				<complete>
+					<size>542911996</size>
+					<checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
+					<url>android-ndk-r18b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:35:38 2020.-->
 				<complete>
@@ -3863,6 +4323,16 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
+				<!--Built on: Wed Apr 28 18:55:08 2021.-->
+				<complete>
+					<size>675091485</size>
+					<checksum type="sha1">f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
+					<url>android-ndk-r17c-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
 				<!--Built on: Thu Mar 19 15:33:56 2020.-->
 				<complete>
 					<size>675091485</size>
@@ -3919,6 +4389,16 @@ June 2014.</license>
 		</dependencies>
 		<channelRef ref="channel-0"/>
 		<archives>
+			<archive>
+				<!--Built on: Wed Apr 28 18:54:45 2021.-->
+				<complete>
+					<size>839630771</size>
+					<checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</checksum>
+					<url>android-ndk-r16b-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
 			<archive>
 				<!--Built on: Thu Mar 19 15:30:39 2020.-->
 				<complete>
@@ -6852,7 +7332,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -6905,7 +7385,17 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Thu Feb 18 15:38:54 2021.-->
+				<!--Built on: Mon Apr 26 13:55:01 2021.-->
+				<complete>
+					<size>12295830</size>
+					<checksum type="sha1">c9b02d630079783c6d67cb91488b622cfcd9765c</checksum>
+					<url>cmake-3.6.4111459-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr 26 13:54:13 2021.-->
 				<complete>
 					<size>12295830</size>
 					<checksum type="sha1">c9b02d630079783c6d67cb91488b622cfcd9765c</checksum>
@@ -6915,7 +7405,7 @@ June 2014.</license>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Thu Feb 18 15:39:00 2021.-->
+				<!--Built on: Mon Apr 26 13:54:18 2021.-->
 				<complete>
 					<size>13980243</size>
 					<checksum type="sha1">71c539b9c33f0943e9ad6251fea0b161c0b70782</checksum>
@@ -6925,7 +7415,7 @@ June 2014.</license>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Thu Feb 18 15:39:08 2021.-->
+				<!--Built on: Mon Apr 26 13:54:22 2021.-->
 				<complete>
 					<size>10428915</size>
 					<checksum type="sha1">4c4730dc3f399b2fa9ab701112d2c439368a59a5</checksum>
@@ -6949,7 +7439,17 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Mon Feb  8 18:54:59 2021.-->
+				<!--Built on: Mon Apr 26 14:08:11 2021.-->
+				<complete>
+					<size>13447295</size>
+					<checksum type="sha1">f227a85cb53dcb927ac52a5a717f647c4a29bf3b</checksum>
+					<url>cmake-3.10.2-darwin-aarch64.zip</url>
+				</complete>
+				<host-os>macosx</host-os>
+				<host-arch>aarch64</host-arch>
+			</archive>
+			<archive>
+				<!--Built on: Mon Apr 26 14:07:36 2021.-->
 				<complete>
 					<size>13447295</size>
 					<checksum type="sha1">f227a85cb53dcb927ac52a5a717f647c4a29bf3b</checksum>
@@ -6959,7 +7459,7 @@ June 2014.</license>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb  8 18:54:57 2021.-->
+				<!--Built on: Mon Apr 26 14:07:39 2021.-->
 				<complete>
 					<size>14275684</size>
 					<checksum type="sha1">439e8799bf59f724f104bf62784b2985f1bfe561</checksum>
@@ -6969,7 +7469,7 @@ June 2014.</license>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Mon Feb  8 18:55:00 2021.-->
+				<!--Built on: Mon Apr 26 14:07:42 2021.-->
 				<complete>
 					<size>11899659</size>
 					<checksum type="sha1">0a75b9c5bf558dc31caad7241a44515064656486</checksum>

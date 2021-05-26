@@ -12,6 +12,7 @@ import time
 import zipfile
 from bs4 import BeautifulSoup
 
+
 def process_url(status_codes, url, checksum_type, checksum):
     sha1_hasher = hashlib.sha1()
     sha256_hasher = hashlib.sha256()
@@ -76,6 +77,7 @@ def write_json(l, f):
     with open(f, 'w') as fp:
         json.dump(l, fp, indent=2, sort_keys=True)
 
+
 def write_repository_xml(url):
     while True:
         try:
@@ -90,6 +92,7 @@ def write_repository_xml(url):
         with open(url.replace('https://dl.google.com/', ''), 'w') as fp:
             fp.write(r.text)
     return r.status_code
+
 
 status_codes = []
 
@@ -131,31 +134,40 @@ with open('android/repository/addon.xml') as fp:
             check_file(
                 BASE_URL + filename,
                 archive.checksum['type'].lower().strip(),
-                archive.checksum.string.lower().strip())
+                archive.checksum.string.lower().strip(),
+            )
 
 with open('android/repository/repository-12.xml') as fp:
     soup = BeautifulSoup(fp.read(), "xml")
     for archive in soup.find_all('archive'):
         host_os = archive.find('host-os')
         host_bits = archive.find('host-bits')
-        if host_os and host_os.string == 'linux' \
-           and (not host_bits or host_bits.string == '64'):
+        if (
+            host_os
+            and host_os.string == 'linux'
+            and (not host_bits or host_bits.string == '64')
+        ):
             check_file(
                 BASE_URL + archive.url.string,
                 archive.checksum['type'].lower().strip(),
-                archive.checksum.string.lower().strip())
+                archive.checksum.string.lower().strip(),
+            )
 
 with open('android/repository/repository2-1.xml') as fp:
     soup = BeautifulSoup(fp.read(), "xml")
     for archive in soup.find_all('archive'):
         host_os = archive.find('host-os')
         host_bits = archive.find('host-bits')
-        if host_os and host_os.string == 'linux' \
-           and (not host_bits or host_bits.string == '64'):
+        if (
+            host_os
+            and host_os.string == 'linux'
+            and (not host_bits or host_bits.string == '64')
+        ):
             check_file(
                 BASE_URL + archive.url.string,
                 'sha1',
-                archive.checksum.string.lower().strip())
+                archive.checksum.string.lower().strip(),
+            )
 
 with open('checksums.json', 'w') as fp:
     json.dump(checksums, fp, indent=2, sort_keys=True)

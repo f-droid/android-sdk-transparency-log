@@ -1961,7 +1961,8 @@
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
       "sha256": "763572c87f77d3ddbf7e72d080e8b45184d5c368bfdd170f2589f08a089570fd",
-      "sha512": "576e0d1d0cde06cba7c2ee795b5a671fe6c6318e29cc1d82caf4e5c42a382ec4226e38c90429f9fc919bafc1264f2f491f8eea385d7714e863603a1b2854c035"
+      "sha512": "576e0d1d0cde06cba7c2ee795b5a671fe6c6318e29cc1d82caf4e5c42a382ec4226e38c90429f9fc919bafc1264f2f491f8eea385d7714e863603a1b2854c035",
+      "source.properties": "Pkg.Revision=3.10.2\nPkg.Path=cmake;3.10.2.4988404\nPkg.Desc=CMake 3.10.2.4988404\n"
     }
   ],
   "https://dl.google.com/android/repository/cmake-3.18.1-linux.zip": [
@@ -1973,14 +1974,16 @@
     {
       "sha1": "9435bbe2120763871c75c37a365451b48c007fed",
       "sha256": "1f42f35cdcab51a7152fc644772eb988a0c197526cbec1c37c1a8146e240012a",
-      "sha512": "2c7278fae8b69032c66881457db9c0cc71f8d4b103ab5830810228a59ab209494982031cf7abed16162456a856e81c77bd67d077c3e665946884cb528350fe7b"
+      "sha512": "2c7278fae8b69032c66881457db9c0cc71f8d4b103ab5830810228a59ab209494982031cf7abed16162456a856e81c77bd67d077c3e665946884cb528350fe7b",
+      "source.properties": "Pkg.Revision = 3.18.1\nPkg.Path = cmake;3.18.1\nPkg.Desc = CMake 3.18.1\n"
     }
   ],
   "https://dl.google.com/android/repository/cmake-3.6.4111459-linux-x86_64.zip": [
     {
       "sha1": "71c539b9c33f0943e9ad6251fea0b161c0b70782",
       "sha256": "993527d8092bf6895e52b2b1ea7d66749714d907ce2ebce4fc6dd3f1df076cbb",
-      "sha512": "b91437dac78679cd5725264aa6d5047fe96f73bf31bedb931a50a214d3eb4bc4e626586121bdab7462da503564663a4fc392791debd2523e1756bc47b567d6b4"
+      "sha512": "b91437dac78679cd5725264aa6d5047fe96f73bf31bedb931a50a214d3eb4bc4e626586121bdab7462da503564663a4fc392791debd2523e1756bc47b567d6b4",
+      "source.properties": "Pkg.Revision=3.6.4111459\nPkg.Desc=CMake 3.6.4111459\nPkg.Path=cmake;3.6.4111459\n"
     }
   ],
   "https://dl.google.com/android/repository/commandlinetools-linux-5842447_latest.zip": [
@@ -2075,14 +2078,16 @@
     {
       "sha1": "18632007ecb843b4fc69babd521a9b061868534b",
       "sha256": "e43e52282361efa71402efa6b5c98635f29014921254ccd53c8091dd448243e3",
-      "sha512": "263a926cd6009a2c27be719edba52f21285eea413daa0d903f3b6c67e0ec3f63cf5eb79b8c9269cecd26b50a9e2108951fd704e5d9bc4aeec195045814692d50"
+      "sha512": "263a926cd6009a2c27be719edba52f21285eea413daa0d903f3b6c67e0ec3f63cf5eb79b8c9269cecd26b50a9e2108951fd704e5d9bc4aeec195045814692d50",
+      "source.properties": "Pkg.Revision=1.1\nPkg.Path=extras;google;auto\nPkg.Desc=Android Auto Desktop Head Unit Emulator\n"
     }
   ],
   "https://dl.google.com/android/repository/desktop-head-unit-linux_r02.0.rc1.zip": [
     {
       "sha1": "b480489e604371301da10731a793b234b01b8f42",
       "sha256": "d46ab596d7cca65e42b51e318172609b91fcf3944d5835b3035747b042d02b0c",
-      "sha512": "ecb91fe2405b1f368c683695f5cca600014cbb6c1ee428fb8d633fe89dea7a84f6b76f13c1cdfbdc99a31befa19a18368f6eb259391d058623a6e716004927d7"
+      "sha512": "ecb91fe2405b1f368c683695f5cca600014cbb6c1ee428fb8d633fe89dea7a84f6b76f13c1cdfbdc99a31befa19a18368f6eb259391d058623a6e716004927d7",
+      "source.properties": "Pkg.Revision=2.0 rc1\nPkg.Path=extras;google;auto\nPkg.Desc=Android Auto Desktop Head Unit Emulator\n"
     }
   ],
   "https://dl.google.com/android/repository/emulator-linux-6110076.zip": [
@@ -2648,35 +2653,40 @@
     {
       "sha1": "eb9b96d320210fdfe82495b0597ad43e77f1c240",
       "sha256": "74e2da73fd1098a34631fa28d108e4028c3e1073d96ddee3a117f5b5ba630874",
-      "sha512": "25f0088b2b0de12c37f82668f7cf82b58fd3c6d7365b0fe2e56e319b468ccaf4a7dcbc462d3c809f3b7441d7272c45e80c17d2ca473beb172a9d328068da8bc4"
+      "sha512": "25f0088b2b0de12c37f82668f7cf82b58fd3c6d7365b0fe2e56e319b468ccaf4a7dcbc462d3c809f3b7441d7272c45e80c17d2ca473beb172a9d328068da8bc4",
+      "source.properties": "Pkg.Revision=2.1.2852477\n"
     }
   ],
   "https://dl.google.com/android/repository/lldb-2.2.3271982-linux-x86_64.zip": [
     {
       "sha1": "413649617d97dd9ef163528f64c0500e1b7c4113",
       "sha256": "46bf700352479a3865dd8006dcf1664818d49632bd63aade5819cf8478a0fedb",
-      "sha512": "acca28b1c09446bb14b56dbd1237e12baf033650d7c3ad883babfd17ea2e00c634b965d3e53844f79eafca2c45f922ace1bd059537eeeb036337e0d1205e9c06"
+      "sha512": "acca28b1c09446bb14b56dbd1237e12baf033650d7c3ad883babfd17ea2e00c634b965d3e53844f79eafca2c45f922ace1bd059537eeeb036337e0d1205e9c06",
+      "source.properties": "Pkg.Revision=2.2.3271982\n"
     }
   ],
   "https://dl.google.com/android/repository/lldb-2.3.3614996-linux-x86_64.zip": [
     {
       "sha1": "d7abe655650efe9f6989df31835fa3b3f95c2d13",
       "sha256": "e502cc1e56f1db0e2b5ce4637b04d066e58496bfd97960c90a3a9a27b54030a3",
-      "sha512": "245015da468d64575e808cc29c8f20102311ae7878734e276dc14f34ff78d3fc6d78ce128c8f6019eb2400059879e3abf6c43cc8ba8bf3e9b129d1d692159a6d"
+      "sha512": "245015da468d64575e808cc29c8f20102311ae7878734e276dc14f34ff78d3fc6d78ce128c8f6019eb2400059879e3abf6c43cc8ba8bf3e9b129d1d692159a6d",
+      "source.properties": "Pkg.Revision=2.3.3614996\n"
     }
   ],
   "https://dl.google.com/android/repository/lldb-3.0.4213617-linux-x86_64.zip": [
     {
       "sha1": "61d49b6a58953faa61546d631409af5f60d8d9db",
       "sha256": "741869d357bb9c409f01f8b7061e13b50b4fedb56e4190e88378a3167b168a93",
-      "sha512": "ba6a4858c9b7d116602f3897dd0d27a7e2461c9c5695f83df64ea780b35a14a68a3fb337ccc8a5d8eaf9786c653a371f2013b75d06060e19633c52b4dcc75d42"
+      "sha512": "ba6a4858c9b7d116602f3897dd0d27a7e2461c9c5695f83df64ea780b35a14a68a3fb337ccc8a5d8eaf9786c653a371f2013b75d06060e19633c52b4dcc75d42",
+      "source.properties": "Pkg.Revision=3.0.4213617\n"
     }
   ],
   "https://dl.google.com/android/repository/lldb-3.1.4508709-linux-x86_64.zip": [
     {
       "sha1": "462711c9ee94fec9ff8be5fa8180afec04d1af6f",
       "sha256": "9af054f61775a6ea79f7254fec0c96c4e8104bd8ec3d6dc003ffd61143ada36d",
-      "sha512": "b9e2e9a7b6d06b7cd7337aed1da61c24a0cf868c505b42e95578062dadcd8458fa95a810f0a2cfa1dbb0108756c96f53ae5eafcb7063c8fb2cbe36e229804542"
+      "sha512": "b9e2e9a7b6d06b7cd7337aed1da61c24a0cf868c505b42e95578062dadcd8458fa95a810f0a2cfa1dbb0108756c96f53ae5eafcb7063c8fb2cbe36e229804542",
+      "source.properties": "Pkg.Revision=3.1.4508709\n"
     }
   ],
   "https://dl.google.com/android/repository/platform-23_r03.zip": [

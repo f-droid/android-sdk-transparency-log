@@ -37,10 +37,18 @@ def process_url(status_codes, url, checksum_type, checksum):
         }
         with zipfile.ZipFile(urlfp) as zfp:
             for name in zfp.namelist():
-                segments = name.split('/')
-                for filename in ('source.properties', 'build.prop',
-                                 'sdk.properties', 'runtime.properties'):
-                    if len(segments) == 2 and segments[1] == filename:
+                segments = name.rstrip('/').split('/')
+                for filename in (
+                    'RELEASE.TXT',
+                    'source.properties',
+                    'build.prop',
+                    'sdk.properties',
+                    'runtime.properties',
+                ):
+                    if filename not in d and (
+                        (len(segments) == 1 and segments[0] == filename)
+                        or (len(segments) == 2 and segments[1] == filename)
+                    ):
                         with zfp.open(name) as fp:
                             d[filename] = fp.read().decode()
         for entry in checksums.get(url, []):

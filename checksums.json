@@ -959,6 +959,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 23.0.7344513-beta4\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r23-beta5-linux.zip": [
+    {
+      "sha1": "453ba0ca124e43337318f8a40d26cab114e7092c",
+      "sha256": "93858626ac0ec0bdbd2e4723056cece0237ab2b358d83e2ae1f42c5bcfc72889",
+      "sha512": "ad70d9ff1143bb217f9f4137b33307047334c802bf7f53730624a96b61643bbe6ed88d9ce82e73ac54a7ac0c5e3581731d9373a3e4826e160b1756f545642594",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 23.0.7421159-beta5\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -1960,6 +1968,15 @@
       "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=30.0.0\nPkg.Revision=31.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r31-rc5-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "f7da96f420f17a449bfb9000333a9ce120a50b2b",
+      "sha256": "b8a5bcc92b2214258662c77e15a622fb1daf3b99ee5a668e68d72711223c9ae6",
+      "sha512": "bd00dedbd27d54b9dafa753485920864c1a6fe698de7a9a88434e887a56a2102438150b9efb20dac6938746076870e94ab963b702aa01710fd7f73564d4689c8",
+      "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=30.0.0\nPkg.Revision=31.0.0 rc5\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
@@ -2651,6 +2668,14 @@
       "sha256": "d0198028aeedfa0a211d866541856d20173f05503c6fc2120ae36818c791bda5",
       "sha512": "ba7e46725aa8078b0d477b097c96b2143fbded20bf8d82151081daf82b709ecc5aceccc315f7ccba1d1c0e6a7c633c2563a79590ad3860994eb796536961a2d6",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.7.2\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=7395805"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-7425822.zip": [
+    {
+      "sha1": "ff245e1346cdfdaa0c3c003259ea76063f793205",
+      "sha256": "3e7a0b136587aa8c13689c4c514c26a7f914d472e78e227a17c3c223dee8b9af",
+      "sha512": "1216d85f9d54047b8fcfbbbb5ea9010fe6417701b6bfe15b5f5ab58a0c73c2d8fc6b10aa516f279ce45e88b1e1f5a77825b0853af0ec02a3800f43e6f330f19b",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.7.3\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=7425822"
     }
   ],
   "https://dl.google.com/android/repository/lldb-2.0.2558144-linux-x86_64.zip": [

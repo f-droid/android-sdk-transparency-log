@@ -3085,6 +3085,14 @@
       "source.properties": "Pkg.Revision=2\nPkg.Path=skiaparser;2\nPkg.Desc=Layout Inspector image server for API S\n"
     }
   ],
+  "https://dl.google.com/android/repository/skiaparser-7478287-linux.zip": [
+    {
+      "sha1": "36e2c30f7745f4c062129a0fd549d29ab991db41",
+      "sha256": "63b86a60195992143109cbbb34e4732c327df6e36a58a1b696577273ad61b4d4",
+      "sha512": "58156aeaaae330a873bda03751ed0e39a4f73c6d2356d2bdd193621a1bafa006c2d9a8469f8d3d4ded3cbc9a9bdcdef2aabc6c54f12e352d5425be532f7488b8",
+      "source.properties": "Pkg.Revision=3\nPkg.Path=skiaparser;2\nPkg.Desc=Layout Inspector image server for API S\n"
+    }
+  ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [
     {
       "sha1": "40b8aed9972893c73c68661d867b5f803102f0ea",

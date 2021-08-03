@@ -2751,6 +2751,14 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.8.2\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=7557372"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-7587338.zip": [
+    {
+      "sha1": "358456432db403a84f07d7b4f439ca9b4f78916b",
+      "sha256": "e4f53bc57d59a0aaa77fbd1c4486251f2c98232c826381e9481023dfe2eb4035",
+      "sha512": "0a76a797063effc2675469f90139b132511613eee9a189a02516295e24366877d1b52c76b8725237559cc27bc9fffb92a33203231495cdc018c537ac84bf0a78",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=30.8.3\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=7587338"
+    }
+  ],
   "https://dl.google.com/android/repository/lldb-2.0.2558144-linux-x86_64.zip": [
     {
       "sha1": "e7060d9b2ba58b28fd7b1a0ea85a151c8371a326",

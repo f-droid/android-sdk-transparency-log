@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/02" xmlns:generic="http://schemas.android.com/repository/android/generic/02" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/02" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-08-12 21:16:34.325605 with ADRT.-->
+	<!--Generated on 2021-08-17 09:12:34.255988 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1522,7 +1522,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May  7 15:19:40 2021.-->
+				<!--Built on: Mon Aug 16 13:53:30 2021.-->
 				<complete>
 					<size>694920487</size>
 					<checksum type="sha1">a8fedcf0dd3b3a340e68684a5a2308154a952039</checksum>
@@ -1580,7 +1580,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:06:56 2021.-->
+				<!--Built on: Mon Aug 16 13:53:30 2021.-->
 				<complete>
 					<size>695243724</size>
 					<checksum type="sha1">3b977f0f8e0fa2d6777fae6b1d37aebfc075ab56</checksum>
@@ -1638,7 +1638,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:06:30 2021.-->
+				<!--Built on: Mon Aug 16 13:53:30 2021.-->
 				<complete>
 					<size>674507658</size>
 					<checksum type="sha1">454fd0c1e8385896ad465d7cfd653e28fbf3523f</checksum>
@@ -1696,7 +1696,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:05:29 2021.-->
+				<!--Built on: Mon Aug 16 13:53:29 2021.-->
 				<complete>
 					<size>721278316</size>
 					<checksum type="sha1">708ebbceb719c43a3165503ea82fb107d823ad54</checksum>
@@ -1753,7 +1753,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:06:06 2021.-->
+				<!--Built on: Mon Aug 16 13:53:29 2021.-->
 				<complete>
 					<size>1049337733</size>
 					<checksum type="sha1">dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
@@ -1810,7 +1810,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:04:24 2021.-->
+				<!--Built on: Mon Aug 16 13:53:28 2021.-->
 				<complete>
 					<size>1047577432</size>
 					<checksum type="sha1">9cf3816ed3e4308ff03bd5f69100b373bad12f13</checksum>
@@ -1868,7 +1868,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:03:45 2021.-->
+				<!--Built on: Mon Aug 16 13:53:28 2021.-->
 				<complete>
 					<size>1047697781</size>
 					<checksum type="sha1">0ff242f820663fe45773bca7a2df036004fc7c69</checksum>
@@ -1925,7 +1925,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:05:02 2021.-->
+				<!--Built on: Mon Aug 16 13:53:29 2021.-->
 				<complete>
 					<size>1042617180</size>
 					<checksum type="sha1">3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
@@ -1982,7 +1982,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:03:06 2021.-->
+				<!--Built on: Mon Aug 16 13:53:28 2021.-->
 				<complete>
 					<size>1042615469</size>
 					<checksum type="sha1">ef06c9f9d7efd6f243eb3c05ac440562ae29ae12</checksum>
@@ -2039,7 +2039,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:02:28 2021.-->
+				<!--Built on: Mon Aug 16 13:53:27 2021.-->
 				<complete>
 					<size>1014322452</size>
 					<checksum type="sha1">c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
@@ -2096,7 +2096,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:01:15 2021.-->
+				<!--Built on: Mon Aug 16 13:53:27 2021.-->
 				<complete>
 					<size>1014473187</size>
 					<checksum type="sha1">e1de2f749c5c32ae991c3ccaabfcdf7688ee221f</checksum>
@@ -2154,7 +2154,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:01:51 2021.-->
+				<!--Built on: Mon Aug 16 13:53:27 2021.-->
 				<complete>
 					<size>1042902819</size>
 					<checksum type="sha1">767f722c14dd27a22b17903e09b768407131129e</checksum>
@@ -2212,7 +2212,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:00:39 2021.-->
+				<!--Built on: Mon Aug 16 13:53:26 2021.-->
 				<complete>
 					<size>987112894</size>
 					<checksum type="sha1">41110daad93e6a9a3662d7dd2fb233b21be3d27e</checksum>
@@ -2270,7 +2270,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:00:04 2021.-->
+				<!--Built on: Mon Aug 16 13:53:26 2021.-->
 				<complete>
 					<size>987084422</size>
 					<checksum type="sha1">971609f9a579ebbcb8d121a5d5aa0cba716b2d1f</checksum>
@@ -2327,7 +2327,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:59:30 2021.-->
+				<!--Built on: Mon Aug 16 13:53:26 2021.-->
 				<complete>
 					<size>958656601</size>
 					<checksum type="sha1">0d50636cc0e34ed3ba540d6d5818ea0cf10f16aa</checksum>
@@ -2385,7 +2385,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:58:56 2021.-->
+				<!--Built on: Mon Aug 16 13:53:25 2021.-->
 				<complete>
 					<size>958791657</size>
 					<checksum type="sha1">34a46c3867c9d87a80895c0b8a098256052536d2</checksum>
@@ -2442,7 +2442,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:58:23 2021.-->
+				<!--Built on: Mon Aug 16 13:53:25 2021.-->
 				<complete>
 					<size>843201217</size>
 					<checksum type="sha1">b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
@@ -2509,7 +2509,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:57:53 2021.-->
+				<!--Built on: Mon Aug 16 13:53:25 2021.-->
 				<complete>
 					<size>843152912</size>
 					<checksum type="sha1">96d5f1c50452596912d1982439c514194b5751e6</checksum>
@@ -2577,7 +2577,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:57:23 2021.-->
+				<!--Built on: Mon Aug 16 13:53:24 2021.-->
 				<complete>
 					<size>843617071</size>
 					<checksum type="sha1">665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
@@ -2645,7 +2645,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:56:54 2021.-->
+				<!--Built on: Mon Aug 16 13:53:24 2021.-->
 				<complete>
 					<size>840834121</size>
 					<checksum type="sha1">cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
@@ -2712,7 +2712,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:56:24 2021.-->
+				<!--Built on: Mon Aug 16 13:53:24 2021.-->
 				<complete>
 					<size>807630656</size>
 					<checksum type="sha1">f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
@@ -2779,7 +2779,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:55:56 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>807592927</size>
 					<checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
@@ -2846,7 +2846,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:55:27 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>542911996</size>
 					<checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
@@ -2913,7 +2913,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:55:08 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>675091485</size>
 					<checksum type="sha1">f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
@@ -2980,7 +2980,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:54:45 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>839630771</size>
 					<checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</checksum>
@@ -3048,7 +3048,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Fri May  7 15:19:40 2021.-->
+				<!--Built on: Mon Aug 16 13:53:30 2021.-->
 				<complete>
 					<size>694920487</size>
 					<checksum type="sha1">a8fedcf0dd3b3a340e68684a5a2308154a952039</checksum>
@@ -3106,7 +3106,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:06:56 2021.-->
+				<!--Built on: Mon Aug 16 13:53:30 2021.-->
 				<complete>
 					<size>695243724</size>
 					<checksum type="sha1">3b977f0f8e0fa2d6777fae6b1d37aebfc075ab56</checksum>
@@ -3164,7 +3164,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:06:30 2021.-->
+				<!--Built on: Mon Aug 16 13:53:30 2021.-->
 				<complete>
 					<size>674507658</size>
 					<checksum type="sha1">454fd0c1e8385896ad465d7cfd653e28fbf3523f</checksum>
@@ -3222,7 +3222,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:05:29 2021.-->
+				<!--Built on: Mon Aug 16 13:53:29 2021.-->
 				<complete>
 					<size>721278316</size>
 					<checksum type="sha1">708ebbceb719c43a3165503ea82fb107d823ad54</checksum>
@@ -3279,7 +3279,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:06:06 2021.-->
+				<!--Built on: Mon Aug 16 13:53:29 2021.-->
 				<complete>
 					<size>1049337733</size>
 					<checksum type="sha1">dc80e8a2cfcb28db74c1931d42c652e9d17ff2c3</checksum>
@@ -3336,7 +3336,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:04:24 2021.-->
+				<!--Built on: Mon Aug 16 13:53:28 2021.-->
 				<complete>
 					<size>1047577432</size>
 					<checksum type="sha1">9cf3816ed3e4308ff03bd5f69100b373bad12f13</checksum>
@@ -3394,7 +3394,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:03:45 2021.-->
+				<!--Built on: Mon Aug 16 13:53:28 2021.-->
 				<complete>
 					<size>1047697781</size>
 					<checksum type="sha1">0ff242f820663fe45773bca7a2df036004fc7c69</checksum>
@@ -3451,7 +3451,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:05:02 2021.-->
+				<!--Built on: Mon Aug 16 13:53:29 2021.-->
 				<complete>
 					<size>1042617180</size>
 					<checksum type="sha1">3f15c23a1c247ad17c7c271806848dbd40434738</checksum>
@@ -3508,7 +3508,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:03:06 2021.-->
+				<!--Built on: Mon Aug 16 13:53:28 2021.-->
 				<complete>
 					<size>1042615469</size>
 					<checksum type="sha1">ef06c9f9d7efd6f243eb3c05ac440562ae29ae12</checksum>
@@ -3565,7 +3565,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:02:28 2021.-->
+				<!--Built on: Mon Aug 16 13:53:27 2021.-->
 				<complete>
 					<size>1014322452</size>
 					<checksum type="sha1">c42a836f6697a4ef8b927813d5f7dd12e974cfba</checksum>
@@ -3622,7 +3622,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:01:15 2021.-->
+				<!--Built on: Mon Aug 16 13:53:27 2021.-->
 				<complete>
 					<size>1014473187</size>
 					<checksum type="sha1">e1de2f749c5c32ae991c3ccaabfcdf7688ee221f</checksum>
@@ -3680,7 +3680,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:01:51 2021.-->
+				<!--Built on: Mon Aug 16 13:53:27 2021.-->
 				<complete>
 					<size>1042902819</size>
 					<checksum type="sha1">767f722c14dd27a22b17903e09b768407131129e</checksum>
@@ -3738,7 +3738,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:00:39 2021.-->
+				<!--Built on: Mon Aug 16 13:53:26 2021.-->
 				<complete>
 					<size>987112894</size>
 					<checksum type="sha1">41110daad93e6a9a3662d7dd2fb233b21be3d27e</checksum>
@@ -3796,7 +3796,7 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 19:00:04 2021.-->
+				<!--Built on: Mon Aug 16 13:53:26 2021.-->
 				<complete>
 					<size>987084422</size>
 					<checksum type="sha1">971609f9a579ebbcb8d121a5d5aa0cba716b2d1f</checksum>
@@ -3853,7 +3853,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:59:30 2021.-->
+				<!--Built on: Mon Aug 16 13:53:26 2021.-->
 				<complete>
 					<size>958656601</size>
 					<checksum type="sha1">0d50636cc0e34ed3ba540d6d5818ea0cf10f16aa</checksum>
@@ -3911,7 +3911,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:58:56 2021.-->
+				<!--Built on: Mon Aug 16 13:53:25 2021.-->
 				<complete>
 					<size>958791657</size>
 					<checksum type="sha1">34a46c3867c9d87a80895c0b8a098256052536d2</checksum>
@@ -3968,7 +3968,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:58:23 2021.-->
+				<!--Built on: Mon Aug 16 13:53:25 2021.-->
 				<complete>
 					<size>843201217</size>
 					<checksum type="sha1">b51290ab69cb89de1f0ba108702277bc333b38be</checksum>
@@ -4035,7 +4035,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:57:53 2021.-->
+				<!--Built on: Mon Aug 16 13:53:25 2021.-->
 				<complete>
 					<size>843152912</size>
 					<checksum type="sha1">96d5f1c50452596912d1982439c514194b5751e6</checksum>
@@ -4103,7 +4103,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:57:23 2021.-->
+				<!--Built on: Mon Aug 16 13:53:24 2021.-->
 				<complete>
 					<size>843617071</size>
 					<checksum type="sha1">665a035cadb0dd03e6502ba25c18643f6e4ede24</checksum>
@@ -4171,7 +4171,7 @@ June 2014.</license>
 		<channelRef ref="channel-1"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:56:54 2021.-->
+				<!--Built on: Mon Aug 16 13:53:24 2021.-->
 				<complete>
 					<size>840834121</size>
 					<checksum type="sha1">cd94191ace6b31ec9af1cc370173e16934e1cb8b</checksum>
@@ -4238,7 +4238,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:56:24 2021.-->
+				<!--Built on: Mon Aug 16 13:53:24 2021.-->
 				<complete>
 					<size>807630656</size>
 					<checksum type="sha1">f46b8193109bba8a58e0461c1a48f4534051fb25</checksum>
@@ -4305,7 +4305,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:55:56 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>807592927</size>
 					<checksum type="sha1">86c1a962601b23b8a6d3d535c93b4b0bc4f29249</checksum>
@@ -4372,7 +4372,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:55:27 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>542911996</size>
 					<checksum type="sha1">98cb9909aa8c2dab32db188bbdc3ac6207e09440</checksum>
@@ -4439,7 +4439,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:55:08 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>675091485</size>
 					<checksum type="sha1">f97e3d7711497e3b4faf9e7b3fa0f0da90bb649c</checksum>
@@ -4506,7 +4506,7 @@ June 2014.</license>
 		<channelRef ref="channel-0"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Apr 28 18:54:45 2021.-->
+				<!--Built on: Mon Aug 16 13:53:23 2021.-->
 				<complete>
 					<size>839630771</size>
 					<checksum type="sha1">e51e615449b98c716cf912057e2682e75d55e2de</checksum>

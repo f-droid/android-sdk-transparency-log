@@ -17,6 +17,10 @@
   ],
   [
     "https://dl.google.com/android/repository/addon2-3.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/addon2-4.xml",
     404
   ],
   [
@@ -37,6 +41,10 @@
   ],
   [
     "https://dl.google.com/android/repository/addons_list-5.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/addons_list-6.xml",
     404
   ],
   [
@@ -65,6 +73,10 @@
   ],
   [
     "https://dl.google.com/android/repository/repository2-3.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/repository2-4.xml",
     404
   ],
   [
@@ -81,6 +93,10 @@
   ],
   [
     "https://dl.google.com/android/repository/sys-img/android/sys-img2-3.xml",
+    200
+  ],
+  [
+    "https://dl.google.com/android/repository/sys-img/android/sys-img2-4.xml",
     404
   ],
   [

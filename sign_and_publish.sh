@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/sh -e
 
+./verify-for-signing.py
 git pull
 mkdir -p signed
 cp checksums.json signed/checksums.json

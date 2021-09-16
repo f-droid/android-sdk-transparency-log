@@ -163,18 +163,19 @@ with open('android/repository/repository-12.xml') as fp:
 
 with open('android/repository/repository2-1.xml') as fp:
     soup = BeautifulSoup(fp.read(), "xml")
-    for archive in soup.find_all('archive'):
-        host_os = archive.find('host-os')
-        host_bits = archive.find('host-bits')
-        if (
-            host_os
-            and host_os.string == 'linux'
-            and (not host_bits or host_bits.string == '64')
-        ):
+    for remotePackage in soup.find_all('remotePackage'):
+        path = remotePackage.attrs.get('path', '')
+        if path.startswith('platforms;android-'):
+            print(path)
+            e = remotePackage.archives.archive
+            host_os = e.find('host-os')
+            host_bits = e.find('host-bits')
+            if (host_os and host_os.string != 'linux') or (host_bits and host_bits.string != '64'):
+                continue
             check_file(
-                BASE_URL + archive.url.string,
+                BASE_URL + e.complete.url.string,
                 'sha1',
-                archive.checksum.string.lower().strip(),
+                e.complete.checksum.string.lower().strip(),
             )
 
 with open('checksums.json', 'w') as fp:

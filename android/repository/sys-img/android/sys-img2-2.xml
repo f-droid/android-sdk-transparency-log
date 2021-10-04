@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-09-07 18:02:47.317145 with ADRT.-->
+	<!--Generated on 2021-10-01 17:55:04.529904 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -1131,6 +1131,69 @@ January 16, 2019</license>
 			</archive>
 		</archives>
 	</remotePackage>
+	<remotePackage path="system-images;android-30;default;arm64-v8a">
+		<!--Generated from bid:7758210, branch:git_rvc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>30</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Sep 23 08:06:02 2021.-->
+				<complete>
+					<size>548363604</size>
+					<checksum type="sha1">2462af138023fbbd1114421818890884d4ebceab</checksum>
+					<url>arm64-v8a-30_r01.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-31;default;arm64-v8a">
+		<!--Generated from bid:7752726, branch:git_sc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>arm64-v8a</abi>
+		</type-details>
+		<revision>
+			<major>2</major>
+		</revision>
+		<display-name>ARM 64 v8a System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>29</major>
+					<minor>1</minor>
+					<micro>11</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Sep 21 17:49:36 2021.-->
+				<complete>
+					<size>636979726</size>
+					<checksum type="sha1">3c94d9fb1838b032d943846516d93f779f135102</checksum>
+					<url>arm64-v8a-31_r02.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage path="system-images;android-16;default;mips">
 		<!--Generated from bid:1741836, branch:git_jb-dev-->
 		<type-details xsi:type="sys-img:sysImgDetailsType">
@@ -2146,6 +2209,78 @@ January 16, 2019</license>
 					<url>x86_64-29_r08-linux.zip</url>
 				</complete>
 				<host-os>linux</host-os>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-30;default;x86_64">
+		<!--Generated from bid:7758210, branch:git_rvc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>30</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>10</major>
+		</revision>
+		<display-name>Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>29</major>
+					<minor>1</minor>
+					<micro>11</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Thu Sep 23 08:06:19 2021.-->
+				<complete>
+					<size>676379913</size>
+					<checksum type="sha1">e08119b65d2c188ef69f127028eb4c8cc632cd8f</checksum>
+					<url>x86_64-30_r10.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="system-images;android-31;default;x86_64">
+		<!--Generated from bid:7752726, branch:git_sc-emu-release-->
+		<type-details xsi:type="sys-img:sysImgDetailsType">
+			<api-level>31</api-level>
+			<tag>
+				<id>default</id>
+				<display>Default Android System Image</display>
+			</tag>
+			<abi>x86_64</abi>
+		</type-details>
+		<revision>
+			<major>2</major>
+		</revision>
+		<display-name>Intel x86 Atom_64 System Image</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<dependencies>
+			<dependency path="emulator">
+				<min-revision>
+					<major>29</major>
+					<minor>1</minor>
+					<micro>11</micro>
+				</min-revision>
+			</dependency>
+		</dependencies>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Sep 21 17:25:39 2021.-->
+				<complete>
+					<size>658758319</size>
+					<checksum type="sha1">051d76aeac8830b824295c7d401a796058a52b50</checksum>
+					<url>x86_64-31_r02.zip</url>
+				</complete>
 			</archive>
 		</archives>
 	</remotePackage>

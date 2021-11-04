@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/03" xmlns:sdk="http://schemas.android.com/repository/android/common/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2021-08-26 17:30:09.273809 with ADRT.-->
+	<!--Generated on 2021-11-02 18:59:56.951118 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -600,6 +600,135 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 	<channel id="channel-1">beta</channel>
 	<channel id="channel-2">dev</channel>
 	<channel id="channel-3">canary</channel>
+	<remotePackage path="add-ons;addon-google_apis-google-19">
+		<!--Generated from bid:2884604, branch:git_klp-emu-release-->
+		<type-details xsi:type="addon:addonDetailsType">
+			<api-level>19</api-level>
+			<codename></codename>
+			<base-extension>true</base-extension>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<libraries>
+				<library localJarPath="maps.jar" name="com.google.android.maps">
+					<description>API for Google Maps</description>
+				</library>
+				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+					<description>API for USB Accessories</description>
+				</library>
+				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+					<description>Collection of video effects</description>
+				</library>
+			</libraries>
+		</type-details>
+		<revision>
+			<major>20</major>
+		</revision>
+		<display-name>Google APIs</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Sat Jun  2 14:21:02 2018.-->
+				<complete>
+					<size>147081</size>
+					<checksum type="sha1">5b933abe830b2f25b4c0f171d45e9e0651e56311</checksum>
+					<url>google_apis-19_r20.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="add-ons;addon-google_apis-google-24">
+		<!--Generated from bid:3249234, branch:git_nyc-emu-release-->
+		<type-details xsi:type="addon:addonDetailsType">
+			<api-level>24</api-level>
+			<codename></codename>
+			<base-extension>true</base-extension>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<libraries>
+				<library localJarPath="maps.jar" name="com.google.android.maps">
+					<description>API for Google Maps</description>
+				</library>
+				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+					<description>API for USB Accessories</description>
+				</library>
+				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+					<description>Collection of video effects</description>
+				</library>
+			</libraries>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google APIs</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Fri Jun  1 04:12:18 2018.-->
+				<complete>
+					<size>154865</size>
+					<checksum type="sha1">31361c2868f27343ee917fbd259c1463821b6145</checksum>
+					<url>google_apis-24_r1.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
+	<remotePackage path="add-ons;addon-google_apis-google-23">
+		<!--Generated from bid:3756122, branch:git_nyc-mr1-emu-release-->
+		<type-details xsi:type="addon:addonDetailsType">
+			<api-level>23</api-level>
+			<codename></codename>
+			<base-extension>true</base-extension>
+			<vendor>
+				<id>google</id>
+				<display>Google Inc.</display>
+			</vendor>
+			<tag>
+				<id>google_apis</id>
+				<display>Google APIs</display>
+			</tag>
+			<libraries>
+				<library localJarPath="maps.jar" name="com.google.android.maps">
+					<description>API for Google Maps</description>
+				</library>
+				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+					<description>API for USB Accessories</description>
+				</library>
+				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+					<description>Collection of video effects</description>
+				</library>
+			</libraries>
+		</type-details>
+		<revision>
+			<major>1</major>
+		</revision>
+		<display-name>Google APIs</display-name>
+		<uses-license ref="android-sdk-license"/>
+		<channelRef ref="channel-0"/>
+		<archives>
+			<archive>
+				<!--Built on: Tue Jun 12 20:09:06 2018.-->
+				<complete>
+					<size>154871</size>
+					<checksum type="sha1">550e83eea9513ab11c44919ac6da54b36084a9f3</checksum>
+					<url>google_apis-25_r1.zip</url>
+				</complete>
+			</archive>
+		</archives>
+	</remotePackage>
 	<remotePackage obsolete="true" path="add-ons;addon-google_apis-google-3">
 		<!--Generated from p4 cl:12617722-->
 		<type-details xsi:type="addon:addonDetailsType">
@@ -1224,135 +1353,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 					<size>143195183</size>
 					<checksum type="sha1">6109603409debdd40854d4d4a92eaf8481462c8b</checksum>
 					<url>google_apis-18_r04.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="add-ons;addon-google_apis-google-19">
-		<!--Generated from bid:2884604, branch:git_klp-emu-release-->
-		<type-details xsi:type="addon:addonDetailsType">
-			<api-level>19</api-level>
-			<codename></codename>
-			<base-extension>true</base-extension>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<tag>
-				<id>google_apis</id>
-				<display>Google APIs</display>
-			</tag>
-			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
-					<description>API for Google Maps</description>
-				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
-					<description>API for USB Accessories</description>
-				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
-					<description>Collection of video effects</description>
-				</library>
-			</libraries>
-		</type-details>
-		<revision>
-			<major>20</major>
-		</revision>
-		<display-name>Google APIs</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Sat Jun  2 14:21:02 2018.-->
-				<complete>
-					<size>147081</size>
-					<checksum type="sha1">5b933abe830b2f25b4c0f171d45e9e0651e56311</checksum>
-					<url>google_apis-19_r20.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="add-ons;addon-google_apis-google-24">
-		<!--Generated from bid:3249234, branch:git_nyc-emu-release-->
-		<type-details xsi:type="addon:addonDetailsType">
-			<api-level>24</api-level>
-			<codename></codename>
-			<base-extension>true</base-extension>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<tag>
-				<id>google_apis</id>
-				<display>Google APIs</display>
-			</tag>
-			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
-					<description>API for Google Maps</description>
-				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
-					<description>API for USB Accessories</description>
-				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
-					<description>Collection of video effects</description>
-				</library>
-			</libraries>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Google APIs</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Fri Jun  1 04:12:18 2018.-->
-				<complete>
-					<size>154865</size>
-					<checksum type="sha1">31361c2868f27343ee917fbd259c1463821b6145</checksum>
-					<url>google_apis-24_r1.zip</url>
-				</complete>
-			</archive>
-		</archives>
-	</remotePackage>
-	<remotePackage path="add-ons;addon-google_apis-google-23">
-		<!--Generated from bid:3756122, branch:git_nyc-mr1-emu-release-->
-		<type-details xsi:type="addon:addonDetailsType">
-			<api-level>23</api-level>
-			<codename></codename>
-			<base-extension>true</base-extension>
-			<vendor>
-				<id>google</id>
-				<display>Google Inc.</display>
-			</vendor>
-			<tag>
-				<id>google_apis</id>
-				<display>Google APIs</display>
-			</tag>
-			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
-					<description>API for Google Maps</description>
-				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
-					<description>API for USB Accessories</description>
-				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
-					<description>Collection of video effects</description>
-				</library>
-			</libraries>
-		</type-details>
-		<revision>
-			<major>1</major>
-		</revision>
-		<display-name>Google APIs</display-name>
-		<uses-license ref="android-sdk-license"/>
-		<channelRef ref="channel-0"/>
-		<archives>
-			<archive>
-				<!--Built on: Tue Jun 12 20:09:06 2018.-->
-				<complete>
-					<size>154871</size>
-					<checksum type="sha1">550e83eea9513ab11c44919ac6da54b36084a9f3</checksum>
-					<url>google_apis-25_r1.zip</url>
 				</complete>
 			</archive>
 		</archives>

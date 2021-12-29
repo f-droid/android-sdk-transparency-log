@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="static/bootstrap/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/bootstrap/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/main.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="static/icon/180.png"/>
+    <link rel="icon" type="image/png" sizes="48x48" href="static/icon/48.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="static/icon/32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="static/icon/16.png"/>
+    <link rel="shortcut icon" href="static/icon/48.ico"/>
+    <title>F-Droid - Android SDK Transparency Log</title>
+  </head>
+  <body>
+    <div id="site-wrapper" class="container">
+      <div class="row">
+	<div class="col-12">
+	  <h1 class="main-heading">
+	    <a href="/"><img id="logo" src="static/icon/180.png" />Android SDK Transparency Log</a>
+	  </h1>
+	</div>
+	<div class="col-12">
+	  <p>
+	    This is an automated log of the Android SDK binaries and
+	    their checksums, as posted in the <tt>sdkmanager</tt>
+	    repositories hosted on
+	    <a href="https://dl.google.com/android/repository">https://dl.google.com/android/repository</a>
+	  </p>
+	  <p>
+	  This serves as a
+	  basic <a href="https://wiki.mozilla.org/Security/Binary_Transparency">binary
+	  transparency</a> append-only log for anyone to use.  One of
+	  the key properties of any good binary repository is that the
+	  binaries never change once they have been
+	  published.  <a href="https://blog.sonatype.com/2009/04/what-is-a-repository/">Maven
+	  has been promising this</a> since 2009 at least.  F-Droid
+	  has for most of its history.  Occasionally, Google forgets
+	  this, and changes packages that have already been published:
+	  <a href="https://issuetracker.google.com/issues/70292819">Google
+	  Issue #70292819 platform-27_r01.zip was overwritten with a
+	  new update (<i>Google login and Javascript required</i>)</a>
+	  </p>
+	  <h2>The Relevant Files</h2>
+	  <ul>
+	    <li><a href="checksums.json"><code>checksums.json</code></a></li>
+	    <li><a href="checksums.json.asc"><code>checksums.json.asc</code></a></li>
+	    <li><a href="keyring.gpg"><code>keyring.gpg</code></a></li>
+	    <li><a href="keyring.gpg.asc"><code>keyring.gpg.asc</code></a></li>
+	  </ul>
+	</div>
+      </div>
+    </div>
+    <footer id="site-footer" class="container">
+      <div class="row">
+	<div class="col-12">
+	  <i>Android SDK Transparency Log, &copy; 2020 The F-Droid Team, AGPL-3.0-or-later (<a href="https://gitlab.com/fdroid/android-sdk-transparency-log">source</a>)</i>
+	</div>
+      </div>
+    </footer>
+  </body>
+</html>

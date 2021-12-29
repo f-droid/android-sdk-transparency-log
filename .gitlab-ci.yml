@@ -1,11 +1,14 @@
 
-log:
+pages:
   image: debian:stable
   variables:
     SSH_KEY: /root/.ssh/id_ed25519
     GIT_SSH_COMMAND: "/usr/bin/ssh -i $SSH_KEY"
     DEBIAN_FRONTEND: noninteractive
     LANG: C.UTF-8
+  artifacts:
+    paths:
+      - public
   before_script:
     - echo Etc/UTC > /etc/timezone
     - echo 'APT::Install-Recommends "0";'
@@ -18,6 +21,8 @@ log:
     - apt-get update
     - apt-get dist-upgrade
   script:
+    - mv signed public # publish to GitLab Pages
+
     - apt-get install git openssh-client python3-chardet python3-bs4 python3-lxml python3-requests
     - ./log.py
     - git diff

@@ -37,3 +37,14 @@ user account that runs the _buildserver_ instance, and it will add any
 unknown packages it finds to the local _checksums.json_.  If there are
 no changes to _checksums.json_ after that script successfully
 completes, that means no unknown packages were found.
+
+
+## Signed Checksums
+
+There are [locally verified](sign_and_publish.sh), GPG-signed, versions of
+_checksums.json_ available in the _signed/_ sub-directory:
+
+* [_checksums.json_](signed/checksums.json)
+* [_checksums.json.asc_](signed/checksums.json.asc)
+* [_keyring.gpg_](signed/keyring.gpg)
+* [_keyring.gpg.asc_](signed/keyring.gpg.asc)

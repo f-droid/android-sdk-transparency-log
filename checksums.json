@@ -2035,6 +2035,15 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=32.0.0\n#Pkg.Revision=32.0.0 rc2\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r32.1-rc1-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "4af23395f3a7cb4a5c01623347622f881a4772fd",
+      "sha256": "b99f00344f289800b96dafbadeed2ab0b2b74cea23081a73abbcdc9f5c0c6fe3",
+      "sha512": "a537e13b34d3dde7b7afe8291402c5254e5ddfbfe0eb171a484c633f2f85bd2edfba2780798264d50d326f8a4f26899af476fa5bdb246be4ae6964b75e2b5ede",
+      "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=32.0.0\nPkg.Revision=32.1.0 rc1\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
@@ -2166,6 +2175,14 @@
       "sha256": "124f2d5115eee365df6cf3228ffbca6fc3911d16f8025bebd5b1c6e2fcfa7faf",
       "sha512": "ba2773391c03657455833b25423ea92bda79658a0e82063b2a37cded621894c80512595ff708246dcf53b59d544e7a656acd229055d7e89f54506353a1c8eaeb",
       "source.properties": "Pkg.Revision=5.0\nPkg.Path=cmdline-tools;5.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-8092744_latest.zip": [
+    {
+      "sha1": "8d47ab9a90caa60ce8a95d7e384ec64633bc13b4",
+      "sha256": "d71f75333d79c9c6ef5c39d3456c6c58c613de30e6a751ea0dbd433e8f8b9cbf",
+      "sha512": "db80ec1466acc4fdc2ef2eaa68450b947f6302a1e340411ff5be828d0c2ecfbbdab85d20f3607b939882cfa3a5db2dfd5ad1180e085af4e0c1482bd8bf208d52",
+      "source.properties": "Pkg.Revision=6.0\nPkg.Path=cmdline-tools;6.0\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
   "https://dl.google.com/android/repository/desktop-head-unit-linux_r01.1.zip": [
@@ -3283,6 +3300,14 @@
       "sha256": "e6cb61b92b5669ed6fd9645fad836d8f888321cd3098b75588a54679c204b7dc",
       "sha512": "53d4a468ae42a8a7fa40dd8d5a1e726a60d4e8a8d9400a4b6973d7f0786a3b3f2bcb174d055bcd24bb9963f9b2769672ef46fc252e2e9423a52e27b4fcec9483",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=31.0.3\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-tools_r32.0.0-linux.zip": [
+    {
+      "sha1": "67ad18f3a2a6716d957b9ce630ea5e564171838a",
+      "sha256": "b10f0e159f11aa08437f2e612c91e52616b8429e9d3b8c2d230456f0edd394e6",
+      "sha512": "0f1056a7fdae393898ad5e906b2d359d427eb8e2f346f2fe98aa08490c27275c8b5b0771ae624467831b9d224c8ce06b1036fb1b08cb2dfc295b861055d3e91e",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=32.0.0"
     }
   ],
   "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip": [

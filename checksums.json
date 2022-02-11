@@ -1007,6 +1007,22 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 24.0.7956693-beta2\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r24-rc1-linux.zip": [
+    {
+      "sha1": "de2a02e65c1c720336fe991dc708875539df85bf",
+      "sha256": "6301519732a0c7128dadff839cda4cbcb5f8dfef9ca39b7c6f64a9e63ed61309",
+      "sha512": "d54ffa0f9d64d4d52c6e44e810be4ea790fc5ad89f8a4e65156362c24e2fb52e1896b78a3dd572d332ef11b6b394862fc7077bec9d9abeaad95c67de73fd42ca",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 24.0.8079956-beta3\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r25-beta1-linux.zip": [
+    {
+      "sha1": "d203b3f829966258c3bdfbd143e35436543fb5d7",
+      "sha256": "d3e5de0532a6a94eeb618fb699a81f9576978ab2fa34eed0b0bc7731a53f8399",
+      "sha512": "43b0a753e72cccf5843cdad0fc3b2f908065b58e75873ed43d4ba84ea7a75260c12ae4ba5752bc171132a40bc1c842aedfeb3b4992a616eaed664898ff562dd3",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 25.0.8141415-beta1\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -2042,6 +2058,15 @@
       "sha256": "b99f00344f289800b96dafbadeed2ab0b2b74cea23081a73abbcdc9f5c0c6fe3",
       "sha512": "a537e13b34d3dde7b7afe8291402c5254e5ddfbfe0eb171a484c633f2f85bd2edfba2780798264d50d326f8a4f26899af476fa5bdb246be4ae6964b75e2b5ede",
       "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=32.0.0\nPkg.Revision=32.1.0 rc1\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/build-tools_r33-rc1-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "1b4fa5a9add65879e40200d58c92c6f247b0eb4a",
+      "sha256": "379c1e2627d1331e45f30603139012fd8b27fe9a83717229e6ad0f35b2511056",
+      "sha512": "3f1ec98c2686454b06236ae38e9104d9c5d246d9eb973cde2dfc3e603ae4714c0c4be3b83bc667411a63ab1dbbdca05b0ff5a9d673398ef3fa548c8544e5fb2e",
+      "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=32.0.0\nPkg.Revision=33.0.0 rc1\n"
     }
   ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [

@@ -1021,6 +1021,12 @@
       "sha256": "d3e5de0532a6a94eeb618fb699a81f9576978ab2fa34eed0b0bc7731a53f8399",
       "sha512": "43b0a753e72cccf5843cdad0fc3b2f908065b58e75873ed43d4ba84ea7a75260c12ae4ba5752bc171132a40bc1c842aedfeb3b4992a616eaed664898ff562dd3",
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 25.0.8141415-beta1\n"
+    },
+    {
+      "sha1": "0acca5e8faa47a6c961c358d724a93e33f8d6caf",
+      "sha256": "6d292ff0661e2eab80fd66cc3d81f21a060503c2860ef23f148863ce29f161a1",
+      "sha512": "3cc8e2cdd31bbac3a524b75de18b5f49c59d774a6d292eccff2811a064089469c53565b533ad7fd89dc0a2780b0c60b7ba4c4e46e69f0ec67107399dd13ff471",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 25.0.8151533-beta1\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [

@@ -1007,6 +1007,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 24.0.7956693-beta2\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r24-linux.zip": [
+    {
+      "sha1": "eceb18f147282eb93615eff1ad84a9d3962fbb31",
+      "sha256": "caac638f060347c9aae994e718ba00bb18413498d8e0ad4e12e1482964032997",
+      "sha512": "f316487172c7dbe9381297ba2e78a42f3458cc3cc0440045a043dd1abc88ecb3ba41325863d02b744dbb700c1ca6525c4ae07f3a1daa1c3dbfcfa161ae83c2ce",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 24.0.8215888\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r24-rc1-linux.zip": [
     {
       "sha1": "de2a02e65c1c720336fe991dc708875539df85bf",
@@ -1027,6 +1035,14 @@
       "sha256": "6d292ff0661e2eab80fd66cc3d81f21a060503c2860ef23f148863ce29f161a1",
       "sha512": "3cc8e2cdd31bbac3a524b75de18b5f49c59d774a6d292eccff2811a064089469c53565b533ad7fd89dc0a2780b0c60b7ba4c4e46e69f0ec67107399dd13ff471",
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 25.0.8151533-beta1\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/android-ndk-r25-beta2-linux.zip": [
+    {
+      "sha1": "3b7435a1a851a4b2dadeafa466f323db9235dd9a",
+      "sha256": "09236a67f49658898ec8f72dd7eed12cdcd2eeb0b6cc14dc6df850d8c9d9a6e9",
+      "sha512": "aaffa8ffb31a6bdfc94927c6e24c70e754c46b85d8426179b7342d5a5e4b893c2dc83f12e14afcc810d6d2cf4fc116135666b0174605f469b199122542574316",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 25.0.8221429-beta2\n"
     }
   ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
@@ -2073,6 +2089,15 @@
       "sha256": "379c1e2627d1331e45f30603139012fd8b27fe9a83717229e6ad0f35b2511056",
       "sha512": "3f1ec98c2686454b06236ae38e9104d9c5d246d9eb973cde2dfc3e603ae4714c0c4be3b83bc667411a63ab1dbbdca05b0ff5a9d673398ef3fa548c8544e5fb2e",
       "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=32.0.0\nPkg.Revision=33.0.0 rc1\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/build-tools_r33-rc2-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "013f98217b7af4f5677ab1a47e98da18ad57721c",
+      "sha256": "56fb05ba061dd1988cfccca6fe9d12bad8e7b124bdf5c8ece5a8d6a6a52d4668",
+      "sha512": "a7984c210b1ad81da8c7f3e4779294f467e943ce858d663b4310b5e79584335ddc9cb742159a7f3ea8fc6a50bd8b27641595c8d4251f2ccdd68672c0da79a486",
+      "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=32.0.0\nPkg.Revision=33.0.0 rc2\n"
     }
   ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
@@ -3411,6 +3436,14 @@
       "sha256": "ca746b60aa1c1f6a848ccbec0cbf16a5d10a5da45bcce9d681772afa1bc474d4",
       "sha512": "80d0638b8930187d9ad8eee93c2501286b92bfd0a052aa86596d01da66a70324947b6acf4ae13fb0617d24a5f52d5ca85169c6c9d6d07be685d074810a987b6b",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.0.0"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-tools_r33.0.1-linux.zip": [
+    {
+      "sha1": "4792ee4593e8e2395ddb87a3e82d60629eb0e977",
+      "sha256": "a339548918c3ab31c4d88416c21cee753bd942040540216c06e640f4b6db3ae2",
+      "sha512": "4ecf410c873364530f0c09ccafa37c3b8bcc6fd6b918bba2d32c28f61f4e5256fd34924f3813d95c5bf6d86e05ccc981bbc841cede6287cd9f27d28d8c07e336",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.0.1"
     }
   ],
   "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip": [

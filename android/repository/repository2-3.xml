@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <sdk:sdk-repository xmlns:common="http://schemas.android.com/repository/android/common/02" xmlns:generic="http://schemas.android.com/repository/android/generic/02" xmlns:sdk="http://schemas.android.com/sdk/android/repo/repository2/03" xmlns:sdk-common="http://schemas.android.com/sdk/android/repo/common/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-03-31 17:30:25.391958 with ADRT.-->
+	<!--Generated on 2022-04-04 18:14:48.258915 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -7769,7 +7769,7 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="cmake;3.18.1">
-		<!--Generated from:kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
+		<!--Generated from:kokoro bid:91fb4185-e1aa-4330-b28a-c23350f25ae3, kokoro bid:c80a9ea8-d15f-4c56-b61e-42feb5bfa3b9, kokoro bid:7c152593-afb9-48ee-859a-19fec5829740-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>3</major>
@@ -8499,12 +8499,12 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:8275449 branch:aosp-emu-31-release-->
+		<!--Generated from:ab bid:8376731 branch:aosp-emu-31-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>31</major>
 			<minor>3</minor>
-			<micro>5</micro>
+			<micro>6</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
@@ -8514,31 +8514,31 @@ June 2014.</license>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar  9 17:37:36 2022.-->
+				<!--Built on: Wed Mar 30 01:24:20 2022.-->
 				<complete>
-					<size>333552288</size>
-					<checksum type="sha1">7a19a4e9ec5126f56b773b1e5e0a3e8ffe5784ec</checksum>
-					<url>emulator-darwin_x64-8275449.zip</url>
+					<size>346276480</size>
+					<checksum type="sha1">32c7a35081fc4c03db41575d7256b2cdeb067e5d</checksum>
+					<url>emulator-darwin_x64-8376731.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Wed Mar  9 17:37:32 2022.-->
+				<!--Built on: Wed Mar 30 01:24:15 2022.-->
 				<complete>
-					<size>284616008</size>
-					<checksum type="sha1">78d37fabed05442a71d8a76face132f554e8dd3d</checksum>
-					<url>emulator-linux_x64-8275449.zip</url>
+					<size>293336824</size>
+					<checksum type="sha1">2eb1db1ab4ffc4866b249734f05828c4c6304e7e</checksum>
+					<url>emulator-linux_x64-8376731.zip</url>
 				</complete>
 				<host-os>linux</host-os>
 				<host-arch>x64</host-arch>
 			</archive>
 			<archive>
-				<!--Built on: Wed Mar  9 17:37:40 2022.-->
+				<!--Built on: Wed Mar 30 01:24:24 2022.-->
 				<complete>
-					<size>354657639</size>
-					<checksum type="sha1">cf51e838c57ecccbf1adf7ae1d98d691fc6700c0</checksum>
-					<url>emulator-windows_x64-8275449.zip</url>
+					<size>361000439</size>
+					<checksum type="sha1">503a25e6478084df49f65c540e0fa8ec09f84f63</checksum>
+					<url>emulator-windows_x64-8376731.zip</url>
 				</complete>
 				<host-os>windows</host-os>
 				<host-arch>x64</host-arch>
@@ -8684,23 +8684,23 @@ June 2014.</license>
 		</archives>
 	</remotePackage>
 	<remotePackage path="emulator">
-		<!--Generated from:ab bid:8275449 branch:aosp-emu-31-release-->
+		<!--Generated from:ab bid:8376731 branch:aosp-emu-31-release-->
 		<type-details xsi:type="generic:genericDetailsType"/>
 		<revision>
 			<major>31</major>
 			<minor>3</minor>
-			<micro>5</micro>
+			<micro>6</micro>
 		</revision>
 		<display-name>Android Emulator</display-name>
 		<uses-license ref="android-sdk-preview-license"/>
 		<channelRef ref="channel-3"/>
 		<archives>
 			<archive>
-				<!--Built on: Wed Mar  9 17:53:31 2022.-->
+				<!--Built on: Wed Mar 30 01:35:57 2022.-->
 				<complete>
-					<size>257105936</size>
-					<checksum type="sha1">c6ae9b9c7940a580b7da1d844580e57669883fb8</checksum>
-					<url>emulator-darwin_aarch64-8275449.zip</url>
+					<size>277626880</size>
+					<checksum type="sha1">d3dfb86b1d6e4b35c78ec026125118c40afa7902</checksum>
+					<url>emulator-darwin_aarch64-8376731.zip</url>
 				</complete>
 				<host-os>macosx</host-os>
 				<host-arch>aarch64</host-arch>

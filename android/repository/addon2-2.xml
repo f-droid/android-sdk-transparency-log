@@ -15,7 +15,7 @@
  * limitations under the License.
 -->
 <addon:sdk-addon xmlns:addon="http://schemas.android.com/sdk/android/repo/addon2/02" xmlns:sdk="http://schemas.android.com/repository/android/common/02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--Generated on 2022-04-04 18:15:49.671255 with ADRT.-->
+	<!--Generated on 2022-04-18 18:40:46.716131 with ADRT.-->
 	<license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -614,13 +614,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -656,13 +656,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -698,13 +698,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -740,7 +740,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -776,7 +776,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -812,7 +812,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -848,7 +848,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -884,7 +884,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -920,7 +920,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -956,7 +956,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -992,10 +992,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
 			</libraries>
@@ -1031,7 +1031,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
 			</libraries>
@@ -1067,10 +1067,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
 			</libraries>
@@ -1106,10 +1106,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
 			</libraries>
@@ -1145,10 +1145,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
 			</libraries>
@@ -1184,13 +1184,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -1226,13 +1226,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -1268,13 +1268,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -1310,13 +1310,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -1352,13 +1352,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -1394,13 +1394,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>
@@ -1436,13 +1436,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&
 				<display>Google APIs</display>
 			</tag>
 			<libraries>
-				<library localJarPath="maps.jar" name="com.google.android.maps">
+				<library name="com.google.android.maps" localJarPath="maps.jar">
 					<description>API for Google Maps</description>
 				</library>
-				<library localJarPath="usb.jar" name="com.android.future.usb.accessory">
+				<library name="com.android.future.usb.accessory" localJarPath="usb.jar">
 					<description>API for USB Accessories</description>
 				</library>
-				<library localJarPath="effects.jar" name="com.google.android.media.effects">
+				<library name="com.google.android.media.effects" localJarPath="effects.jar">
 					<description>Collection of video effects</description>
 				</library>
 			</libraries>

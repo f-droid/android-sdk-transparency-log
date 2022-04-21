@@ -121,6 +121,7 @@ VERSIONED_URLS = (
     'https://dl.google.com/android/repository/repository-1%s.xml',
     'https://dl.google.com/android/repository/repository2-%s.xml',
     'https://dl.google.com/android/repository/sys-img/android/sys-img2-%s.xml',
+    'https://dl.google.com/android/repository/sys-img/android-desktop/sys-img2-%s.xml',
 )
 for vu in VERSIONED_URLS:
     for i in range(1, 10):

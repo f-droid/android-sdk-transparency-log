@@ -11,6 +11,7 @@ import sys
 import time
 import zipfile
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 
 def process_url(status_codes, url, checksum_type, checksum):
@@ -97,7 +98,9 @@ def write_repository_xml(url):
     status_codes.append([url, r.status_code])
     write_status_codes(status_codes)
     if r.status_code == 200:
-        with open(url.replace('https://dl.google.com/', ''), 'w') as fp:
+        path = Path(url.replace('https://dl.google.com/', ''))
+        path.parent.mkdir(exist_ok=True)
+        with open(path, 'w') as fp:
             fp.write(r.text)
     return r.status_code
 

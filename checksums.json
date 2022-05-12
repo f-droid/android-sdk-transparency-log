@@ -1053,6 +1053,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 25.0.8355429-beta3\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r25-beta4-linux.zip": [
+    {
+      "sha1": "d13f688fd286709f0d950c75119ec9fcad8a47ff",
+      "sha256": "db73deb0117b9183749f5f7e2ad710affd5a2bb47d1955bf674b10b26ea211e8",
+      "sha512": "91c03ac622b57c201c7a2e4e25e4434550ac8d244268d49af4ed807495e91051db8e6e1d79029e19c8ce333b60e31f7b8f74dee03463585f4d2ccdf7fd138731",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 25.0.8528842-beta4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -2117,6 +2125,15 @@
       "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=32.0.0\nPkg.Revision=33.0.0 rc3\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r33-rc4-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "c399be07b912b62ade3a5ccf6c450c84e3cb7718",
+      "sha256": "26fa6fc00fc452efeee78b67a71544b0802322c973b1ff6fa30eeb35efa69410",
+      "sha512": "5d55167b9834f636e886724353218d5882bfbbf37ceb4efaa25bdaa1d5f8dac3a8cf922fa683bc61e37f53014cbc96e851a839173acd6d5ea8e58127d43551b7",
+      "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=32.0.0\nPkg.Revision=33.0.0 rc4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
@@ -2256,6 +2273,14 @@
       "sha256": "d71f75333d79c9c6ef5c39d3456c6c58c613de30e6a751ea0dbd433e8f8b9cbf",
       "sha512": "db80ec1466acc4fdc2ef2eaa68450b947f6302a1e340411ff5be828d0c2ecfbbdab85d20f3607b939882cfa3a5db2dfd5ad1180e085af4e0c1482bd8bf208d52",
       "source.properties": "Pkg.Revision=6.0\nPkg.Path=cmdline-tools;6.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip": [
+    {
+      "sha1": "5e7bf2dd563d34917d32f3c5920a85562a795c93",
+      "sha256": "2ccbda4302db862a28ada25aa7425d99dce9462046003c1714b059b5c47970d8",
+      "sha512": "0c1b3520f3c284c41ea4a57b3a41e1a5a829753dcaf71ebff8b17ae246e9b9220119b6484b3374e92516385dadc5235ef1ea2b82bb49a3735467d15a460975d9",
+      "source.properties": "Pkg.Revision=7.0\nPkg.Path=cmdline-tools;7.0\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
   "https://dl.google.com/android/repository/desktop-head-unit-linux_r01.1.zip": [

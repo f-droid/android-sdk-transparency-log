@@ -169,7 +169,8 @@ with open('android/repository/repository2-3.xml') as fp:
     soup = BeautifulSoup(fp.read(), "xml")
     for remotePackage in soup.find_all('remotePackage'):
         path = remotePackage.attrs.get('path', '')
-        if path.split(';')[0] in (
+        path0 = path.split(';')[0]
+        if path0 in (
             'build-tools',
             'cmake',
             'cmdline-tools',
@@ -190,6 +191,9 @@ with open('android/repository/repository2-3.xml') as fp:
                     host_os
                     and host_os.string == 'linux'
                     and (not host_bits or host_bits.string == '64')
+                ) or (
+                    host_os is None
+                    and path0 in ('platforms', 'sources')  # host-platform-neutral
                 ):
                     check_file(
                         BASE_URL + archive.complete.url.string,

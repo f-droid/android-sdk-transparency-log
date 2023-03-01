@@ -10,6 +10,7 @@ import os
 import re
 import requests
 import subprocess
+import sys
 import tempfile
 from colorama import Fore, Style
 
@@ -48,7 +49,7 @@ with open("checksums.json") as fp:
 with open("signed/checksums.json") as fp:
     signed = json.load(fp)
 
-diff = json.loads(deepdiff.DeepDiff(signed, current).json)
+diff = json.loads(deepdiff.DeepDiff(signed, current).to_json())
 errors = 0
 for k in diff.keys():
     if k != "dictionary_item_added":
@@ -57,10 +58,10 @@ for k in diff.keys():
         )
         errors += 1
 if errors:
-    exit(errors)
+    sys.exit(errors)
 
 urls = {}
-for root in diff.get("dictionary_item_added", {}).get("py/set"):
+for root in diff.get("dictionary_item_added", []):
     m = re.match(r""".*'(https://[^']+)""", root)
     if m:
         url = m.group(1)
@@ -70,4 +71,4 @@ for root in diff.get("dictionary_item_added", {}).get("py/set"):
 for url in sorted(urls):
     if not verify_url(url, urls[url]):
         errors += 1
-exit(errors)
+sys.exit(errors)

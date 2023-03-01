@@ -1,6 +1,6 @@
 
 pages:
-  image: debian:stable
+  image: debian:bookworm
   variables:
     SSH_KEY: /root/.ssh/id_ed25519
     GIT_SSH_COMMAND: "/usr/bin/ssh -i $SSH_KEY"

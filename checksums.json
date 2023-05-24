@@ -4044,6 +4044,14 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.0.1\n"
     }
   ],
+  "https://dl.google.com/android/repository/platform-tools_r34.0.3-linux.zip": [
+    {
+      "sha1": "91eba36a34345f855367fc9ea8d3f939c2c7079d",
+      "sha256": "bb1847f5f35074d9b98b9b50546d0e9859f9f24cd7d2a6f319bac883243af4b3",
+      "sha512": "0b8aa21fbaae104d3755d706a214aa2a11bbb6da4da7dab012fe773384b18f9cd8626af7938f1b13330a1dab537f1927b2cf3cbdedf3fca01eee6cac96364761",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.0.3"
+    }
+  ],
   "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip": [
     {
       "sha1": "8c7c28554a32318461802c1291d76fccfafde054",

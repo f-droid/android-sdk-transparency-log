@@ -2986,6 +2986,14 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.1.16\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=10511200"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-10594030.zip": [
+    {
+      "sha1": "72c3fb1591755ee5f5d662114a394d08247efc13",
+      "sha256": "4f05003aeb84f658ddc600e35ca3467981cf085151b6e015171b78226a7a8e17",
+      "sha512": "4ab291fd2c345fedc339d33eb2f69041b30df32106e41d3e53ad5365723422d00902f657e6bae9ec9b44193f81bd07766c59612074acbee907a181d8dc414a3a",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.1.17\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=10594030"
+    }
+  ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [
     {
       "sha1": "3cec9833ab787ed496f727a9e152332ef2b4b00c",
@@ -4463,6 +4471,14 @@
       "sha256": "fab052e0017084c2d38c28c15ccf8e71b7ff1ac8de8c51f660fc7b4e9ab5998e",
       "sha512": "af94b608c6b73abce7bc76e7d3f7d5c202b3ac6f3f31b8ee4f79983a2524b48e81e4f5864246182d9e96c8bb3901a1d19d3680cd680f6eb563725759537fb83a",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=1\nAndroidVersion.ApiLevel=33\nAndroidVersion.ExtensionLevel=3\nAndroidVersion.IsBaseSdk=true\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/sources-34_r01.zip": [
+    {
+      "sha1": "41f67d064dbe84f32a763d65a05c40285c2fbb70",
+      "sha256": "23a3d75d3228d414ff9ec1288ed525d97d54e062a80475f88986eb3fffac4321",
+      "sha512": "29be14bd74bb503401d7ec6ad9bc9c4c49f8fb4162af1619dcb103955b31b720600c4f48f9b22d295565825d7bdb0760ace8ceb46c810af799eb7e35abc171f3",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=1\nAndroidVersion.ApiLevel=34\nAndroidVersion.ExtensionLevel=7\nAndroidVersion.IsBaseSdk=true\n"
     }
   ],
   "https://dl.google.com/android/repository/tools_r20.0.1-linux.zip": [

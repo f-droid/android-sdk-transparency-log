@@ -2225,6 +2225,15 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.0.2\n#Pkg.Revision=33.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r33.0.3-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "83d08ea1cdad9733cae08e33c84758835987a508",
+      "sha256": "533329cc3450850d83433c5103006fc8b9b48f2798bbcc41c78ef3223171d4b1",
+      "sha512": "ae6ad07ce867159804c33e5a60ccd912a45c99f0e80bdb7fd8d73f3f0df0816ce35da68e66b97f19f31d6d9e6c3443fd0c9a1add7a8d79fabb098f8c13e76870",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.0.3\n#Pkg.Revision=33.0.0 rc4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/build-tools_r34-linux.zip": [
     {
       "runtime.properties": "Runtime.Jvm=1.6\n\n",

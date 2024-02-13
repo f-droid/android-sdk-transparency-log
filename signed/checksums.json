@@ -1125,6 +1125,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 26.1.10909125\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r26c-linux.zip": [
+    {
+      "sha1": "7faebe2ebd3590518f326c82992603170f07c96e",
+      "sha256": "6d6e659834d28bb24ba7ae66148ad05115ebbad7dabed1af9b3265674774fcf6",
+      "sha512": "81299e38c820edefcca7fe69f088be61101dcbe43057c27a80ff6b09c0105112dea75200b78943e25877a4596b236dd0aad6b5f302b81d183b471f3211405b69",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 26.2.11394342\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -2225,6 +2233,15 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.0.2\n#Pkg.Revision=33.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r33.0.3-linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "83d08ea1cdad9733cae08e33c84758835987a508",
+      "sha256": "533329cc3450850d83433c5103006fc8b9b48f2798bbcc41c78ef3223171d4b1",
+      "sha512": "ae6ad07ce867159804c33e5a60ccd912a45c99f0e80bdb7fd8d73f3f0df0816ce35da68e66b97f19f31d6d9e6c3443fd0c9a1add7a8d79fabb098f8c13e76870",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.0.3\n#Pkg.Revision=33.0.0 rc4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/build-tools_r34-linux.zip": [
     {
       "runtime.properties": "Runtime.Jvm=1.6\n\n",
@@ -2336,6 +2353,30 @@
       "sha256": "9c7fea137171dd62101d15988be508a26ef60953f142c0ea4cefad192c8548b2",
       "sha512": "ec1310f9b32ffee9c97cc62b5d0deddcac8c2ab2943a5260f284aa444e664343903c41f05ce6770fdbe4680cbed87aa490332c4a93871afe7792b1ee1ac2b1ac",
       "source.properties": "Pkg.Revision=12.0-alpha15\nPkg.Path=cmdline-tools;12.0-alpha15\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip": [
+    {
+      "sha1": "d313adb7aedccf6cf0cfca51ec180f0059f5f8f8",
+      "sha256": "2d2d50857e4eb553af5a6dc3ad507a17adf43d115264b1afc116f95c92e5e258",
+      "sha512": "d143221d0957256c5b172a5be70e5f098a08b2b3097a20c576c8febf444a00a64f626a7f651a7d5123b9ba32418dc0ae7053d0b4b52c40f772a6a1fb19a95417",
+      "source.properties": "Pkg.Revision=12.0\nPkg.Path=cmdline-tools;12.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-11379558_latest.zip": [
+    {
+      "sha1": "8d8f5c9ccc8746afed262b39c419be3d4e856124",
+      "sha256": "e0959fb3e3d8898d7b47a12e70ddc5743b4cf5b5e7300fe95932b60c2e371dfa",
+      "sha512": "ad7503af824517075457efb152e2ae18ecd3d72bdf59f84e378d2d845f7eeff12c73a0ab1bd9f6b4596ad224fedb1a9f214f944ca807df194b9da841432267b1",
+      "source.properties": "Pkg.Revision=13.0-rc01\nPkg.Path=cmdline-tools;13.0-rc01\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-11391160_latest.zip": [
+    {
+      "sha1": "46a5d7efd0db68c737c9f7f3a79aa915363f8ced",
+      "sha256": "0a35ce4da4f8562fa21b9637e27624b04916827a1daff1e40035f216598cd2c3",
+      "sha512": "5db98597d5ef90b4f9de16b902e2bb4a047829e53b1eb457cc19909a2cca983ccb625a79f54866e046e51a22d13f604ce91621d01ae31c1fb0f9fcee35efb6ab",
+      "source.properties": "Pkg.Revision=14.0-alpha01\nPkg.Path=cmdline-tools;14.0-alpha01\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
   "https://dl.google.com/android/repository/commandlinetools-linux-5842447_latest.zip": [
@@ -3096,6 +3137,166 @@
       "sha256": "524dcf5c4cc1b62af5d9b2f993a32c6d5473e1bda3d6b6c007a02574d18777c3",
       "sha512": "db017bfa1c538789b53e0800ce845e4b8f00c05af98dd96245cd8c2836fbdfdebcee66d44e0107aa1bc41e1bd3072e8327f536cf33a0d9ca372a9124cb588061",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.6\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=10917040"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-10965993.zip": [
+    {
+      "sha1": "a54422dac1556af4c32046d23c8eaa2a20d498b4",
+      "sha256": "352c746100ebda0cd4cf2733f8f5212b79870752d6c54b94be6ccac60061de48",
+      "sha512": "ce263598d0f152602a87cc00e791f07888840ca74c5434ca5952e0f818254a0de2e1a73c3f796ed4a571b8cec0505c75875473470b549b15966f5fa1e83dabdb",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.7\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=10965993"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-10992497.zip": [
+    {
+      "sha1": "6c3150b84346930623dbfc3f4f08130e25385f00",
+      "sha256": "e28a1c81bbc7f9c80624e1379d0e43ddf3a412d868273784c41e23f1187ddaf4",
+      "sha512": "41eed7135d0946cd406000bcbb052032c14174a47de08edc91730a41c89c0633a921588f55a92653850316bf30e64b745106d05ed09599704b18e9beca4f2903",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.8\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=10992497"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11009868.zip": [
+    {
+      "sha1": "bf9a1fc2dc79bd52f445c6917ef2179168e27172",
+      "sha256": "debdd933e52e85bb819ef6a847734054bcf878124e06a4f34dca8ae844d64b1e",
+      "sha512": "97a9b2303ecd77b876efc9f62707483d148d235d173646c14c149a57cdd4be7f0b1488441390b5b1a4975f58bf34f697840b0373eae254f0f6c2bca8cb1f7ca1",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.1.21\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11009868"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11009885.zip": [
+    {
+      "sha1": "ba6ffcefd507be5fc14d1319a60c92c5d80c0ea3",
+      "sha256": "bf99069ce91e0c9cdc4673fba0fde410270b5d8eba4f447d07aabe49a0b2c160",
+      "sha512": "a9a65558f675f39398994944c65ab43bba7d96786255a1c5249e6b1f745e0710ea0281d1720501578bbb2ac9db8fa79f4bd26f4113a6560e2220bf52f0c0d662",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.9\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11009885"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11042718.zip": [
+    {
+      "sha1": "2e99f7692814077b6314dc72b187e6cf15490b02",
+      "sha256": "3b70f7e93a28737cf1c5a579225bef1474a030610e1b36180af18c1f96c50f86",
+      "sha512": "1ec97cef3d39266ac73baf81853714124118b5de003a26011fea0bbafb663e0474c5b714fe40d09e785b05c443ee55bb432752fe8ce0f4244eb169d334a6a95d",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.10\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11042718"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11078245.zip": [
+    {
+      "sha1": "2b8d488442abcddd3864400436e16feb5fd8567f",
+      "sha256": "7ebfd686b4f6e0d3f8bb02bbf1e61e587a9fcd5b776b310d8d3feae8569a078f",
+      "sha512": "801d941ab8d6cd5f7de4dfd0439e8fca1a37a0297bb859ba4c7570386fe75c5ac4f2a3cad925e45e1fca638e624f912bc44b40bcca56022dfdc8f1f5908c5354",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.1.22\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11078245"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11086671.zip": [
+    {
+      "sha1": "09f6996ccb1b9603ced2e6402211eb496639ae68",
+      "sha256": "23e88d4346cbd6c2660bb16f27ebe38231e10dab1867a03122efeb4c49eb619b",
+      "sha512": "37cde73d29643b4857a203fc19f3d9f1ae3bc91c7cc31c25f0ab3522d0730d2f85ca111ca9e0dccfdc4388d3cb960658d084155ffce885e694dd292f0ff38be6",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.11\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11086671"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11146273.zip": [
+    {
+      "sha1": "0186eef58535eb1ac44107217373866b70d8f9fd",
+      "sha256": "723cc464cd987c6f660d69571683ca34d35a852d6fa19a5291b3d96acc7d9d05",
+      "sha512": "f93ac0c6876014746f2ef0c458dd70bcdfb75c1cddc78c67a7df79523a253bd8ca117836314994c41438cb10916dd54300e65f642f90d068b686996afd8da9b0",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.12\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11146273"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11150993.zip": [
+    {
+      "sha1": "3057fe68d6ea23f43b059ded9274463e05e29eaa",
+      "sha256": "88082aff047a5036a516cef9219562126ded396545e1f42d34cc82456c38a9db",
+      "sha512": "de99f562440c58ec99dcffa78e4f66ece252b4f2d577d22495a5aa8a8423b923ef73c524b6fe5e4d33ebe2d5b53723f95f9678e092c23992bedabb8257662d01",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.1.23\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11150993"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11169323.zip": [
+    {
+      "sha1": "b296320adccf2e521af753b16f7d4b79bb554e15",
+      "sha256": "6115bf90e9701570aedf408f0f120e58e8ca73f3d01d43eff37e87775da6a6a4",
+      "sha512": "fd4ebb377fc9b16387d606a09cb9a2a25d2c9c5a3cbf6435939fa1c5b52044311030fc038e1025e9ecc86d286055ea68eec6c281696ac2955300ebab8ef44d4e",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.13\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11169323"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11218598.zip": [
+    {
+      "sha1": "39764e86f88d8198ea9b229cee7420e5763da008",
+      "sha256": "2507558a87c8393b2b0a5c2b1d8ee17b26ce09114d1edd65fbdb6f7ac32b2b3e",
+      "sha512": "81fe2eb6f06bd2b2de48c2be4363f2f760399cff5e7e51163581d42b40546446d4aafa8dcff034b82e3adf039899f8d8926a1e228eba71c818a77f1e3bbd10c1",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.1\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11218598"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11228956.zip": [
+    {
+      "sha1": "9a20780b84a7e430412aef6edf68629fc2203f41",
+      "sha256": "8a2c4226ea2458983bdd6c43194e0a35d9141adc7f46eb85fe5e20051ae5977c",
+      "sha512": "5de1dc3370e7f8a1ed3a5dd017a6e156e84c8d80c4d7f212c0c974ae789fee6c640e0bd049e22448b42ae80642bb6761b582307c3d99f2e94658ef8e4a79d490",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.15\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11228956"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11237101.zip": [
+    {
+      "sha1": "0fd36dd5a7be6ee8770776a95c2933541d9243f3",
+      "sha256": "cfd54ce620ad5f9f786682ecad88b8b9da7ac48827d57406cc2a31bb8f6e73fe",
+      "sha512": "676728c7fe9fdf5f3a099030db4fa84adc1b44d3e83879a306fe2b5954580a91c73804a24a9bf889607f5b8cb7b4d349d84cfc26dcc2809b808ee4cbbb8c8405",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=33.1.24\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11237101"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11257478.zip": [
+    {
+      "sha1": "ccecd284b252757020b98c8a9b485b0c70969657",
+      "sha256": "0928e98aa6ec8e21c301895588b7279fdb8bf4c985274a202d141eab12d2c913",
+      "sha512": "cb14b89287e9a0bb889284cd14b33079068a8b3cbfd2d755fa89dc18a3ccf24f9020602d96f6bb3c385a2275a0e9a085d426c8c305649f1dc2bf95abec824caf",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.2\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11257478"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11271302.zip": [
+    {
+      "sha1": "2dbc9c03659c8e15753908def661785debb0c97d",
+      "sha256": "cb598f3e9afc9583b0e3ad9ec238d85ad6f49ff120cd579e61c0f9bd3d346691",
+      "sha512": "cb17b65fe3cfafab3600d79ed96c2c2f333992c26fe2ff38a89052a3fed64702390e7382138d5d1045f28cabd1f79b3d42542483e3ada97576a352859e8823c9",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.3\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11271302"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11307001.zip": [
+    {
+      "sha1": "17da5fc689b3123f574dd3814e3daa0be4875fb6",
+      "sha256": "ce15e3f2e7ba533dfdca90a9f539eefe834650c5e8e07924faa81c21f0407230",
+      "sha512": "15781a52d2dce7fb80f346d6f4d1620059c8349768757e8d89b65983f8b7cc4595fbbb7653f7dd5715b25facac44d78c047f478828a596357fb4d6dffc16d127",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.4\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11307001"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11331898.zip": [
+    {
+      "sha1": "23c744af4c027a1a49e1f9902d4d0ed6cd140dcf",
+      "sha256": "a9de28845193be700c032a00ab268d4f3e85006573537fc007dafbbd136cc3b7",
+      "sha512": "fcb44389d22a4afcdcf5fed1180b938accdfd4c4c4843d2e65bcbee94bdd10c270323d569de798d13cd0eefeee007b057f732c74d214b16b39501f8af94292c0",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.5\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11331898"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11356334.zip": [
+    {
+      "sha1": "6c967a871212608b8e0e75be7fd493f56cefe845",
+      "sha256": "f58da3fe70f250549506b50d3bcad529ab36bb76f84a6f976264cf6e255913d7",
+      "sha512": "7a66f165cb6b5cc407053f968275d7d06d78a528f0969e76fce198a429a5c8207279e0bfb012e0abf9fcac66228640af4ddd8d2d895317a37bb054a59f416787",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.6\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11356334"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11375131.zip": [
+    {
+      "sha1": "3ee8f06c3c77fc396357d03c98bc009efaa8295a",
+      "sha256": "385d78354f8b5be9c769c0d6f1e90eb8db93c9ee1330327e11b213b1c55c432b",
+      "sha512": "d8632f5b1aa09bfb4b88781991f74fa006a1c6667a5d54c28ce171e100c020fcd6338a90e048148f0f269aab014f5c84c9ef32a2ba27f68699596ed15fb89c30",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.1.16\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11375131"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11388646.zip": [
+    {
+      "sha1": "a7472935c51d71adbed6d2bbe2130326021619ee",
+      "sha256": "cc2ec3b7bed0352c7171a42def445917a7d5143f26183b6f2f9f0e585055b0b1",
+      "sha512": "aac2ccbb7d6624c0abf14374e4df779f12f981ca14f2c31d7dc2e0980d40980dc6a86a569f26c1e49979344615a8850dfe069f4565e7e3581e1ea3851d40d9b6",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.7\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11388646"
     }
   ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [
@@ -4007,6 +4208,16 @@
       "source.properties": "Pkg.Desc=Android SDK Platform 13\nPkg.UserSrc=false\nPlatform.Version=13\nPlatform.CodeName=\nPkg.Revision=2\nAndroidVersion.ApiLevel=33\nAndroidVersion.ExtensionLevel=3\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
     }
   ],
+  "https://dl.google.com/android/repository/platform-34-ext10_r01.zip": [
+    {
+      "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=mainline_x86\nro.product.system.manufacturer=unknown\nro.product.system.model=sdk\nro.product.system.name=sdk\nro.system.product.cpu.abilist=x86\nro.system.product.cpu.abilist32=x86\nro.system.product.cpu.abilist64=\nro.system.build.date=Mon Nov 27 11:58:40 UTC 2023\nro.system.build.date.utc=1701086320\nro.system.build.fingerprint=Android/sdk/mainline_x86:14/USE0.231127.001/11143913:userdebug/test-keys\nro.system.build.id=USE0.231127.001\nro.system.build.tags=test-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=11143913\nro.system.build.version.release=14\nro.system.build.version.release_or_codename=14\nro.system.build.version.sdk=34\n####################################\n# from out/target/product/mainline_x86/obj/PACKAGING/system_build_prop_intermediates/buildinfo.prop\n####################################\n# begin build properties\n# autogenerated by buildinfo.sh\nro.build.id=USE0.231127.001\nro.build.display.id=sdk-userdebug 14 USE0.231127.001 11143913 test-keys\nro.build.version.incremental=11143913\nro.build.version.sdk=34\nro.build.version.preview_sdk=0\nro.build.version.preview_sdk_fingerprint=REL\nro.build.version.codename=REL\nro.build.version.all_codenames=REL\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake\nro.build.version.release=14\nro.build.version.release_or_codename=14\nro.build.version.release_or_preview_display=14\nro.build.version.security_patch=2023-05-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Mon Nov 27 11:58:40 UTC 2023\nro.build.date.utc=1701086320\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=abfarm-release-2004-0050\nro.build.tags=test-keys\nro.build.flavor=sdk-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=x86\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=mainline_x86\n# Do not try to parse description or thumbprint\nro.build.description=sdk-userdebug 14 USE0.231127.001 11143913 test-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=false\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\nro.debuggable=1\ndalvik.vm.lockprof.threshold=500\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
+      "sdk.properties": "# SDK properties\n# This file is copied in the root folder of each platform component.\n# If it used by various tools to figure out what the platform can do.\nsdk.ant.templates.revision=1\nsdk.skin.default=WVGA800",
+      "sha1": "068496419fb4f4987374fdb2989d4f13acc62377",
+      "sha256": "868f2022e321da36fb37a9663aa617584a68b035019379fc90002c7803703ca3",
+      "sha512": "f43268cd8a3cf5ab1831d1f8cacaccd9a20f027554ac0ddaf2fe78a3d066de2dd5d773e314eafdeb2e35f9e2ef90a2251116c4340cb87a1de5864f19d7de5ba5",
+      "source.properties": "Pkg.Desc=Android SDK Platform 14\nPkg.UserSrc=false\nPlatform.Version=14\nPlatform.CodeName=\nPkg.Revision=1\nAndroidVersion.ApiLevel=34\nAndroidVersion.ExtensionLevel=10\nAndroidVersion.IsBaseSdk=false\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
+    }
+  ],
   "https://dl.google.com/android/repository/platform-34-ext7_r01.zip": [
     {
       "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=generic\nro.product.system.manufacturer=Android\nro.product.system.model=mainline\nro.product.system.name=mainline\nro.system.product.cpu.abilist=armeabi-v7a,armeabi\nro.system.product.cpu.abilist32=armeabi-v7a,armeabi\nro.system.product.cpu.abilist64=\nro.system.build.date=Wed May 31 05:06:33 UTC 2023\nro.system.build.date.utc=1685509593\nro.system.build.fingerprint=Android/sdk_phone_armv7/emulator_arm:14/UPB3.230519.006/10229193:userdebug/test-keys\nro.system.build.id=UPB3.230519.006\nro.system.build.tags=test-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=10229193\nro.system.build.version.release=14\nro.system.build.version.release_or_codename=14\nro.system.build.version.sdk=34\n####################################\n# from out/target/product/emulator_arm/obj/PACKAGING/system_build_prop_intermediates/buildinfo.prop\n####################################\n# begin build properties\n# autogenerated by buildinfo.sh\nro.build.id=UPB3.230519.006\nro.build.display.id=sdk_phone_armv7-userdebug 14 UPB3.230519.006 10229193 test-keys\nro.build.version.incremental=10229193\nro.build.version.sdk=34\nro.build.version.preview_sdk=0\nro.build.version.preview_sdk_fingerprint=REL\nro.build.version.codename=REL\nro.build.version.all_codenames=REL\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake\nro.build.version.release=14\nro.build.version.release_or_codename=14\nro.build.version.release_or_preview_display=14\nro.build.version.security_patch=2023-05-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Wed May 31 05:06:33 UTC 2023\nro.build.date.utc=1685509593\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=abfarm-release-rbe-32-2004-00054\nro.build.tags=test-keys\nro.build.flavor=sdk_phone_armv7-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=armeabi-v7a\nro.product.cpu.abi2=armeabi\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=emulator_arm\n# Do not try to parse description or thumbprint\nro.build.description=sdk_phone_armv7-userdebug 14 UPB3.230519.006 10229193 test-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\nro.debuggable=1\ndalvik.vm.lockprof.threshold=500\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndebug.atrace.tags.enableflags=0\npersist.traced.enable=1\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\ndalvik.vm.usejit=true\ndalvik.vm.dexopt.secondary=true\ndalvik.vm.dexopt.thermal-cutoff=2\ndalvik.vm.appimageformat=lz4\nro.dalvik.vm.native.bridge=0\npm.dexopt.first-boot=verify\npm.dexopt.boot-after-ota=verify\npm.dexopt.post-boot=extract\npm.dexopt.boot-after-mainline-update=verify\npm.dexopt.install=speed-profile\npm.dexopt.install-fast=skip\npm.dexopt.install-bulk=speed-profile\npm.dexopt.install-bulk-secondary=verify\npm.dexopt.install-bulk-downgraded=verify\npm.dexopt.install-bulk-secondary-downgraded=extract\npm.dexopt.bg-dexopt=speed-profile\npm.dexopt.ab-ota=speed-profile\npm.dexopt.inactive=verify\npm.dexopt.cmdline=verify\npm.dexopt.shared=speed\ndalvik.vm.dex2oat-resolve-startup-strings=true\ndalvik.vm.dex2oat-max-image-block-size=524288\ndalvik.vm.minidebuginfo=true\ndalvik.vm.dex2oat-minidebuginfo=true\ndalvik.vm.madvise.vdexfile.size=104857600\ndalvik.vm.madvise.odexfile.size=104857600\ndalvik.vm.madvise.artfile.size=4294967295\ndalvik.vm.usap_pool_enabled=false\ndalvik.vm.usap_refill_threshold=1\ndalvik.vm.usap_pool_size_max=3\ndalvik.vm.usap_pool_size_min=1\ndalvik.vm.usap_pool_refill_delay_ms=3000\ndalvik.vm.useartservice=true\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
@@ -4105,6 +4316,16 @@
       "sha256": "5df27b7f716297582c5239411fb2ca4a215b6bb6be7dbc184c1c6c0a7b69cd6f",
       "sha512": "cab4d6ade3acb1be1af7be1670c024af8e409ce67775b85816a113f3fada6bab71ecfdc7f4498f053aee1229e2f311e0489460588f72e0ec74d40415163a9cfb",
       "source.properties": "Pkg.Desc=Android SDK Platform UpsideDownCakePrivacySandbox\nPkg.UserSrc=false\nPlatform.Version=UpsideDownCakePrivacySandbox\nPlatform.CodeName=\nPkg.Revision=2\nAndroidVersion.ApiLevel=34\nAndroidVersion.CodeName=UpsideDownCakePrivacySandbox\nAndroidVersion.ExtensionLevel=7\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-UpsideDownCakePrivacySandbox_r03.zip": [
+    {
+      "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=generic\nro.product.system.manufacturer=Android\nro.product.system.model=mainline\nro.product.system.name=mainline\nro.system.product.cpu.abilist=armeabi-v7a,armeabi\nro.system.product.cpu.abilist32=armeabi-v7a,armeabi\nro.system.product.cpu.abilist64=\nro.system.build.date=Thu Nov 30 23:45:08 UTC 2023\nro.system.build.date.utc=1701387908\nro.system.build.fingerprint=Android/sdk_phone_armv7/emulator_arm:UpsideDownCakePrivacySandbox/URD9.231106.004.A2/11164158:userdebug/test-keys\nro.system.build.id=URD9.231106.004.A2\nro.system.build.tags=test-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=11164158\nro.system.build.version.release=14\nro.system.build.version.release_or_codename=UpsideDownCakePrivacySandbox\nro.system.build.version.sdk=34\n####################################\n# from out/target/product/emulator_arm/obj/PACKAGING/system_build_prop_intermediates/buildinfo.prop\n####################################\n# begin build properties\n# autogenerated by buildinfo.sh\nro.build.id=URD9.231106.004.A2\nro.build.display.id=sdk_phone_armv7-userdebug UpsideDownCakePrivacySandbox URD9.231106.004.A2 11164158 test-keys\nro.build.version.incremental=11164158\nro.build.version.sdk=34\nro.build.version.preview_sdk=1\nro.build.version.preview_sdk_fingerprint=2e4a5bd721e099a72eb52a284a8d3f2a\nro.build.version.codename=UpsideDownCakePrivacySandbox\nro.build.version.all_codenames=UpsideDownCakePrivacySandbox\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,UpsideDownCakePrivacySandbox\nro.build.version.release=14\nro.build.version.release_or_codename=UpsideDownCakePrivacySandbox\nro.build.version.release_or_preview_display=UpsideDownCakePrivacySandbox\nro.build.version.security_patch=2023-11-01\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Thu Nov 30 23:45:08 UTC 2023\nro.build.date.utc=1701387908\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=abfarm-release-2004-0070\nro.build.tags=test-keys\nro.build.flavor=sdk_phone_armv7-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=armeabi-v7a\nro.product.cpu.abi2=armeabi\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=emulator_arm\n# Do not try to parse description or thumbprint\nro.build.description=sdk_phone_armv7-userdebug UpsideDownCakePrivacySandbox URD9.231106.004.A2 11164158 test-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\nro.debuggable=1\ndalvik.vm.lockprof.threshold=500\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndebug.atrace.tags.enableflags=0\npersist.traced.enable=1\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\ndalvik.vm.usejit=true\ndalvik.vm.dexopt.secondary=true\ndalvik.vm.dexopt.thermal-cutoff=2\ndalvik.vm.appimageformat=lz4\nro.dalvik.vm.native.bridge=0\npm.dexopt.first-boot=verify\npm.dexopt.boot-after-ota=verify\npm.dexopt.post-boot=extract\npm.dexopt.boot-after-mainline-update=verify\npm.dexopt.install=speed-profile\npm.dexopt.install-fast=skip\npm.dexopt.install-bulk=speed-profile\npm.dexopt.install-bulk-secondary=verify\npm.dexopt.install-bulk-downgraded=verify\npm.dexopt.install-bulk-secondary-downgraded=extract\npm.dexopt.bg-dexopt=speed-profile\npm.dexopt.ab-ota=speed-profile\npm.dexopt.inactive=verify\npm.dexopt.cmdline=verify\npm.dexopt.shared=speed\ndalvik.vm.dex2oat-resolve-startup-strings=true\ndalvik.vm.dex2oat-max-image-block-size=524288\ndalvik.vm.minidebuginfo=true\ndalvik.vm.dex2oat-minidebuginfo=true\ndalvik.vm.madvise.vdexfile.size=104857600\ndalvik.vm.madvise.odexfile.size=104857600\ndalvik.vm.madvise.artfile.size=4294967295\ndalvik.vm.usap_pool_enabled=false\ndalvik.vm.usap_refill_threshold=1\ndalvik.vm.usap_pool_size_max=3\ndalvik.vm.usap_pool_size_min=1\ndalvik.vm.usap_pool_refill_delay_ms=3000\ndalvik.vm.useartservice=true\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
+      "sdk.properties": "# SDK properties\n# This file is copied in the root folder of each platform component.\n# If it used by various tools to figure out what the platform can do.\nsdk.ant.templates.revision=1\nsdk.skin.default=WVGA800",
+      "sha1": "693beff31fe890c670efe34498c761ebe425ac8f",
+      "sha256": "e06e84f223cf7d3d026e1a79635159e77a31b9f5cf82b416d68b40d116e801d2",
+      "sha512": "3da71a06fcf2fe9872ba7305edcba39bea13b2506c2899e86d3fd6d0834b40f5d9fea700cc9c049cd090708c8cb9d646dc4fac590a52ee500b16a434a3a9773d",
+      "source.properties": "Pkg.Desc=Android SDK Platform UpsideDownCakePrivacySandbox\nPkg.UserSrc=false\nPlatform.Version=UpsideDownCakePrivacySandbox\nPlatform.CodeName=\nPkg.Revision=3\nAndroidVersion.ApiLevel=34\nAndroidVersion.CodeName=UpsideDownCakePrivacySandbox\nAndroidVersion.ExtensionLevel=7\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
     }
   ],
   "https://dl.google.com/android/repository/platform-UpsideDownCake_r01.zip": [
@@ -4630,6 +4851,12 @@
       "sha1": "41f67d064dbe84f32a763d65a05c40285c2fbb70",
       "sha256": "23a3d75d3228d414ff9ec1288ed525d97d54e062a80475f88986eb3fffac4321",
       "sha512": "29be14bd74bb503401d7ec6ad9bc9c4c49f8fb4162af1619dcb103955b31b720600c4f48f9b22d295565825d7bdb0760ace8ceb46c810af799eb7e35abc171f3",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=1\nAndroidVersion.ApiLevel=34\nAndroidVersion.ExtensionLevel=7\nAndroidVersion.IsBaseSdk=true\n"
+    },
+    {
+      "sha1": "0d2dcece3bbfc032f98986ce7f665b6b97d26bbf",
+      "sha256": "152505964344e17cbfcd56b4ef7afde7e4d60e9892136bc12f423b06566c1430",
+      "sha512": "19ca2764c66d00722cc582c20e9791ecfa651a559c2643e6aeb77d958814ddd63ebf14449cb904f3a091c04b6ad5a4187d5bda8eef262718b04802fe295cc0a8",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=1\nAndroidVersion.ApiLevel=34\nAndroidVersion.ExtensionLevel=7\nAndroidVersion.IsBaseSdk=true\n"
     }
   ],

@@ -49,10 +49,15 @@ with open("checksums.json") as fp:
 with open("signed/checksums.json") as fp:
     signed = json.load(fp)
 
+# Ensure that only valid entries are being added.  Nothing should be
+# changed or removed:
+#
+# dictionary_item_added: if a new package is found, e.g. a new URL
+# iterable_item_added: if a new entry is added to an existing URL
 diff = json.loads(deepdiff.DeepDiff(signed, current).to_json())
 errors = 0
 for k in diff.keys():
-    if k != "dictionary_item_added":
+    if k not in ("dictionary_item_added", "iterable_item_added"):
         print(
             Fore.RED + "ERROR: %s should not be present in diff!" % k + Style.RESET_ALL
         )

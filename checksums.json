@@ -1125,6 +1125,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 26.1.10909125\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r26c-linux.zip": [
+    {
+      "sha1": "7faebe2ebd3590518f326c82992603170f07c96e",
+      "sha256": "6d6e659834d28bb24ba7ae66148ad05115ebbad7dabed1af9b3265674774fcf6",
+      "sha512": "81299e38c820edefcca7fe69f088be61101dcbe43057c27a80ff6b09c0105112dea75200b78943e25877a4596b236dd0aad6b5f302b81d183b471f3211405b69",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 26.2.11394342\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"

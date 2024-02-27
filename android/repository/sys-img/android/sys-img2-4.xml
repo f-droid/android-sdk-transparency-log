@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 -->
-<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -725,7 +725,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -751,7 +751,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -777,7 +777,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -803,7 +803,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>6</major>
@@ -829,7 +829,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>6</major>
@@ -855,7 +855,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -881,7 +881,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -907,7 +907,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>4</major>
@@ -933,7 +933,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -959,7 +959,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>6</major>
@@ -985,7 +985,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>armeabi-v7a</abi>
+      <abis>armeabi-v7a</abis>
     </type-details>
     <revision>
       <major>7</major>
@@ -1011,7 +1011,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>4</major>
@@ -1037,7 +1037,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1063,7 +1063,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>7</major>
@@ -1089,7 +1089,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>9</major>
@@ -1115,7 +1115,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1141,7 +1141,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1176,7 +1176,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1211,7 +1211,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1246,7 +1246,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>8</major>
@@ -1272,7 +1272,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1298,7 +1298,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>4</major>
@@ -1333,7 +1333,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1368,7 +1368,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -1403,7 +1403,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>arm64-v8a</abi>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
       <major>4</major>
@@ -1438,7 +1438,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>mips</abi>
+      <abis>mips</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -1464,7 +1464,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>mips</abi>
+      <abis>mips</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -1490,7 +1490,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -1516,7 +1516,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>7</major>
@@ -1542,7 +1542,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>7</major>
@@ -1572,7 +1572,7 @@ January 16, 2019
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>7</major>
@@ -1598,7 +1598,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>4</major>
@@ -1624,7 +1624,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>6</major>
@@ -1650,7 +1650,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -1676,7 +1676,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>6</major>
@@ -1702,7 +1702,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>10</major>
@@ -1728,7 +1728,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>8</major>
@@ -1754,7 +1754,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -1780,7 +1780,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -1806,7 +1806,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -1832,7 +1832,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>4</major>
@@ -1858,7 +1858,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>8</major>
@@ -1894,7 +1894,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86</abi>
+      <abis>x86</abis>
     </type-details>
     <revision>
       <major>8</major>
@@ -1938,7 +1938,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -1964,7 +1964,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>6</major>
@@ -1990,7 +1990,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>10</major>
@@ -2016,7 +2016,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>8</major>
@@ -2042,7 +2042,7 @@ January 16, 2019
         <id>default</id>
         <display></display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -2068,7 +2068,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -2094,7 +2094,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>1</major>
@@ -2120,7 +2120,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>4</major>
@@ -2146,7 +2146,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>8</major>
@@ -2182,7 +2182,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>8</major>
@@ -2226,7 +2226,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>11</major>
@@ -2261,7 +2261,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>5</major>
@@ -2296,7 +2296,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -2331,7 +2331,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>2</major>
@@ -2366,7 +2366,7 @@ January 16, 2019
         <id>default</id>
         <display>Default Android System Image</display>
       </tag>
-      <abi>x86_64</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>4</major>

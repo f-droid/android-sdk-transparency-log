@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
 -->
-<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sys-img:sdk-sys-img xmlns:sys-img="http://schemas.android.com/sdk/android/repo/sys-img2/04" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <license id="android-sdk-license" type="text">Terms and Conditions
 
 This is the Android Software Development Kit License Agreement
@@ -717,1160 +717,31 @@ January 16, 2019
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
-  <remotePackage path="system-images;android-10;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>10</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>67927049</size>
-          <checksum type="sha1">8537616a7add47cce24c60f18bc2429e3dc90ae3</checksum>
-          <url>armeabi-v7a-10_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-14;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>14</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>99621822</size>
-          <checksum type="sha1">d8991b0c06b18d7d6ed4169d67460ee1add6661b</checksum>
-          <url>sysimg_armv7a-14_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-15;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>15</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>102452069</size>
-          <checksum type="sha1">03d7ed95a9d3b107e3f2e5b166d017ea12529e70</checksum>
-          <url>armeabi-v7a-15_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-16;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>16</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>6</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>118646340</size>
-          <checksum type="sha1">69b944b0d5a18c8563fa80d7d229af64890f724e</checksum>
-          <url>armeabi-v7a-16_r06.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-17;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>17</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>6</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>124437041</size>
-          <checksum type="sha1">a18a3fd0958ec4ef52507f58e414fc5c7dfd59d6</checksum>
-          <url>armeabi-v7a-17_r06.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-18;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>18</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>130590545</size>
-          <checksum type="sha1">580b583720f7de671040d5917c8c9db0c7aa03fd</checksum>
-          <url>armeabi-v7a-18_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-19;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>19</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>159871567</size>
-          <checksum type="sha1">d1a5fd4f2e1c013c3d3d9bfe7e9db908c3ed56fa</checksum>
-          <url>armeabi-v7a-19_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-21;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>21</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>187163871</size>
-          <checksum type="sha1">8c606f81306564b65e41303d2603e4c42ded0d10</checksum>
-          <url>armeabi-v7a-21_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-22;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>22</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>194596267</size>
-          <checksum type="sha1">2114ec015dbf3a16cbcb4f63e8a84a1b206a07a1</checksum>
-          <url>armeabi-v7a-22_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-23;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>23</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>6</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>238333358</size>
-          <checksum type="sha1">7cf2ad756e54a3acfd81064b63cb0cb9dff2798d</checksum>
-          <url>armeabi-v7a-23_r06.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-24;default;armeabi-v7a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>24</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>armeabi-v7a</abi>
-    </type-details>
-    <revision>
-      <major>7</major>
-    </revision>
-    <display-name>ARM EABI v7a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>283677512</size>
-          <checksum type="sha1">3454546b4eed2d6c3dd06d47757d6da9f4176033</checksum>
-          <url>armeabi-v7a-24_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-21;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>21</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>211426314</size>
-          <checksum type="sha1">c4375f1b4b4cd21a8617660e25f621cedcbd8332</checksum>
-          <url>arm64-v8a-21_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-22;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>22</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>219124634</size>
-          <checksum type="sha1">703e27a9a4fb7a6e763cb7d713b89e5249a8fc99</checksum>
-          <url>arm64-v8a-22_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-23;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>23</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>7</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>253807785</size>
-          <checksum type="sha1">ac18f3bd717e02804eee585e029f5dbc1a2616bf</checksum>
-          <url>arm64-v8a-23_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-24;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>24</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>9</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>305854153</size>
-          <checksum type="sha1">e88ebdf4533efa0370603ee4ab0e7834e0cc364f</checksum>
-          <url>arm64-v8a-24_r09.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-25;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>25</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>308416103</size>
-          <checksum type="sha1">b39d359623323a1b4906c071dec396040016ea73</checksum>
-          <url>arm64-v8a-25_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-26;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>26</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>31</major>
-          <minor>1</minor>
-          <micro>1</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>330014927</size>
-          <checksum type="sha1">12353141d08dd302fbebc03872f0e1ca7357c55f</checksum>
-          <url>arm64-v8a-26_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-27;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>27</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>31</major>
-          <minor>1</minor>
-          <micro>1</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>332173536</size>
-          <checksum type="sha1">e014473ac510cc9d8e9b412826332923277fa827</checksum>
-          <url>arm64-v8a-27_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-28;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>28</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>31</major>
-          <minor>1</minor>
-          <micro>1</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>426760297</size>
-          <checksum type="sha1">e209114dd0dfc2f4e0d328f5fd7367fec39ee1bd</checksum>
-          <url>arm64-v8a-28_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-29;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>29</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>498049256</size>
-          <checksum type="sha1">fa0d67d7430fcc84b2fe2508ea81e92ac644e264</checksum>
-          <url>arm64-v8a-29_r08.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-30;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>30</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>548363615</size>
-          <checksum type="sha1">e96298145a5e0bfd6da4816f51b06c520d8dba72</checksum>
-          <url>arm64-v8a-30_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-31;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>31</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>31</major>
-          <minor>2</minor>
-          <micro>7</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>635481190</size>
-          <checksum type="sha1">1052df2d0afc8fe57138db19d5ebd82d10c607da</checksum>
-          <url>arm64-v8a-31_r03.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-32;default;arm64-v8a">
+  <remotePackage path="system-images;android-32;android-desktop;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>32</api-level>
       <base-extension>true</base-extension>
       <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>29</major>
-          <minor>1</minor>
-          <micro>11</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>643262633</size>
-          <checksum type="sha1">c57d92a4131590b2a3b62f2a728766aa6bbec57f</checksum>
-          <url>arm64-v8a-32_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-33;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>33</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>2</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>29</major>
-          <minor>1</minor>
-          <micro>11</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>672331372</size>
-          <checksum type="sha1">69883e92b77f8705af135ee86e1d87589f8f113e</checksum>
-          <url>arm64-v8a-33_r02.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-34;default;arm64-v8a">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>arm64-v8a</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>ARM 64 v8a System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>29</major>
-          <minor>1</minor>
-          <micro>11</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>705115396</size>
-          <checksum type="sha1">d9f2011131919abe952814e041f16f317242c3fa</checksum>
-          <url>arm64-v8a-34_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-16;default;mips">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>16</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>mips</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>MIPS System Image</display-name>
-    <uses-license ref="mips-android-sysimage-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>122482530</size>
-          <checksum type="sha1">67943c54fb3943943ffeb05fdd39c0b753681f6e</checksum>
-          <url>sysimg_mips-16_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-17;default;mips">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>17</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>mips</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>MIPS System Image</display-name>
-    <uses-license ref="mips-android-sysimage-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>131781761</size>
-          <checksum type="sha1">f0c6e153bd584c29e51b5c9723cfbf30f996a05d</checksum>
-          <url>sysimg_mips-17_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-10;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>10</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>75386095</size>
-          <checksum type="sha1">a166d5ccbb165e1dd5464fbfeec30a61f77790d8</checksum>
-          <url>x86-10_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-15;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>15</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>7</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>116030933</size>
-          <checksum type="sha1">61381aef3fd0cdc8255cb3298072a920c80186ca</checksum>
-          <url>x86-15_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-16;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>16</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>7</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>135305313</size>
-          <checksum type="sha1">ee6718e7556c8f8bd8d3f470b34f2c5dbf9bcff4</checksum>
-          <url>x86-16_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-17;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>17</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Google APIs</display>
+        <id>android-desktop</id>
+        <display>Desktop</display>
       </tag>
       <vendor>
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>7</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>194811128</size>
-          <checksum type="sha1">1ad5ffb51e31f5fe9fa47411fed2c2ade9a33865</checksum>
-          <url>x86-17_r07.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-18;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>18</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>150097655</size>
-          <checksum type="sha1">7a4ced4d9b0ab48047825491b4072dc2eb9b610e</checksum>
-          <url>x86-18_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-19;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>19</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>6</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>185886274</size>
-          <checksum type="sha1">2ac82153aae97f7eae4c5a0761224fe04321d03d</checksum>
-          <url>x86-19_r06.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-21;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>21</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
       <major>5</major>
     </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>208212529</size>
-          <checksum type="sha1">00f0eb0a1003efe3316347f762e20a85d8749cff</checksum>
-          <url>x86-21_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-22;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>22</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>6</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>214268954</size>
-          <checksum type="sha1">e33e2a6cc3f1cc56b2019dbef3917d2eeb26f54e</checksum>
-          <url>x86-22_r06.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-23;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>23</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>10</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>260804863</size>
-          <checksum type="sha1">f6c3e3dd7bd951454795aa75c3a145fd05ac25bb</checksum>
-          <url>x86-23_r10.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-24;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>24</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>313489224</size>
-          <checksum type="sha1">c1cae7634b0216c0b5990f2c144eb8ca948e3511</checksum>
-          <url>x86-24_r08.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-25;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>25</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>316695942</size>
-          <checksum type="sha1">78ce7eb1387d598685633b9f7cbb300c3d3aeb5f</checksum>
-          <url>x86-25_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-26;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>26</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>350195807</size>
-          <checksum type="sha1">e613d6e0da668e30daf547f3c6627a6352846f90</checksum>
-          <url>x86-26_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-27;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>27</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>360984187</size>
-          <checksum type="sha1">4ec990fac7b62958decd12e18a4cd389dfe7c582</checksum>
-          <url>x86-27_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-28;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>28</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
+    <display-name>Desktop Intel x86_64 Atom System Image</display-name>
     <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>437320152</size>
-          <checksum type="sha1">ce03c42d80c0fc6dc47f6455dbee7aa275d02780</checksum>
-          <url>x86-28_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-29;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>29</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>9</micro>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -1878,437 +749,38 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>516543600</size>
-          <checksum type="sha1">cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
-          <url>x86-29_r08-windows.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-29;default;x86">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>29</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>516543600</size>
-          <checksum type="sha1">cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
-          <url>x86-29_r08-darwin.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>516543600</size>
-          <checksum type="sha1">cc4fa13e49cb2e93770d4f2e90ea1dd2a81e315b</checksum>
-          <url>x86-29_r08-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-21;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>21</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>292623982</size>
-          <checksum type="sha1">9078a095825a69e5e215713f0866c83cef65a342</checksum>
-          <url>x86_64-21_r05.zip</url>
+          <size>1510796167</size>
+          <checksum type="sha1">be2a7c38588450c603c56eec3554d7d481090d72</checksum>
+          <url>x86_64-32_r05.zip</url>
         </complete>
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-22;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>22</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>6</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>299976630</size>
-          <checksum type="sha1">5db3b27f78cd9c4c5092b1cad5a5dd479fb5b2e4</checksum>
-          <url>x86_64-22_r06.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-23;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>23</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>10</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>365009313</size>
-          <checksum type="sha1">7cbc291483ca07dc67b71268c5f08a5755f50f51</checksum>
-          <url>x86_64-23_r10.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-24;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>24</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>419261998</size>
-          <checksum type="sha1">f6559e1949a5879f31a9662f4f0e50ad60181684</checksum>
-          <url>x86_64-24_r08.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-25;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>25</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display></display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>422702097</size>
-          <checksum type="sha1">7093d7b39216020226ff430a3b7b81c94d31ad37</checksum>
-          <url>x86_64-25_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-26;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>26</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>474178332</size>
-          <checksum type="sha1">432f149c048bffce7f9de526ec65b336daf7a0a3</checksum>
-          <url>x86_64-26_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-27;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>27</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>1</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>491675204</size>
-          <checksum type="sha1">2878261011a59ca3de29dc5b457a495fdb268d60</checksum>
-          <url>x86_64-27_r01.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-28;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>28</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>4</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>564792723</size>
-          <checksum type="sha1">d47a85c8f4e9fd57df97814ad8884eeb0f3a0ef0</checksum>
-          <url>x86_64-28_r04.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-29;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>29</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>689676765</size>
-          <checksum type="sha1">e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
-          <url>x86_64-29_r08-windows.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-29;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>29</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>8</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>28</major>
-          <minor>1</minor>
-          <micro>9</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>689676765</size>
-          <checksum type="sha1">e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
-          <url>x86_64-29_r08-darwin.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-      </archive>
-      <archive>
-        <complete>
-          <size>689676765</size>
-          <checksum type="sha1">e4b798d6fcddff90d528d74ef22ce3dd4a2ca798</checksum>
-          <url>x86_64-29_r08-linux.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-30;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>30</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>11</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>29</major>
-          <minor>1</minor>
-          <micro>11</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>676379777</size>
-          <checksum type="sha1">5e4de3946d46f88856c35efcc4d797b381456347</checksum>
-          <url>x86_64-30_r11.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-31;default;x86_64">
-    <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>31</api-level>
-      <base-extension>true</base-extension>
-      <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
-      </tag>
-      <abi>x86_64</abi>
-    </type-details>
-    <revision>
-      <major>5</major>
-    </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
-    <dependencies>
-      <dependency path="emulator">
-        <min-revision>
-          <major>31</major>
-          <minor>2</minor>
-          <micro>7</micro>
-        </min-revision>
-      </dependency>
-    </dependencies>
-    <channelRef ref="channel-0"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>657246510</size>
-          <checksum type="sha1">58bff3cb182c79bbfe3980fe77b87b51b9f7ad71</checksum>
-          <url>x86_64-31_r05.zip</url>
-        </complete>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="system-images;android-32;default;x86_64">
+  <remotePackage path="system-images;android-32;android-desktop;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>32</api-level>
       <base-extension>true</base-extension>
       <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
+        <id>android-desktop</id>
+        <display>Desktop</display>
       </tag>
-      <abi>x86_64</abi>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>5</major>
     </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
+    <display-name>Desktop ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>29</major>
-          <minor>1</minor>
-          <micro>11</micro>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -2316,34 +788,116 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>667541890</size>
-          <checksum type="sha1">238452e27d6854d153b6ed119fa783189598eac4</checksum>
-          <url>x86_64-32_r02.zip</url>
+          <size>1516573017</size>
+          <checksum type="sha1">6af1a81e05e863b658c41fc80f71bf800eddfbd0</checksum>
+          <url>arm64-v8a-32_r05.zip</url>
         </complete>
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-33;default;x86_64">
+  <remotePackage path="system-images;android-32;android-desktop;x86_64">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>32</api-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-desktop</id>
+        <display>Desktop</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abis>x86_64</abis>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>Desktop Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-3"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1510795436</size>
+          <checksum type="sha1">267d86b8b94a8ec5324b75e4b8a71e954ddedec7</checksum>
+          <url>x86_64-32_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-32;android-desktop;arm64-v8a">
+    <type-details xsi:type="sys-img:sysImgDetailsType">
+      <api-level>32</api-level>
+      <base-extension>true</base-extension>
+      <tag>
+        <id>android-desktop</id>
+        <display>Desktop</display>
+      </tag>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abis>arm64-v8a</abis>
+    </type-details>
+    <revision>
+      <major>6</major>
+    </revision>
+    <display-name>Desktop ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-3"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>1516574141</size>
+          <checksum type="sha1">b003887d4ad98955e3fe23e822ca925383fa68b3</checksum>
+          <url>arm64-v8a-32_r06.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="system-images;android-33;android-desktop;x86_64">
     <type-details xsi:type="sys-img:sysImgDetailsType">
       <api-level>33</api-level>
       <base-extension>true</base-extension>
       <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
+        <id>android-desktop</id>
+        <display>Desktop</display>
       </tag>
-      <abi>x86_64</abi>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abis>x86_64</abis>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>3</major>
     </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
+    <display-name>Desktop Intel x86_64 Atom System Image</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>29</major>
-          <minor>1</minor>
-          <micro>11</micro>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -2351,34 +905,38 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>694005732</size>
-          <checksum type="sha1">d4698590184a21fe1e8754284130ad3006b5fc79</checksum>
-          <url>x86_64-33_r02.zip</url>
+          <size>1636926232</size>
+          <checksum type="sha1">bd377a75ffa2e07ee942847791188c23ff376f2f</checksum>
+          <url>x86_64-33_r03.zip</url>
         </complete>
       </archive>
     </archives>
   </remotePackage>
-  <remotePackage path="system-images;android-34;default;x86_64">
+  <remotePackage path="system-images;android-33;android-desktop;arm64-v8a">
     <type-details xsi:type="sys-img:sysImgDetailsType">
-      <api-level>34</api-level>
+      <api-level>33</api-level>
       <base-extension>true</base-extension>
       <tag>
-        <id>default</id>
-        <display>Default Android System Image</display>
+        <id>android-desktop</id>
+        <display>Desktop</display>
       </tag>
-      <abi>x86_64</abi>
+      <vendor>
+        <id>google</id>
+        <display>Google Inc.</display>
+      </vendor>
+      <abis>arm64-v8a</abis>
     </type-details>
     <revision>
-      <major>4</major>
+      <major>3</major>
     </revision>
-    <display-name>Intel x86_64 Atom System Image</display-name>
-    <uses-license ref="android-sdk-license"/>
+    <display-name>Desktop ARM 64 v8a System Image</display-name>
+    <uses-license ref="android-sdk-arm-dbt-license"/>
     <dependencies>
       <dependency path="emulator">
         <min-revision>
-          <major>29</major>
-          <minor>1</minor>
-          <micro>11</micro>
+          <major>30</major>
+          <minor>7</minor>
+          <micro>3</micro>
         </min-revision>
       </dependency>
     </dependencies>
@@ -2386,9 +944,9 @@ January 16, 2019
     <archives>
       <archive>
         <complete>
-          <size>720747116</size>
-          <checksum type="sha1">5f6a249f9bc3b1b4c459b13ce2eb646c9680bed1</checksum>
-          <url>x86_64-34_r04.zip</url>
+          <size>1624434113</size>
+          <checksum type="sha1">04daca06562219b805020dec8a61c7627d4d4787</checksum>
+          <url>arm64-v8a-33_r03.zip</url>
         </complete>
       </archive>
     </archives>

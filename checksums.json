@@ -2388,6 +2388,14 @@
       "source.properties": "Pkg.Revision=14.0-alpha01\nPkg.Path=cmdline-tools;14.0-alpha01\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-11479570_latest.zip": [
+    {
+      "sha1": "2e1a11866ce7146dee1456152ff64d6c8158b2c0",
+      "sha256": "9673a4b9bdfc49a26022b047af0b8a91da74ed951ffd7dbe04181bce36980e6d",
+      "sha512": "c8ed4f6050cb66c6fbaccc541ece1e9ad23d2d13d41b7a089388ac8ae91442e8c16bf7a0f877311ca125bfcc257add81854797a15ae6699c4dbe873e81a5d03d",
+      "source.properties": "Pkg.Revision=13.0\nPkg.Path=cmdline-tools;13.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
   "https://dl.google.com/android/repository/commandlinetools-linux-5842447_latest.zip": [
     {
       "sha1": "f331fcfae47e0d0a478e3f2d30ce70b4a69439bc",
@@ -3338,6 +3346,14 @@
       "sha256": "f82faf946be49081f98ebaacf066afd373f8a697f3b385d4dc24dca2001bb17f",
       "sha512": "45550052f948fcbb58b3c42cd55b84911a16e88eeb69c55b0aa1cc3e614fcf9daa76114fe16c719f7d218acb37974eef4493035639ba97faac6156b7038dc1fd",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.9\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11491105"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-11518282.zip": [
+    {
+      "sha1": "4b623be3bab3b8b2db7b62da6522d56be2499019",
+      "sha256": "67a1fc7efe161d810f636e26acf17acfa3aab5bc3b02f59b503533038bb1d10b",
+      "sha512": "87f1eab95e7966e07cf25826f467f713b0c6c42074869afae828f0fe45c1a40b13c02ec927921a6855c3feeabe6888ec7b78df021af4f3918979e1b40e701fb4",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=34.2.10\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=11518282"
     }
   ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [

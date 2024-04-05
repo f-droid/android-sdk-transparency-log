@@ -729,6 +729,7 @@ January 16, 2019
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
+      <abi>x86_64</abi>
       <abis>x86_64</abis>
     </type-details>
     <revision>
@@ -768,6 +769,7 @@ January 16, 2019
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
+      <abi>arm64-v8a</abi>
       <abis>arm64-v8a</abis>
     </type-details>
     <revision>
@@ -807,6 +809,7 @@ January 16, 2019
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
+      <abi>x86_64</abi>
       <abis>x86_64</abis>
     </type-details>
     <revision>
@@ -846,6 +849,7 @@ January 16, 2019
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
+      <abi>arm64-v8a</abi>
       <abis>arm64-v8a</abis>
     </type-details>
     <revision>
@@ -885,6 +889,7 @@ January 16, 2019
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
+      <abi>x86_64</abi>
       <abis>x86_64</abis>
     </type-details>
     <revision>
@@ -924,6 +929,7 @@ January 16, 2019
         <id>google</id>
         <display>Google Inc.</display>
       </vendor>
+      <abi>arm64-v8a</abi>
       <abis>arm64-v8a</abis>
     </type-details>
     <revision>

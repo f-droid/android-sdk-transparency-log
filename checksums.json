@@ -5075,6 +5075,14 @@
       "source.properties": "Pkg.Revision=3\nPkg.Path=skiaparser;3\nPkg.Desc=Layout Inspector image server for API 31-34\n"
     }
   ],
+  "https://dl.google.com/android/repository/source-35_r01.zip": [
+    {
+      "sha1": "c2770115a5f5ad787c8b298b93687a27eebb85b9",
+      "sha256": "1a4e6251096a0f03085716f10e7bd859a97837f6314e955729d4f167bb8830d6",
+      "sha512": "75b6dfff7d06140ad482d1941b20a0287ff62f09ec19a4aa38feb5d5ee8d76d857796f4f0873c2737e5bbd008693534d82852b36caad9df10428c3b3285ed301",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=1\nAndroidVersion.ApiLevel=35\nAndroidVersion.ExtensionLevel=13\nAndroidVersion.IsBaseSdk=true\n"
+    }
+  ],
   "https://dl.google.com/android/repository/sources-14_r01.zip": [
     {
       "sha1": "eaf4ed7dcac46e68516a1b4aa5b0d9e5a39a7555",

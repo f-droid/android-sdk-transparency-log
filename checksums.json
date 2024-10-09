@@ -2432,6 +2432,14 @@
       "source.properties": "Pkg.Revision = 3.30.4\nPkg.Path = cmake;3.30.4\nPkg.Desc = CMake 3.30.4\n"
     }
   ],
+  "https://dl.google.com/android/repository/cmake-3.30.5-linux.zip": [
+    {
+      "sha1": "c999a37fa18cb3e24dc003386cffe1d86add91b5",
+      "sha256": "f225225f5c83afa456c00b4a4c50369ec618db45f09bef53906c5ff321063356",
+      "sha512": "27af0ec578dc619eac5e8231e5d15bcf202beffe15c8a1a7c7d1fd7e23b82c18840b283431abfd3ddbf80c9e0920bd1bf25a274645f5158b49832819dc2c2bb9",
+      "source.properties": "Pkg.Revision = 3.30.5\nPkg.Path = cmake;3.30.5\nPkg.Desc = CMake 3.30.5\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.6.4111459-linux-x86_64.zip": [
     {
       "sha1": "71c539b9c33f0943e9ad6251fea0b161c0b70782",

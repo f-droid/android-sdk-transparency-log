@@ -2394,6 +2394,15 @@
       "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=34.0.0\nPkg.Revision=35.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r35.0.1_linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "e009a9b188cfeb1d2b4c318ab5cb4f1ddc368861",
+      "sha256": "5993499f3229a021b89f87088c57242aeefaa62316bf3d69da7de40bfd5350f1",
+      "sha512": "284a8a6ec4d99343aaab35c97dba82f8598924bfe95e143ea58eb58fec302cc77b868505531d2dbc73bc816acb5853d8de7f97d7dab9aecde53e8b280bd13be5",
+      "source.properties": "Pkg.UserSrc=false\nPkg.UserSrc=false\nPkg.Revision=35.0.1\n#Pkg.Revision=35.0.0 rc4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/build-tools_r35_linux.zip": [
     {
       "runtime.properties": "Runtime.Jvm=1.6\n\n",

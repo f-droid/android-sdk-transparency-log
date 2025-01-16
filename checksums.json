@@ -1197,6 +1197,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 28.0.12674087-beta2\nPkg.BaseRevision = 28.0.12674087\nPkg.ReleaseName = r28-beta2\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r28-beta3-linux.zip": [
+    {
+      "sha1": "69348e24577122339b3996d2ef1ac4e6f7f5d627",
+      "sha256": "c998faa6969c55a70168e189afaa463443f35ff87725d0380afcbc63077ffc0b",
+      "sha512": "9c4a733579336583ea656baf623dcb12300e467ff0b65869cb925cd44152101e372c696776dc7689fc8f1f2e053fdf1798b4c22a9d1f005ff498cbc4161ad0b2",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 28.0.12916984-beta3\nPkg.BaseRevision = 28.0.12916984\nPkg.ReleaseName = r28-beta3\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -3985,6 +3993,14 @@
       "sha256": "160fec5c31b4e3b81c47c18dcb0d103fc4dfb13396dd75463d02a945e8f60d5c",
       "sha512": "f03b3124e68a59e508c5faf8357ebd3ff8f5c8c84a146922004fa778cfcfa3943eda23ecd889ab876e1f016c47e1baf9bce6d73c92a4338bb3f40b2bcd27bd79",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.3.11\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=12836668"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-12895296.zip": [
+    {
+      "sha1": "9dde3271f1c5a1ac39ede2abe442fa0dd6f01826",
+      "sha256": "48504d1507f0a22b58e9c8d4d47b5c569b706bad92221a6ef4fb9b9463cc8e22",
+      "sha512": "8d6d9b2fa92a3593b86919f3e5c03bdf2926919822f14f5cde9bc10c61dfcaf3ea197546f5b7a42c0d0ff56776fd8750c79d6cd4ec048a9c0acb00b553b12ee2",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.4.5\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=12895296"
     }
   ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [

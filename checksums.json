@@ -2507,6 +2507,14 @@
       "source.properties": "Pkg.Revision = 3.31.1\nPkg.Path = cmake;3.31.1\nPkg.Desc = CMake 3.31.1\n"
     }
   ],
+  "https://dl.google.com/android/repository/cmake-3.31.4-linux.zip": [
+    {
+      "sha1": "329d5d23600fc7cff8ebff8136a0fd0e7994c069",
+      "sha256": "e6263cbcffc8ab5441ce6c743f57c2e4050fa5a56bd5a3077ff6adba15c00e30",
+      "sha512": "926fdde49f21864170803aec978791a37524ada1bdfa91512b1ab46b118a8c4307a39a8baac06892c3dd178bbc9c72f82b0324619de1d6b50966e9e51188860b",
+      "source.properties": "Pkg.Revision = 3.31.4\nPkg.Path = cmake;3.31.4\nPkg.Desc = CMake 3.31.4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.6.4111459-linux-x86_64.zip": [
     {
       "sha1": "71c539b9c33f0943e9ad6251fea0b161c0b70782",
@@ -4001,6 +4009,14 @@
       "sha256": "48504d1507f0a22b58e9c8d4d47b5c569b706bad92221a6ef4fb9b9463cc8e22",
       "sha512": "8d6d9b2fa92a3593b86919f3e5c03bdf2926919822f14f5cde9bc10c61dfcaf3ea197546f5b7a42c0d0ff56776fd8750c79d6cd4ec048a9c0acb00b553b12ee2",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.4.5\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=12895296"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-12930357.zip": [
+    {
+      "sha1": "fb077c566b882aeaed465d91b7313cd739cfc35d",
+      "sha256": "5edcc55d2d17730f29ef670a4d15c3a6385395b308b0bfb88628bda1fd3028a1",
+      "sha512": "2a464b3fb376e2228ffdf953ba65d486e9a97c291b1154c83d6082e95b8a312c415a3326938dd3d2c8c1aa0235dfe32e91b8bf296f617d45936a3e20dccd5446",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.4.6\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=12930357"
     }
   ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [

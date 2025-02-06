@@ -1205,6 +1205,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 28.0.12916984-beta3\nPkg.BaseRevision = 28.0.12916984\nPkg.ReleaseName = r28-beta3\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r28-linux.zip": [
+    {
+      "sha1": "894f469c5192a116d21f412de27966140a530ebc",
+      "sha256": "a186b67e8810cb949514925e4f7a2255548fb55f5e9b0824a6430d012c1b695b",
+      "sha512": "9ea527ddfd1cdffa4fd73b5cb74bece38494ba3245d0b6784bd47c472cf0b50b32e84aa7168768358daae077eff43de41985d310f1885445122bd8482bd10cbe",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 28.0.13004108\nPkg.BaseRevision = 28.0.13004108\nPkg.ReleaseName = r28\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -2618,6 +2626,14 @@
       "sha256": "330f0db00456c26d0a7e6c7793a022fe170e5dbc03472f76e121db37cb6d4744",
       "sha512": "29b149d1b2d1ab477d2191f1512ce3abaa5c5a3c7def12979952b86b9a9046a8df921375bb4fb03c243053d4674e28f2337eb90d68cda658ffc4346cf91e375d",
       "source.properties": "Pkg.Revision=17.0\nPkg.Path=cmdline-tools;17.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-12996373_latest.zip": [
+    {
+      "sha1": "f25edbe00eccf74e940abb8d9872b7120c3942a3",
+      "sha256": "2f41f89132382e5fdde2ce2f8a9ef1042794373640d3ae355d6b8e10f4f086a8",
+      "sha512": "07c84dc89008c9bda29a9578d5bff374fbde961ad2cf85bc27a21191d6a497dfa1a2c251283962db98995816a3df9ef6728d0acc55651c633cd9f41bb46a763c",
+      "source.properties": "Pkg.Revision=19.0-alpha01\nPkg.Path=cmdline-tools;19.0-alpha01\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
   "https://dl.google.com/android/repository/commandlinetools-linux-5842447_latest.zip": [

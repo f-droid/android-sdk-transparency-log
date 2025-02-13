@@ -2455,6 +2455,15 @@
       "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=35.0.0\nPkg.Revision=36.0.0 rc4\n"
     }
   ],
+  "https://dl.google.com/android/repository/build-tools_r36-rc5_linux.zip": [
+    {
+      "runtime.properties": "Runtime.Jvm=1.6\n\n",
+      "sha1": "68e91b122664fead061c7963643de494a0dbb73e",
+      "sha256": "6ef800bbe12a4b218188a6a33bc13b4afc9eab013f79964952aeca2d1341f17f",
+      "sha512": "06509ec2c5c8ab4f4493f596552bae695be565d29c3ac3ca71fe0dd7a50b6c73c6ed5907bbf222df13083e273521d2a0ff99dc8d000882c0e569b0546462cc3a",
+      "source.properties": "Pkg.UserSrc=false\n#Pkg.Revision=35.0.0\nPkg.Revision=36.0.0 rc5\n"
+    }
+  ],
   "https://dl.google.com/android/repository/cmake-3.10.2-linux-x86_64.zip": [
     {
       "sha1": "439e8799bf59f724f104bf62784b2985f1bfe561",
@@ -4084,6 +4093,14 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.5.2\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13003482"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-13023280.zip": [
+    {
+      "sha1": "cea757d3e73c0cf40bb6f74b2aa40831d9c3a87b",
+      "sha256": "61b333a9b27de9435bcc54aca7e5f33c2ae3d259991e72fccc58f0d8b458488f",
+      "sha512": "f511e174605d38894e33b6b39477afd08f959146e7b0480d6fc1bf59132299ca581d1a5e08e7a8d137ee51c284a3678cf3bbae7b1e3573b300f187943fb3f50a",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.5.3\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13023280"
+    }
+  ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [
     {
       "sha1": "3cec9833ab787ed496f727a9e152332ef2b4b00c",
@@ -5129,6 +5146,16 @@
       "sha256": "5d5b699ee6cf6a3d4d5df6fd7c36d5fba40a8f0c87caa8962dba229d608e166a",
       "sha512": "c0c21eea1124d8375b36b77eeb4b05117b14e438734dc1390c145fac56a7308664f18ca25cb9292a88c037ad544b465cc2d636a835343b47812442f17e6c1d05",
       "source.properties": "Pkg.Desc=Android SDK Platform Baklava\nPkg.UserSrc=false\nPlatform.Version=Baklava\nPlatform.CodeName=\nPkg.Revision=4\nAndroidVersion.ApiLevel=35\nAndroidVersion.CodeName=Baklava\nAndroidVersion.ExtensionLevel=16\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-Baklava_r05.zip": [
+    {
+      "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=mainline_x86\nro.product.system.manufacturer=unknown\nro.product.system.model=sdk\nro.product.system.name=sdk\nro.system.product.cpu.abilist=x86\nro.system.product.cpu.abilist32=x86\nro.system.product.cpu.abilist64=\nro.system.build.date=Fri Feb  7 08:49:07 UTC 2025\nro.system.build.date.utc=1738918147\nro.system.build.fingerprint=Android/sdk/mainline_x86:Baklava/BP22.250124.008/13028340:userdebug/test-keys\nro.system.build.id=BP22.250124.008\nro.system.build.tags=test-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=13028340\nro.system.build.version.release=15\nro.system.build.version.release_or_codename=Baklava\nro.system.build.version.sdk=35\nro.system.build.version.sdk_full=35.0\n####################################\n# from gen_build_prop.py:generate_build_info\n####################################\n# begin build properties\nro.build.id=BP22.250124.008\nro.build.display.id=sdk-userdebug Baklava BP22.250124.008 13028340 test-keys\nro.build.version.incremental=13028340\nro.build.version.sdk=35\nro.build.version.sdk_full=35.0\nro.build.version.preview_sdk=1\nro.build.version.preview_sdk_fingerprint=a2f8aeba204faa8768a79794e8534db7\nro.build.version.codename=Baklava\nro.build.version.all_codenames=Baklava\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava\nro.build.version.release=15\nro.build.version.release_or_codename=Baklava\nro.build.version.release_or_preview_display=Baklava\nro.build.version.security_patch=2025-02-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Fri Feb  7 08:49:07 UTC 2025\nro.build.date.utc=1738918147\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=r-456ae1c9fa6a8c5c-5f9l\nro.build.tags=test-keys\nro.build.flavor=sdk-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=x86\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=mainline_x86\n# Do not try to parse description or thumbprint\nro.build.description=sdk-userdebug Baklava BP22.250124.008 13028340 test-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.llndk.api_level=202504\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\ndalvik.vm.lockprof.threshold=500\nro.debuggable=1\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n####################################\n# Adding footer from :applied_backported_fixes\n# with path out/soong/.intermediates/build/make/backported_fixes/applied_backported_fixes/gen/applied_backported_fixes.prop\n####################################\n# The following backported fixes have been applied\n# https://issuetracker.google.com/issues/350037023 with alias 1\n# https://issuetracker.google.com/issues/385124056 with alias 4\nro.build.backported_fixes.alias_bitset.long_list=18\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
+      "sdk.properties": "# SDK properties\n# This file is copied in the root folder of each platform component.\n# If it used by various tools to figure out what the platform can do.\nsdk.ant.templates.revision=1\nsdk.skin.default=WVGA800",
+      "sha1": "9dcd49009a005b0bdce2384cad0d9ca0fe74f1ce",
+      "sha256": "c22766660f5ca5330a7bd0fbdf26f776b9e2cda2ae1274f09be69ec02d35a16b",
+      "sha512": "7f69dc2ed756c56ac5b0e77b7de050a1d95c9eb47bcc7265dbd2c6ee6895d03c89b1be62ba6ce37d5109c93afca74d0cf08ce7a7b13d0b77fbc8cd536528d150",
+      "source.properties": "Pkg.Desc=Android SDK Platform Baklava\nPkg.UserSrc=false\nPlatform.Version=Baklava\nPlatform.CodeName=\nPkg.Revision=5\nAndroidVersion.ApiLevel=35\nAndroidVersion.CodeName=Baklava\nAndroidVersion.ExtensionLevel=16\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
     }
   ],
   "https://dl.google.com/android/repository/platform-Sv2_r01.zip": [

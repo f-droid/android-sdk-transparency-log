@@ -1213,6 +1213,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 28.0.13004108\nPkg.BaseRevision = 28.0.13004108\nPkg.ReleaseName = r28\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r29-beta1-linux.zip": [
+    {
+      "sha1": "ec2d8801e42009edf66be853c1bab9ba216378f9",
+      "sha256": "0bbaf4d0632152dcdcf3d0a5d385c760949898c88488375b18971dd669094388",
+      "sha512": "9b3b615a89f2a8ab2987128aa1abafbddf153ef64262eaab5a38d8f3e245e92963c99814d3eee532a4b2156789f142662b1ad58555237d672b2b2210739db36b",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 29.0.13113456-beta1\nPkg.BaseRevision = 29.0.13113456\nPkg.ReleaseName = r29-beta1\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -2547,6 +2555,14 @@
       "sha256": "8b6fb3c42ffc5294694ee02fffaf2d12cf0793768dea2be40666a272c3e1b63f",
       "sha512": "7f4f2de90e16b1939ae3eb5b24e9568fca2b37e2713777df071467535841dd686efefabc65c3456d375e4e4db9338153174198d6b493b229d447a77afa8fdfb7",
       "source.properties": "Pkg.Revision = 3.31.5\nPkg.Path = cmake;3.31.5\nPkg.Desc = CMake 3.31.5\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/cmake-3.31.6-linux.zip": [
+    {
+      "sha1": "a54551dabd5daf8cc99f7f51769fd00ca759be0a",
+      "sha256": "ce136bb4b02580b36e53d9ccfe5275069655e6ef7d46d6fe2fcf88cfdf8fb761",
+      "sha512": "bce4c690e6f06df711f3829880f7e0f6c207d8e729e4fcbb35395b407c510cdb9e600d54aab77d8c3e4eb3514b7f04a43d7f1c4f9548b1e8f21b2bd2070c44d9",
+      "source.properties": "Pkg.Revision = 3.31.6\nPkg.Path = cmake;3.31.6\nPkg.Desc = CMake 3.31.6\n"
     }
   ],
   "https://dl.google.com/android/repository/cmake-3.6.4111459-linux-x86_64.zip": [

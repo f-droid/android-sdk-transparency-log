@@ -1893,6 +1893,44 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="ndk;29.0.13113456">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>29</major>
+      <minor>0</minor>
+      <micro>13113456</micro>
+      <preview>1</preview>
+    </revision>
+    <display-name>NDK (Side by side) 29.0.13113456</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>773995428</size>
+          <checksum type="sha1">ec2d8801e42009edf66be853c1bab9ba216378f9</checksum>
+          <url>android-ndk-r29-beta1-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>1027792565</size>
+          <checksum type="sha1">485c42ff6a04ef0ec9612420b3226de443f46e7a</checksum>
+          <url>android-ndk-r29-beta1-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>821548547</size>
+          <checksum type="sha1">90347ffa01dd1833b9ff116865958976fd66c264</checksum>
+          <url>android-ndk-r29-beta1-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="ndk;28.0.13004108">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
@@ -9414,6 +9452,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="cmake;3.31.6">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>3</major>
+      <minor>31</minor>
+      <micro>6</micro>
+    </revision>
+    <display-name>CMake 3.31.6</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>30771638</size>
+          <checksum type="sha1">a54551dabd5daf8cc99f7f51769fd00ca759be0a</checksum>
+          <url>cmake-3.31.6-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>42861179</size>
+          <checksum type="sha1">78c3bf819d7bf6144783aeef06c5f9cbd3f8f5a9</checksum>
+          <url>cmake-3.31.6-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>20491843</size>
+          <checksum type="sha1">1efbef168291afc5d6ae449b1a016f8bf034b0fc</checksum>
+          <url>cmake-3.31.6-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
       </archive>
     </archives>
   </remotePackage>

@@ -8933,7 +8933,7 @@ June 2014.
   <remotePackage path="skiaparser;3">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
-      <major>6</major>
+      <major>7</major>
     </revision>
     <display-name>Layout Inspector image server for API 31-36</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -8941,27 +8941,27 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>9057863</size>
-          <checksum>0c0ba1581ecba105bd59b95c251f8a16a73e9555</checksum>
-          <url>skiaparser-12972467-linux-x64.zip</url>
+          <size>9075303</size>
+          <checksum>bb1f92866924dc64e035516d36866f6d851c5f6d</checksum>
+          <url>skiaparser-13188227-linux-x64.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>2933880</size>
-          <checksum>7fa586b1b677db7f0af7104bb8b273bae1f05567</checksum>
-          <url>skiaparser-12972467-darwin-x64.zip</url>
+          <size>2939258</size>
+          <checksum>a4a0037269a48d8eca8cdb8bc289e7b35b829b45</checksum>
+          <url>skiaparser-13188227-darwin-x64.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>2953603</size>
-          <checksum>6d65481e813ea9fa6447d8575b40f728bc252cd3</checksum>
-          <url>skiaparser-12972467-win-x64.zip</url>
+          <size>2956517</size>
+          <checksum>9c47bdff5f0bb8947426d766d28b35a6f3bba988</checksum>
+          <url>skiaparser-13188227-win-x64.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
@@ -9538,7 +9538,7 @@ June 2014.
     <revision>
       <major>35</major>
       <minor>5</minor>
-      <micro>6</micro>
+      <micro>7</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -9546,27 +9546,27 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>304025074</size>
-          <checksum>1cbcc61e26346db73e41b7a36782087686123141</checksum>
-          <url>emulator-linux_x64-13140913.zip</url>
+          <size>306758593</size>
+          <checksum>0486c2c545d925c6aadcc41a9f06a90fbb5a7b39</checksum>
+          <url>emulator-linux_x64-13172440.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>401315098</size>
-          <checksum>3456f7091758368fcb38d6eda9686d0fa528cdd4</checksum>
-          <url>emulator-darwin_x64-13140913.zip</url>
+          <size>401320267</size>
+          <checksum>4260f382375bd0d26b35a928bc2f88885fe704c1</checksum>
+          <url>emulator-darwin_x64-13172440.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>429391912</size>
-          <checksum>3f6d5a6fc1d371ede2cab2c22b4c09742d5e3a24</checksum>
-          <url>emulator-windows_x64-13140913.zip</url>
+          <size>429392944</size>
+          <checksum>711fd92734b649f7bc71dafbfe23bfb0cdd6ab44</checksum>
+          <url>emulator-windows_x64-13172440.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>

@@ -4246,6 +4246,14 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.6.5\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13373845"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-13402334.zip": [
+    {
+      "sha1": "37bf65df79fbad58d1d85a885966946853317dc7",
+      "sha256": "71c638533b55fed0a7f22b301941335a4c36b9ae859ab7794ff5db28c71bb493",
+      "sha512": "8fa269c21a6980061f7376840223049011805beb45d57bcf6664efb0a19fe0a492892ed1d4dc0827a06568c3f1564e4a858445d2624dd9072bf844f9d5f36038",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=35.6.6\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13402334"
+    }
+  ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [
     {
       "sha1": "3cec9833ab787ed496f727a9e152332ef2b4b00c",

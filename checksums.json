@@ -1181,6 +1181,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 27.2.12479018\nPkg.BaseRevision = 27.2.12479018\nPkg.ReleaseName = r27c\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r27d-linux.zip": [
+    {
+      "sha1": "22105e410cf29afcf163760cc95522b9fb981121",
+      "sha256": "601246087a682d1944e1e16dd85bc6e49560fe8b6d61255be2829178c8ed15d9",
+      "sha512": "a95901402e198305d1999882f32dc759bf14cbc88dd7345d205bf5f3636b765dcc4a80ee0f1bd38fbe992a9b2d97926e501dc3533fb921328cc85aff37a8e57b",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 27.3.13750724\nPkg.BaseRevision = 27.3.13750724\nPkg.ReleaseName = r27d\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r28-beta1-linux.zip": [
     {
       "sha1": "92dd6d941340624c4fc702ebc7e7cbd6faeb703d",

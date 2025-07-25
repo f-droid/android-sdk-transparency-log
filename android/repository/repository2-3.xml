@@ -327,12 +327,12 @@ June 2014.
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>36.0</api-level>
       <codename>CANARY</codename>
-      <extension-level>18</extension-level>
+      <extension-level>19</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>1</major>
+      <major>2</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -340,9 +340,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>66163630</size>
-          <checksum type="sha1">1210b033b7475c7dd40de7d0b7e8152b3b63cd1d</checksum>
-          <url>platform-36.0-CANARY_r01.zip</url>
+          <size>66239501</size>
+          <checksum type="sha1">163262487a541e01d0af42cca7cc20a7d46a461b</checksum>
+          <url>platform-36.0-CANARY_r02.zip</url>
         </complete>
       </archive>
     </archives>
@@ -9788,6 +9788,43 @@ June 2014.
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="cmake;4.0.3">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>4</major>
+      <minor>0</minor>
+      <micro>3</micro>
+    </revision>
+    <display-name>CMake 4.0.3</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>30911219</size>
+          <checksum type="sha1">595002f48fca924c9dcf7b3274277026024b7887</checksum>
+          <url>cmake-4.0.3-linux.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>43161272</size>
+          <checksum type="sha1">11cd1bd2b921d5bc262b7d502403f185dd6001a4</checksum>
+          <url>cmake-4.0.3-darwin.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+      </archive>
+      <archive>
+        <complete>
+          <size>20622355</size>
+          <checksum type="sha1">edaff2f1c48e57f28c9a03945165b6a54b60aa15</checksum>
+          <url>cmake-4.0.3-windows.zip</url>
+        </complete>
+        <host-os>windows</host-os>
       </archive>
     </archives>
   </remotePackage>

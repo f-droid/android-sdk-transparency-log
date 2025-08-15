@@ -1253,6 +1253,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 29.0.13599879-beta2\nPkg.BaseRevision = 29.0.13599879\nPkg.ReleaseName = r29-beta2\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r29-beta3-linux.zip": [
+    {
+      "sha1": "277ccc0f9c56b05dd88e0af39446cd9402b13b0c",
+      "sha256": "ca0eaac8f992635a4a74c2927e2e76d788f18b8ba52c668ddc7f675fe6265d48",
+      "sha512": "e16243bf99d8aa73c6b2314f7c612a016bcdd93849557d460f5c0fca5d21dee59425f995d7eb8b85d1fc719c2996e80f9b2531b6a82eff09c07b83684726c561",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 29.0.13846066-beta3\nPkg.BaseRevision = 29.0.13846066\nPkg.ReleaseName = r29-beta3\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"
@@ -2620,6 +2628,22 @@
       "sha256": "91104444800aee3fbb2e007ab47cfdb3dd7e823d32aa04f604108b3cbcfe96ea",
       "sha512": "d41ae010fe9024a1a12e28b29d2ce8da2d08ad6ef8de2a756185895775f06c94cb76b649252c0590a38d4b8cd9647fb7aff48a2203f0d16b0061f6076d3329c0",
       "source.properties": "Pkg.Revision = 4.0.2\nPkg.Path = cmake;4.0.2\nPkg.Desc = CMake 4.0.2\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/cmake-4.0.3-linux.zip": [
+    {
+      "sha1": "595002f48fca924c9dcf7b3274277026024b7887",
+      "sha256": "fe263b616db6d1ffd790f0c1e91af8d60f2004c7ba729491a28738671eac2894",
+      "sha512": "2031c9cdaa59ad7d651b686b540d5909e577ec16094ce83d95e2ef22201cea7186729829224e37837c97f60707abcd0d2d561f5c0cb8730756eccf0795cc97a2",
+      "source.properties": "Pkg.Revision = 4.0.3\nPkg.Path = cmake;4.0.3\nPkg.Desc = CMake 4.0.3\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/cmake-4.1.0-linux.zip": [
+    {
+      "sha1": "c7df7c5094f58d61a53f615cd68e6e7fd0c41a76",
+      "sha256": "f5e575581e5953ea27bca945fc3580ab1e8bc1ca85fa8aa899e3b6378f4accf3",
+      "sha512": "f9eae10ae7a67eb36b5c933f379bf04a2013688055ce5cc786a0fce589eec1519fa0212745ff42c607afa9ebfdb09748da3331246ba2ef5a88b10d185cfa86a2",
+      "source.properties": "Pkg.Revision = 4.1.0\nPkg.Path = cmake;4.1.0\nPkg.Desc = CMake 4.1.0\n"
     }
   ],
   "https://dl.google.com/android/repository/commandlinetools-linux-10320515_latest.zip": [
@@ -4390,6 +4414,46 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.1.7\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13762611"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-13784423.zip": [
+    {
+      "sha1": "85c198dcc67bc02c7682b410c362663f1221f127",
+      "sha256": "06b90b7570933f6570c76dfd3054c36c2af579417f5dd928e0b6a02f70440475",
+      "sha512": "eb552b1c261524a4e8ddec53ed31b5260e2c357e7adb2f8d6a74ba9a7b322c55f4015433d394f91043d39c38cc82cb5aac4a14b3f6652d3492e7f96f4e5db579",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.1.8\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13784423"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-13797555.zip": [
+    {
+      "sha1": "7f893fd0eff03672393e2afb3f30b9acb4fc4a9a",
+      "sha256": "0ae988aa7f09cb72c184e884ce5c13f9b4655fa5b0e7dfacb5953e20a8ab5ac0",
+      "sha512": "3f3a67a72ee03cc6769f7b3e32b475c192f85be5118417be80c463ee4412c7bd3667896c2740c48a44264947ae525952c94a655ac34c1cc7a2ece2a537033141",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.2.1\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13797555"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-13823996.zip": [
+    {
+      "sha1": "6640cd1d6ca5cf306cfe51d4957ace7e5f3c1d8c",
+      "sha256": "5a580b0169e3fd26c99a67b86720f367f78828b1733d748cbe566e001b517024",
+      "sha512": "54cd03d31b32a527b9547a9b9b4888338fba1514f0c1aff8c00bf50d1569d26dd5c44beba5f7afbc464bedfde95604687bc5075ea7cf62fc726f276a4652bf4b",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.1.9\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13823996"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-13834384.zip": [
+    {
+      "sha1": "ea7fc0cfc008f15f17e7186454a1563566900727",
+      "sha256": "8d060961114e96ca6aae7ec365662a97656ccf3b1e27f4c859467aa31762ca09",
+      "sha512": "59ada5ecd275bf719265ce54420a7f2c953619e225ea566ab3f215db889b83633a6a59d78d567a89c58ac7c99cffc0c4d3ff49d18db83e70254279f7b5c6346e",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.2.2\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13834384"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-13865802.zip": [
+    {
+      "sha1": "0ace2a8da0ea7cc12e3b4ce4ea7f7e2138514946",
+      "sha256": "8d9d5c117704a8e66f7df957621516fa45cede306db9902037c47bc189a860df",
+      "sha512": "54f1c5c1ebf6f5d9041cabc81f1dddaed58cf1d32688408b513594d2e2d2166791c5cc3ffade5231123b630e51a3d3a145e60d7523369c2ab78ec36c21c16717",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.2.3\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=13865802"
+    }
+  ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [
     {
       "sha1": "3cec9833ab787ed496f727a9e152332ef2b4b00c",
@@ -5417,6 +5481,26 @@
       "source.properties": "Pkg.Desc=Android SDK Platform 15\nPkg.UserSrc=false\nPlatform.Version=15\nPlatform.CodeName=\nPkg.Revision=2\nAndroidVersion.ApiLevel=35\nAndroidVersion.ExtensionLevel=13\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
     }
   ],
+  "https://dl.google.com/android/repository/platform-36-ext18_r01.zip": [
+    {
+      "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=mainline_x86\nro.product.system.manufacturer=unknown\nro.product.system.model=sdk\nro.product.system.name=sdk\nro.system.product.cpu.abilist=x86\nro.system.product.cpu.abilist32=x86\nro.system.product.cpu.abilist64=\nro.system.build.date=Thu Jun 26 21:57:38 UTC 2025\nro.system.build.date.utc=1750975058\nro.system.build.fingerprint=Android/sdk/mainline_x86:16/ASE7.250626.001/13700317:userdebug/dev-keys\nro.system.build.id=ASE7.250626.001\nro.system.build.tags=dev-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=13700317\nro.system.build.version.release=16\nro.system.build.version.release_or_codename=16\nro.system.build.version.sdk=36\nro.system.build.version.sdk_full=36.0\n####################################\n# from gen_build_prop.py:generate_build_info\n####################################\n# begin build properties\nro.build.id=ASE7.250626.001\nro.build.display.id=sdk-userdebug 16 ASE7.250626.001 13700317 dev-keys\nro.build.version.incremental=13700317\nro.build.version.sdk=36\nro.build.version.sdk_full=36.0\nro.build.version.preview_sdk=0\nro.build.version.preview_sdk_fingerprint=REL\nro.build.version.codename=REL\nro.build.version.all_codenames=REL\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava\nro.build.version.release=16\nro.build.version.release_or_codename=16\nro.build.version.release_or_preview_display=16\nro.build.version.security_patch=2025-05-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Thu Jun 26 21:57:38 UTC 2025\nro.build.date.utc=1750975058\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=6a43c350fcbd\nro.build.tags=dev-keys\nro.build.flavor=sdk-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=x86\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=mainline_x86\n# Do not try to parse description or thumbprint\nro.build.description=sdk-userdebug 16 ASE7.250626.001 13700317 dev-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.llndk.api_level=202504\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\ndalvik.vm.lockprof.threshold=500\nro.debuggable=1\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n####################################\n# Adding footer from :applied_backported_fixes\n# with path out/soong/.intermediates/build/make/backported_fixes/applied_backported_fixes/gen/applied_backported_fixes.prop\n####################################\n# The following backported fixes have been applied\n# https://issuetracker.google.com/issues/350037023 with alias 1\n# https://issuetracker.google.com/issues/385124056 with alias 4\nro.build.backported_fixes.alias_bitset.long_list=18\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
+      "sdk.properties": "# SDK properties\n# This file is copied in the root folder of each platform component.\n# If it used by various tools to figure out what the platform can do.\nsdk.ant.templates.revision=1\nsdk.skin.default=WVGA800",
+      "sha1": "33a7af9f531f6ce67b3ec357f619e69aa0a95c8a",
+      "sha256": "d89a01a838cc3eba8fea2c63f7771ff259b35214cc153332463257380f1ff8b1",
+      "sha512": "5c04ecc8ea88d08fb5f79002ff3d67465cf88fe0394540c6cda139a7a61f82c88fdaec4ab3519dc6bb222bf220f8dd75c06ecb2136f9f41377683c73bf91471e",
+      "source.properties": "Pkg.Desc=Android SDK Platform 16\nPkg.UserSrc=false\nPlatform.Version=16\nPlatform.CodeName=\nPkg.Revision=1\nAndroidVersion.ApiLevel=36\nAndroidVersion.ExtensionLevel=18\nAndroidVersion.IsBaseSdk=false\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-36-ext19_r01.zip": [
+    {
+      "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=mainline_x86\nro.product.system.manufacturer=unknown\nro.product.system.model=sdk\nro.product.system.name=sdk\nro.system.product.cpu.abilist=x86\nro.system.product.cpu.abilist32=x86\nro.system.product.cpu.abilist64=\nro.system.build.date=Fri Jul 18 12:20:58 UTC 2025\nro.system.build.date.utc=1752841258\nro.system.build.fingerprint=Android/sdk/mainline_x86:16/ASE8.250718.001/13801961:userdebug/dev-keys\nro.system.build.id=ASE8.250718.001\nro.system.build.tags=dev-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=13801961\nro.system.build.version.release=16\nro.system.build.version.release_or_codename=16\nro.system.build.version.sdk=36\nro.system.build.version.sdk_full=36.0\n####################################\n# from gen_build_prop.py:generate_build_info\n####################################\n# begin build properties\nro.build.id=ASE8.250718.001\nro.build.display.id=sdk-userdebug 16 ASE8.250718.001 13801961 dev-keys\nro.build.version.incremental=13801961\nro.build.version.sdk=36\nro.build.version.sdk_full=36.0\nro.build.version.preview_sdk=0\nro.build.version.preview_sdk_fingerprint=REL\nro.build.version.codename=REL\nro.build.version.all_codenames=REL\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava\nro.build.version.release=16\nro.build.version.release_or_codename=16\nro.build.version.release_or_preview_display=16\nro.build.version.security_patch=2025-05-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Fri Jul 18 12:20:58 UTC 2025\nro.build.date.utc=1752841258\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=142409b6e78b\nro.build.tags=dev-keys\nro.build.flavor=sdk-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=x86\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=mainline_x86\n# Do not try to parse description or thumbprint\nro.build.description=sdk-userdebug 16 ASE8.250718.001 13801961 dev-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.llndk.api_level=202504\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\ndalvik.vm.lockprof.threshold=500\nro.debuggable=1\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n####################################\n# Adding footer from :applied_backported_fixes\n# with path out/soong/.intermediates/build/make/backported_fixes/applied_backported_fixes/gen/applied_backported_fixes.prop\n####################################\n# The following backported fixes have been applied\n# https://issuetracker.google.com/issues/350037023 with alias 1\n# https://issuetracker.google.com/issues/385124056 with alias 4\nro.build.backported_fixes.alias_bitset.long_list=18\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
+      "sdk.properties": "# SDK properties\n# This file is copied in the root folder of each platform component.\n# If it used by various tools to figure out what the platform can do.\nsdk.ant.templates.revision=1\nsdk.skin.default=WVGA800",
+      "sha1": "52e240c229cf2ad561ee262ebdfff266e180c585",
+      "sha256": "55bd3620999428ff13097c982c9f0d40de566d846f0bed153bf8d4e1491b90ff",
+      "sha512": "44452cc211c615626172679f3b443366b58bfb633ef46c78156e62932572f8d508d43c3b17730e0e7fe1633b92a4d5940963042ac2abe5a68da1b68a0c80f841",
+      "source.properties": "Pkg.Desc=Android SDK Platform 16\nPkg.UserSrc=false\nPlatform.Version=16\nPlatform.CodeName=\nPkg.Revision=1\nAndroidVersion.ApiLevel=36\nAndroidVersion.ExtensionLevel=19\nAndroidVersion.IsBaseSdk=false\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
+    }
+  ],
   "https://dl.google.com/android/repository/platform-36.0-CANARY_r01.zip": [
     {
       "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=mainline_x86\nro.product.system.manufacturer=unknown\nro.product.system.model=sdk\nro.product.system.name=sdk\nro.system.product.cpu.abilist=x86\nro.system.product.cpu.abilist32=x86\nro.system.product.cpu.abilist64=\nro.system.build.date=Sat Jun 28 00:54:45 UTC 2025\nro.system.build.date.utc=1751072085\nro.system.build.fingerprint=Android/sdk/mainline_x86:CANARY/ZP11.250606.010/13709672:userdebug/test-keys\nro.system.build.id=ZP11.250606.010\nro.system.build.tags=test-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=13709672\nro.system.build.version.release=16\nro.system.build.version.release_or_codename=CANARY\nro.system.build.version.sdk=36\nro.system.build.version.sdk_full=36.0\n####################################\n# from gen_build_prop.py:generate_build_info\n####################################\n# begin build properties\nro.build.id=ZP11.250606.010\nro.build.display.id=sdk-userdebug CANARY ZP11.250606.010 13709672 test-keys\nro.build.version.incremental=13709672\nro.build.version.sdk=36\nro.build.version.sdk_full=36.0\nro.build.version.preview_sdk=1\nro.build.version.preview_sdk_fingerprint=6eeb284e9d698806bc67fb2df278834c\nro.build.version.codename=CANARY\nro.build.version.all_codenames=CANARY\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava,CANARY\nro.build.version.release=16\nro.build.version.release_or_codename=CANARY\nro.build.version.release_or_preview_display=CANARY\nro.build.version.security_patch=2025-06-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Sat Jun 28 00:54:45 UTC 2025\nro.build.date.utc=1751072085\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=0be263391722\nro.build.tags=test-keys\nro.build.flavor=sdk-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=x86\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=mainline_x86\n# Do not try to parse description or thumbprint\nro.build.description=sdk-userdebug CANARY ZP11.250606.010 13709672 test-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.llndk.api_level=202604\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\ndalvik.vm.lockprof.threshold=500\nro.debuggable=1\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\napexd.config.compressed_apex=true\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n####################################\n# Adding footer from :applied_backported_fixes\n# with path out/soong/.intermediates/build/make/backported_fixes/applied_backported_fixes/gen/applied_backported_fixes.prop\n####################################\n# The following backported fixes have been applied\n# https://issuetracker.google.com/issues/350037023 with alias 1\n# https://issuetracker.google.com/issues/385124056 with alias 4\nro.build.backported_fixes.alias_bitset.long_list=18\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
@@ -5425,6 +5509,16 @@
       "sha256": "fd1fe227634e3b5b8c1e5e8ba42247564e07736bbd6f9b58576c01db04801a3b",
       "sha512": "9de92ac631f569d21e47d3e70e0d32e348d9ddef7659cf6702e9c116bc490d6e52fcb962251f984be2e7a0aa95327e08d369ff28b15b444cdd45a3379002a0b6",
       "source.properties": "Pkg.Desc=Android SDK Platform CANARY\nPkg.UserSrc=false\nPlatform.Version=CANARY\nPlatform.CodeName=\nPkg.Revision=1\nAndroidVersion.ApiLevel=36.0\nAndroidVersion.CodeName=CANARY\nAndroidVersion.ExtensionLevel=18\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-36.0-CANARY_r02.zip": [
+    {
+      "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=mainline_x86\nro.product.system.manufacturer=unknown\nro.product.system.model=sdk\nro.product.system.name=sdk\nro.system.product.cpu.abilist=x86\nro.system.product.cpu.abilist32=x86\nro.system.product.cpu.abilist64=\nro.system.build.date=Tue Jul 22 18:37:42 UTC 2025\nro.system.build.date.utc=1753209462\nro.system.build.fingerprint=Android/sdk/mainline_x86:CANARY/ZP11.250627.009/13818224:userdebug/test-keys\nro.system.build.id=ZP11.250627.009\nro.system.build.tags=test-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=13818224\nro.system.build.version.release=16\nro.system.build.version.release_or_codename=CANARY\nro.system.build.version.sdk=36\nro.system.build.version.sdk_full=36.0\n####################################\n# from gen_build_prop.py:generate_build_info\n####################################\n# begin build properties\nro.build.id=ZP11.250627.009\nro.build.display.id=sdk-userdebug CANARY ZP11.250627.009 13818224 test-keys\nro.build.version.incremental=13818224\nro.build.version.sdk=36\nro.build.version.sdk_full=36.0\nro.build.version.preview_sdk=1\nro.build.version.preview_sdk_fingerprint=326c22055a20182516c7598eedc480b8\nro.build.version.codename=CANARY\nro.build.version.all_codenames=CANARY\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava,CANARY\nro.build.version.release=16\nro.build.version.release_or_codename=CANARY\nro.build.version.release_or_preview_display=CANARY\nro.build.version.security_patch=2025-07-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Tue Jul 22 18:37:42 UTC 2025\nro.build.date.utc=1753209462\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=0f790d3a487a\nro.build.tags=test-keys\nro.build.flavor=sdk-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=x86\nro.product.locale=en-US\nro.wifi.channels=\n# ro.build.product is obsolete; use ro.product.device\nro.build.product=mainline_x86\n# Do not try to parse description or thumbprint\nro.build.description=sdk-userdebug CANARY ZP11.250627.009 13818224 test-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.llndk.api_level=202604\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\ndalvik.vm.lockprof.threshold=500\nro.debuggable=1\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\napexd.config.compressed_apex=true\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n####################################\n# Adding footer from :applied_backported_fixes\n# with path out/soong/.intermediates/build/make/backported_fixes/applied_backported_fixes/gen/applied_backported_fixes.prop\n####################################\n# The following backported fixes have been applied\n# https://issuetracker.google.com/issues/350037023 with alias 1\n# https://issuetracker.google.com/issues/385124056 with alias 4\nro.build.backported_fixes.alias_bitset.long_list=18\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
+      "sdk.properties": "# SDK properties\n# This file is copied in the root folder of each platform component.\n# If it used by various tools to figure out what the platform can do.\nsdk.ant.templates.revision=1\nsdk.skin.default=WVGA800",
+      "sha1": "163262487a541e01d0af42cca7cc20a7d46a461b",
+      "sha256": "55b6dc9aaba1ba02600162ab90d443f0949bb00522a40372fee298c9b9f07c23",
+      "sha512": "77374365c0e4e3ff4169c5db7fc2bf93583416bc72f2197236d82a479b6b5877b2c526f9a3383a9851e83320dd66a62fea3f251ca4ed0a4c7a77e3bd430bc855",
+      "source.properties": "Pkg.Desc=Android SDK Platform CANARY\nPkg.UserSrc=false\nPlatform.Version=CANARY\nPlatform.CodeName=\nPkg.Revision=2\nAndroidVersion.ApiLevel=36.0\nAndroidVersion.CodeName=CANARY\nAndroidVersion.ExtensionLevel=19\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
     }
   ],
   "https://dl.google.com/android/repository/platform-36_r01.zip": [
@@ -5875,6 +5969,14 @@
       "sha256": "0ead642c943ffe79701fccca8f5f1c69c4ce4f43df2eefee553f6ccb27cbfbe8",
       "sha512": "de2c00a5797ca29014a89f7ed6e21fffc65dd06ea1ffc3d9c2563119c0b6084492e16018564a07d71a6a11e1ca413c021f7a1825ab3d390a967b8c12f69a9062",
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.0.0\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-tools_r36.0.1-linux.zip": [
+    {
+      "sha1": "5ea5ed0ce3734d4f7dfed7f91eeda090101c3411",
+      "sha256": "4804403b06e40a7570f1e3e539d7e4b22a632d557a00c60f1cf3746e6d4ca23b",
+      "sha512": "53ac7c0b4e28b947cd62b44fce4556db6fe0e6b27a2b8bf6ca033faa70de12a5c26edaf05f95df02fd251c1744780ec1b6a576eac4c815673023416c0323a451",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.0.1\n"
     }
   ],
   "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip": [

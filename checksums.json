@@ -1261,6 +1261,14 @@
       "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 29.0.13846066-beta3\nPkg.BaseRevision = 29.0.13846066\nPkg.ReleaseName = r29-beta3\n"
     }
   ],
+  "https://dl.google.com/android/repository/android-ndk-r29-beta4-linux.zip": [
+    {
+      "sha1": "ecba553458e222a7c9b24945a3690e80a4730104",
+      "sha256": "c5db6031a549b5274eed920c45ee3c7da1ac3f1f416cbb512dd9d88417bdf009",
+      "sha512": "79f9d5fdba47020cb9b66f8486422a006881e67e494c59cbecba7ad673112096cbb684050944a8ff113ff6df4e7f02dceeb00edae29f0c17c9dff03cc286f837",
+      "source.properties": "Pkg.Desc = Android NDK\nPkg.Revision = 29.0.14033849-beta4\nPkg.BaseRevision = 29.0.14033849\nPkg.ReleaseName = r29-beta4\n"
+    }
+  ],
   "https://dl.google.com/android/repository/android-ndk-r9-linux-x86-legacy-toolchains.tar.bz2": [
     {
       "sha256": "26b94f0a5d686b4892cb22b06094751efded0958baed380b2ccce56517fd830b"

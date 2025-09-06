@@ -2663,6 +2663,14 @@
       "source.properties": "Pkg.Revision = 4.1.0\nPkg.Path = cmake;4.1.0\nPkg.Desc = CMake 4.1.0\n"
     }
   ],
+  "https://dl.google.com/android/repository/cmake-4.1.1-linux.zip": [
+    {
+      "sha1": "33a36c403071cdd43bd5d611552fe5e8955626c2",
+      "sha256": "364c2940ff8a577c2e821831c72975e33be01e4e24c451591d6599b0fbf04dff",
+      "sha512": "5707e74c45410fc0a8c372db983f489ae72d3f839727b49868b33e583ac1272911b7fdaa0e084d97849967d0ae9469a021e5f361e91f3f58dbd90e5d8a0dd989",
+      "source.properties": "Pkg.Revision = 4.1.1\nPkg.Path = cmake;4.1.1\nPkg.Desc = CMake 4.1.1\n"
+    }
+  ],
   "https://dl.google.com/android/repository/commandlinetools-linux-10320515_latest.zip": [
     {
       "sha1": "26048ffc9a0b0b6ef0fe491e3796486d2387f043",

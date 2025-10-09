@@ -10764,7 +10764,7 @@ June 2014.
     <revision>
       <major>36</major>
       <minor>0</minor>
-      <micro>1</micro>
+      <micro>2</micro>
     </revision>
     <display-name>Android SDK Platform-Tools</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -10772,25 +10772,25 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>8128518</size>
-          <checksum type="sha1">5ea5ed0ce3734d4f7dfed7f91eeda090101c3411</checksum>
-          <url>platform-tools_r36.0.1-linux.zip</url>
+          <size>8785200</size>
+          <checksum type="sha1">3c5c54a14f51a2da59d7c4874372619a42deb94d</checksum>
+          <url>platform-tools_r36.0.2-linux.zip</url>
         </complete>
         <host-os>linux</host-os>
       </archive>
       <archive>
         <complete>
-          <size>14597016</size>
-          <checksum type="sha1">96dd111d89fb1e6c8f3a78781102dad7366fe9cc</checksum>
-          <url>platform-tools_r36.0.1-darwin.zip</url>
+          <size>15711207</size>
+          <checksum type="sha1">5998b371cd55fbd3807632ac36f1b3a62558d46d</checksum>
+          <url>platform-tools_r36.0.2-darwin.zip</url>
         </complete>
         <host-os>macosx</host-os>
       </archive>
       <archive>
         <complete>
-          <size>7316031</size>
-          <checksum type="sha1">0a700d028bca11fbf5be6fc2187e9a8820f2d942</checksum>
-          <url>platform-tools_r36.0.1-win.zip</url>
+          <size>7708640</size>
+          <checksum type="sha1">970632ccb7a364767d64d9eec3d143f5d2adcc3c</checksum>
+          <url>platform-tools_r36.0.2-win.zip</url>
         </complete>
         <host-os>windows</host-os>
       </archive>
@@ -10935,8 +10935,8 @@ June 2014.
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
       <major>36</major>
-      <minor>1</minor>
-      <micro>9</micro>
+      <minor>2</minor>
+      <micro>11</micro>
     </revision>
     <display-name>Android Emulator</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -10944,36 +10944,36 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>319203216</size>
-          <checksum type="sha1">6640cd1d6ca5cf306cfe51d4957ace7e5f3c1d8c</checksum>
-          <url>emulator-linux_x64-13823996.zip</url>
+          <size>320127019</size>
+          <checksum type="sha1">1d653c822141fd035c9abd267d7ae8984ef64f78</checksum>
+          <url>emulator-linux_x64-14212360.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>394943617</size>
-          <checksum type="sha1">7688a93c4162dd26e961fa26e260dbb638aa2679</checksum>
-          <url>emulator-darwin_x64-13823996.zip</url>
+          <size>395794148</size>
+          <checksum type="sha1">9c4d1e86c1dd0b2e729f24c8280749ff3f3b2b82</checksum>
+          <url>emulator-darwin_x64-14212360.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>x64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>312528104</size>
-          <checksum type="sha1">540cad31129eb9518082647a67cf634c51f565de</checksum>
-          <url>emulator-darwin_aarch64-13823996.zip</url>
+          <size>313352324</size>
+          <checksum type="sha1">906e56b0cf3e10e420e3f87043538949276d5263</checksum>
+          <url>emulator-darwin_aarch64-14212360.zip</url>
         </complete>
         <host-os>macosx</host-os>
         <host-arch>aarch64</host-arch>
       </archive>
       <archive>
         <complete>
-          <size>440857308</size>
-          <checksum type="sha1">b9542962753c1b2774691d758247cac6a2384655</checksum>
-          <url>emulator-windows_x64-13823996.zip</url>
+          <size>443351309</size>
+          <checksum type="sha1">8f62f1518e5ef7ab55d761716b6f09a69544cc26</checksum>
+          <url>emulator-windows_x64-14212360.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>

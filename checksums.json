@@ -4640,6 +4640,22 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.3.8\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=14396629"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-14404213.zip": [
+    {
+      "sha1": "1b6fd0a0c281f0a34f35f1c4cf32800a1c8d98a2",
+      "sha256": "1cc7a876cc25d08eeb4c0132329cda541d41e0a88ef13378a14e700758e3952e",
+      "sha512": "4b4480cb290edfa349e65ed7ed4b9f2d9bd0f545c0461651e8f1f8018f0204e7fcbb7e4703de3882aa6cbccd8a15eb059c889572596111d8bb08c9b7930df18e",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.3.9\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=14404213"
+    }
+  ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-14433334.zip": [
+    {
+      "sha1": "0227e07831f9bde3a59e760024c1a816ddfd7af6",
+      "sha256": "37202259b862f8b42e85c7ecfc718a95dad4afadbee15d9f0c5748dcb0792630",
+      "sha512": "d0507dcda3fc2603874bb3ed9691a15c913e76bc3a7f8e3d0b43d83cac10dce7834ad150409e01d4a4abd54a0210d816a1e5a7ccce39893997efe57dc5143224",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=36.4.1\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=14433334"
+    }
+  ],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [
     {
       "sha1": "3cec9833ab787ed496f727a9e152332ef2b4b00c",
@@ -5815,6 +5831,16 @@
       "sha256": "10e52ee4620278794f89dd1fafd89fa9cdfba6b3f78505f59162268461108321",
       "sha512": "9511060949ad4eed4cd246d2309b5ef7edfa9dd185db74588330768da84bb6ed728edc4a8d7b55c4badd95aa6220e06e82d4579080c619767d90f23fb67300c9",
       "source.properties": "Pkg.Desc=Android SDK Platform CANARY\nPkg.UserSrc=false\nPlatform.Version=CANARY\nPlatform.CodeName=\nPkg.Revision=5\nAndroidVersion.ApiLevel=36.1\nAndroidVersion.CodeName=CANARY\nAndroidVersion.ExtensionLevel=20\nAndroidVersion.IsBaseSdk=true\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
+    }
+  ],
+  "https://dl.google.com/android/repository/platform-CANARY_r06.zip": [
+    {
+      "build.prop": "####################################\n# from generate-common-build-props\n# These properties identify this partition image.\n####################################\nro.product.system.brand=Android\nro.product.system.device=mainline_x86\nro.product.system.manufacturer=unknown\nro.product.system.model=sdk\nro.product.system.name=sdk\nro.system.product.cpu.abilist=x86\nro.system.product.cpu.abilist32=x86\nro.system.product.cpu.abilist64=\nro.system.build.date=Mon Nov 10 19:58:41 UTC 2025\nro.system.build.date.utc=1762804721\nro.system.build.fingerprint=Android/sdk/mainline_x86:CANARY/ZP11.251031.010/14413173:userdebug/test-keys\nro.system.build.id=ZP11.251031.010\nro.system.build.uuid=6ljzUKAmMgaFozXNCdo9Wh0VeAwy7cGfwF7BYbv6Gng\nro.system.build.tags=test-keys\nro.system.build.type=userdebug\nro.system.build.version.incremental=14413173\nro.system.build.version.release=16\nro.system.build.version.release_or_codename=CANARY\nro.system.build.version.sdk=36\nro.system.build.version.sdk_full=36.1\n####################################\n# from gen_build_prop.py:generate_build_info\n####################################\n# begin build properties\nro.build.id=ZP11.251031.010\nro.build.uuid=6ljzUKAmMgaFozXNCdo9Wh0VeAwy7cGfwF7BYbv6Gng\nro.build.display.id=sdk-userdebug CANARY ZP11.251031.010 14413173 test-keys\nro.build.version.incremental=14413173\nro.build.version.sdk=36\nro.build.version.sdk_full=36.1\nro.build.version.preview_sdk=20251027\nro.build.version.preview_sdk_fingerprint=e571207403e948181d7d0c6f3a1ecb77\nro.build.version.codename=CANARY\nro.build.version.all_codenames=CANARY\nro.build.version.known_codenames=Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava,CANARY\nro.build.version.release=16\nro.build.version.release_or_codename=CANARY\nro.build.version.release_or_preview_display=CANARY\nro.build.version.security_patch=2025-11-05\nro.build.version.base_os=\nro.build.version.min_supported_target_sdk=28\nro.build.date=Mon Nov 10 19:58:41 UTC 2025\nro.build.date.utc=1762804721\nro.build.type=userdebug\nro.build.user=android-build\nro.build.host=d5f6e1432891\nro.build.tags=test-keys\nro.build.flavor=sdk-userdebug\n# ro.product.cpu.abi and ro.product.cpu.abi2 are obsolete,\n# use ro.product.cpu.abilist instead.\nro.product.cpu.abi=x86\nro.product.locale=en-US\nro.wifi.channels=\n# Do not try to parse description or thumbprint\nro.build.description=sdk-userdebug CANARY ZP11.251031.010 14413173 test-keys\n# end build properties\n####################################\n# from variable ADDITIONAL_SYSTEM_PROPERTIES\n####################################\nro.treble.enabled=true\nro.llndk.api_level=202604\nro.actionable_compatible_property.enabled=true\npersist.debug.dalvik.vm.core_platform_api_policy=just-warn\nro.postinstall.fstab.prefix=/system\nro.secure=1\nsecurity.perf_harden=1\nro.allow.mock.location=0\ndalvik.vm.lockprof.threshold=500\nro.debuggable=1\nxmpp.auto-presence=true\nro.config.nocheckin=yes\nnet.bt.name=Android\nro.force.debuggable=0\n####################################\n# from variable PRODUCT_SYSTEM_PROPERTIES\n####################################\ndalvik.vm.image-dex2oat-Xms=64m\ndalvik.vm.image-dex2oat-Xmx=64m\ndalvik.vm.dex2oat-Xms=64m\ndalvik.vm.dex2oat-Xmx=512m\napexd.config.compressed_apex=true\n####################################\n# from variable PRODUCT_SYSTEM_DEFAULT_PROPERTIES\n####################################\n# Auto-added by post_process_props.py\npersist.sys.usb.config=adb\n####################################\n# Adding footer from :applied_backported_fixes\n# with path out/soong/.intermediates/build/make/backported_fixes/applied_backported_fixes/gen/applied_backported_fixes.prop\n####################################\n# The following backported fixes have been applied\n# https://issuetracker.google.com/issues/350037023 with alias 1\n# https://issuetracker.google.com/issues/385124056 with alias 4\n# https://issuetracker.google.com/issues/452390376 with alias 6\nro.build.backported_fixes.alias_bitset.long_list=82\n# end of file\nro.build.user=generic\nro.build.host=generic\nro.product.brand=generic\nro.product.manufacturer=generic\nro.product.device=generic\nro.build.product=generic\n",
+      "sdk.properties": "# SDK properties\n# This file is copied in the root folder of each platform component.\n# If it used by various tools to figure out what the platform can do.\nsdk.ant.templates.revision=1\nsdk.skin.default=WVGA800",
+      "sha1": "ed45e0df0fbcedd916e362f74410b1eeac478435",
+      "sha256": "1769c6a4e3f6175ccc5da229eec3a296de701a4cb22e72c0e26fcc1789565607",
+      "sha512": "0645830229c32348647d2bb1dd467037cf56209e6b752520c4854be6471b7bd1067deef8ab8f1053edc1eb1d229135d250bc6de6dccf86565bd18589f523a0e0",
+      "source.properties": "Pkg.Desc=Android SDK Platform CANARY\nPkg.UserSrc=false\nPlatform.Version=CANARY\nPlatform.CodeName=\nPkg.Revision=6\nAndroidVersion.ApiLevel=36.1\nAndroidVersion.CodeName=CANARY\nAndroidVersion.ExtensionLevel=20\nAndroidVersion.IsBaseSdk=true\nAndroidVersion.PreviewSdkInt=20251027\nAndroidVersion.BetaVersion=\nLayoutlib.Api=15\nLayoutlib.Revision=1\nPlatform.MinToolsRev=22\n"
     }
   ],
   "https://dl.google.com/android/repository/platform-Sv2_r01.zip": [

@@ -351,13 +351,14 @@ June 2014.
   <remotePackage path="platforms;android-CANARY">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>36.1</api-level>
+      <canary-number>20260216</canary-number>
       <codename>CANARY</codename>
       <extension-level>21</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>9</major>
+      <major>10</major>
     </revision>
     <display-name>Android SDK Platform CANARY</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -365,9 +366,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>66842057</size>
-          <checksum type="sha1">756112dd034ba5c1fbc995a472fb17d196c21a59</checksum>
-          <url>platform-CANARY_r09.zip</url>
+          <size>67144025</size>
+          <checksum type="sha1">c302ae12b604acd942e31568f32917fe3141750c</checksum>
+          <url>platform-CANARY_r10.zip</url>
         </complete>
       </archive>
     </archives>
@@ -1590,6 +1591,29 @@ June 2014.
           <url>android-1.1_r1-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="sources;android-37.0">
+    <type-details xsi:type="sdk:sourceDetailsType">
+      <api-level>37.0</api-level>
+      <codename></codename>
+      <extension-level>22</extension-level>
+      <base-extension>true</base-extension>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Sources for Android 37.0</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>52760617</size>
+          <checksum type="sha1">5dc25b723b23edfcb9604bc2917acdea265fd6fb</checksum>
+          <url>source-37.0_r01.zip</url>
+        </complete>
       </archive>
     </archives>
   </remotePackage>

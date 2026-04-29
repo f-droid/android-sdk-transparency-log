@@ -201,5 +201,23 @@ with open('android/repository/repository2-3.xml') as fp:
                         archive.complete.checksum.string.lower().strip(),
                     )
 
+for f in Path('android/repository/sys-img').glob('*/sys-img2-5.xml'):
+    soup = BeautifulSoup(f.read_text(), "xml")
+    for remotePackage in soup.find_all('remotePackage'):
+        path = remotePackage.attrs.get('path', '')
+        path0 = path.split(';')[0]
+        if path0 != 'system-images':
+            continue
+        for archive in remotePackage.find_all('archive'):
+            host_os = archive.find('host-os')
+            if host_os and host_os.string in ('macosx', 'windows'):
+                continue
+            section = f.parent.relative_to('android/repository')
+            check_file(
+                f'{BASE_URL}{section}/{archive.complete.url.string}',
+                'sha1',
+                archive.complete.checksum.string.lower().strip(),
+            )
+
 with open('checksums.json', 'w') as fp:
     json.dump(checksums, fp, indent=2, sort_keys=True)

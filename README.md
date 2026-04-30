@@ -17,6 +17,13 @@ published:
 
 * [Google Issue #70292819 platform-27_r01.zip was overwritten with a new update](https://issuetracker.google.com/issues/70292819) (Google login and Javascript required)
 
+This works by reading the repository index files (e.g.
+[_android/repository/_](android/repository/)) to find all the packages currently
+listed in the indexes.  If a package's SHA1 from that index is not in
+_checksums.json_, then it downloads and parses it, and adds it to
+_checksums.json_. It is done this way so that it logs all available downloads,
+regardless of whether they are currently listed in any repository indexes.
+Google does not keep all available packages listed in the indexes.
 
 ## API
 

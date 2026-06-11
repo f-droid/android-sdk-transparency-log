@@ -330,14 +330,14 @@ June 2014.
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.0</api-level>
       <beta-api-level>37.1</beta-api-level>
-      <beta-number>2</beta-number>
+      <beta-number>4</beta-number>
       <codename>CinnamonBun</codename>
       <extension-level>22</extension-level>
       <base-extension>true</base-extension>
       <layoutlib api="15"/>
     </type-details>
     <revision>
-      <major>2</major>
+      <major>4</major>
     </revision>
     <display-name>Android SDK Platform CinnamonBun</display-name>
     <uses-license ref="android-sdk-license"/>
@@ -345,9 +345,9 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>67396651</size>
-          <checksum type="sha1">56d364675ab0874416f431b774a39e5624e5f164</checksum>
-          <url>platform-CinnamonBun_r02.zip</url>
+          <size>67477798</size>
+          <checksum type="sha1">185c1c48b6b9abd402200cb3d9629b4323e1c4fc</checksum>
+          <url>platform-CinnamonBun_r04.zip</url>
         </complete>
       </archive>
     </archives>

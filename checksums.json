@@ -2835,6 +2835,14 @@
       "source.properties": "Pkg.Revision=20.0\nPkg.Path=cmdline-tools;20.0\nPkg.Desc=Android SDK Command-line Tools\n"
     }
   ],
+  "https://dl.google.com/android/repository/commandlinetools-linux-15641748_latest.zip": [
+    {
+      "sha1": "63523a02a975a81102238566f2a16c057d52301e",
+      "sha256": "a66d5ef0238fc0162e9c1446602ce0dd41702d4dd7a94d2ce42d12b7f80baf7e",
+      "sha512": "82d136f1ceb8c00cb0b1eb1745884a0561c80fbfc1830ddf37f362654383d776085e04550b787cbc4b7d9bee22d91643c778132c5f3d9f6f84217fd7475b0a1b",
+      "source.properties": "Pkg.Revision=21.0\nPkg.Path=cmdline-tools;21.0\nPkg.Desc=Android SDK Command-line Tools\n"
+    }
+  ],
   "https://dl.google.com/android/repository/commandlinetools-linux-5842447_latest.zip": [
     {
       "sha1": "f331fcfae47e0d0a478e3f2d30ce70b4a69439bc",

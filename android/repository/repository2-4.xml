@@ -300,6 +300,30 @@ June 2014.
   <channel id="channel-1">beta</channel>
   <channel id="channel-2">dev</channel>
   <channel id="channel-3">canary</channel>
+  <remotePackage path="platforms;android-37.2">
+    <type-details xsi:type="sdk:platformDetailsType">
+      <api-level>37.2</api-level>
+      <codename></codename>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+      <layoutlib api="15"/>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Android SDK Platform 37.2</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>68056472</size>
+          <checksum type="sha1">4bec12a02162ff6852df50b5fcf8ee762b050966</checksum>
+          <url>platform-37.2_r01.zip</url>
+        </complete>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="platforms;android-37.2-beta3">
     <type-details xsi:type="sdk:platformDetailsType">
       <api-level>37.1</api-level>
@@ -1645,6 +1669,29 @@ June 2014.
           <url>android-1.1_r1-windows.zip</url>
         </complete>
         <host-os>windows</host-os>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="sources;android-37.2">
+    <type-details xsi:type="sdk:sourceDetailsType">
+      <api-level>37.2</api-level>
+      <codename></codename>
+      <extension-level>24</extension-level>
+      <base-extension>true</base-extension>
+    </type-details>
+    <revision>
+      <major>1</major>
+    </revision>
+    <display-name>Sources for Android 37.2</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>54168823</size>
+          <checksum type="sha1">e17cbd52887605a077121571b49ec3730ed0534e</checksum>
+          <url>source-37.2_r01.zip</url>
+        </complete>
       </archive>
     </archives>
   </remotePackage>
@@ -11450,47 +11497,6 @@ June 2014.
           <size>286084841</size>
           <checksum type="sha1">b69bfb9315c068b7451772014cc4d0cb7590e9d5</checksum>
           <url>emulator_windows_x64-16173978.zip</url>
-        </complete>
-        <host-os>windows</host-os>
-        <host-arch>x64</host-arch>
-      </archive>
-    </archives>
-  </remotePackage>
-  <remotePackage path="emulators;15885905">
-    <type-details xsi:type="generic:genericDetailsType"/>
-    <revision>
-      <major>0</major>
-      <minor>0</minor>
-      <micro>1</micro>
-      <preview>15885905</preview>
-    </revision>
-    <display-name>Android Emulator (Preview)</display-name>
-    <uses-license ref="android-sdk-preview-license"/>
-    <channelRef ref="channel-2"/>
-    <archives>
-      <archive>
-        <complete>
-          <size>501232237</size>
-          <checksum type="sha1">aa279c7f75f76c376146aea7735fdf4166943ca9</checksum>
-          <url>emulator_linux_x64-15885905.zip</url>
-        </complete>
-        <host-os>linux</host-os>
-        <host-arch>x64</host-arch>
-      </archive>
-      <archive>
-        <complete>
-          <size>455414862</size>
-          <checksum type="sha1">fe966af23653c134f0526f130a71f91d26a81e7e</checksum>
-          <url>emulator_darwin_aarch64-15885905.zip</url>
-        </complete>
-        <host-os>macosx</host-os>
-        <host-arch>aarch64</host-arch>
-      </archive>
-      <archive>
-        <complete>
-          <size>274238564</size>
-          <checksum type="sha1">a9129e2aa5bd4df3877e634dcddbe5a414c72c5c</checksum>
-          <url>emulator_windows_x64-15885905.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-arch>x64</host-arch>

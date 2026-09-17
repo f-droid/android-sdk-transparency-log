@@ -5163,6 +5163,7 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=37.2.9\nPkg.Path=emulator\nPkg.Desc=Android Emulator\nPkg.BuildId=16322952"
     }
   ],
+  "https://dl.google.com/android/repository/emulator-linux_x64-16349944.zip": [],
   "https://dl.google.com/android/repository/emulator-linux_x64-7033400.zip": [
     {
       "sha1": "3cec9833ab787ed496f727a9e152332ef2b4b00c",

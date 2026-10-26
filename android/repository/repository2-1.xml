@@ -10546,6 +10546,46 @@ June 2014.
       </archive>
     </archives>
   </remotePackage>
+  <remotePackage path="emulators;16680254">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>37</major>
+      <minor>1</minor>
+      <micro>6</micro>
+    </revision>
+    <display-name>Android Emulator (Preview)</display-name>
+    <uses-license ref="android-sdk-preview-license"/>
+    <dependencies>
+      <dependency path="emulator">
+        <min-revision>
+          <major>36</major>
+          <minor>6</minor>
+          <micro>11</micro>
+        </min-revision>
+      </dependency>
+    </dependencies>
+    <channelRef ref="channel-2"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>482637533</size>
+          <checksum>cf5a6d03051eaec8b711f9029e5abe6711d20bc3</checksum>
+          <url>emulator_linux_x64-16680254.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>271540859</size>
+          <checksum>50eebe243450f9e6c9ae96a3dd3d03bd23c78d57</checksum>
+          <url>emulator_windows_x64-16680254.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
   <remotePackage path="emulators;16606167">
     <type-details xsi:type="generic:genericDetailsType"/>
     <revision>
@@ -10791,7 +10831,7 @@ June 2014.
     <revision>
       <major>37</major>
       <minor>1</minor>
-      <micro>5</micro>
+      <micro>6</micro>
     </revision>
     <display-name>Android Emulator (Preview) (latest)</display-name>
     <uses-license ref="android-sdk-preview-license"/>
@@ -10808,18 +10848,18 @@ June 2014.
     <archives>
       <archive>
         <complete>
-          <size>481754443</size>
-          <checksum>7299e98f7bd4d8be890091c0a06c0c4123166e16</checksum>
-          <url>emulator_linux_x64-16606167.zip</url>
+          <size>482637533</size>
+          <checksum>cf5a6d03051eaec8b711f9029e5abe6711d20bc3</checksum>
+          <url>emulator_linux_x64-16680254.zip</url>
         </complete>
         <host-os>linux</host-os>
         <host-bits>64</host-bits>
       </archive>
       <archive>
         <complete>
-          <size>270629792</size>
-          <checksum>fadd0e83e468f3a0803eabf3abebd8d6137b5eff</checksum>
-          <url>emulator_windows_x64-16606167.zip</url>
+          <size>271540859</size>
+          <checksum>50eebe243450f9e6c9ae96a3dd3d03bd23c78d57</checksum>
+          <url>emulator_windows_x64-16680254.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>
@@ -10860,6 +10900,46 @@ June 2014.
           <size>455342868</size>
           <checksum>488ed747e82de7e9bb5247becd1ac043c7e5e85d</checksum>
           <url>emulator-windows_x64-16428233.zip</url>
+        </complete>
+        <host-os>windows</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+    </archives>
+  </remotePackage>
+  <remotePackage path="build;lightbuild;0.0.30">
+    <type-details xsi:type="generic:genericDetailsType"/>
+    <revision>
+      <major>0</major>
+      <minor>0</minor>
+      <micro>30</micro>
+    </revision>
+    <display-name>Lightbuild</display-name>
+    <uses-license ref="android-sdk-license"/>
+    <channelRef ref="channel-0"/>
+    <archives>
+      <archive>
+        <complete>
+          <size>131543753</size>
+          <checksum>110c0ee6b9d1f12227230b99c7901f5a1f2860c8</checksum>
+          <url>lume-daemon-linux_x64-16707469.zip</url>
+        </complete>
+        <host-os>linux</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>127063891</size>
+          <checksum>222855058bc4b69d9a2789af4b7bd80dcaa68905</checksum>
+          <url>lume-daemon-darwin_x64-16707469.zip</url>
+        </complete>
+        <host-os>macosx</host-os>
+        <host-bits>64</host-bits>
+      </archive>
+      <archive>
+        <complete>
+          <size>126033799</size>
+          <checksum>0939b82ca369349e042529dc61695c5c85a51a93</checksum>
+          <url>lume-daemon-windows_x64-16707469.zip</url>
         </complete>
         <host-os>windows</host-os>
         <host-bits>64</host-bits>

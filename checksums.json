@@ -7142,6 +7142,14 @@
       "source.properties": "Pkg.UserSrc=false\nPkg.Revision=37.0.2\n"
     }
   ],
+  "https://dl.google.com/android/repository/platform-tools_r37.0.3-linux.zip": [
+    {
+      "sha1": "e1579b288a7ae4e9bc28dedec6a154d78b3c04ed",
+      "sha256": "214548146cadb2ca3508143d8a1d4be4c59de5bb837253e3ede89ed74cf450d1",
+      "sha512": "b7aab85b164c025cd18f3bc35b8630b3a4de3c11eb34d298882148f434613de4022399cefe76868e8191b2dfede1a08e04fb3b00aa4843f94bfa04a83c6a1807",
+      "source.properties": "Pkg.UserSrc=false\nPkg.Revision=37.0.3\n"
+    }
+  ],
   "https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip": [
     {
       "sha1": "8c7c28554a32318461802c1291d76fccfafde054",
